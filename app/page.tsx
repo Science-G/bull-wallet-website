@@ -356,11 +356,59 @@ export default function Home() {
                   {t('products.bull_wallet.description')}
                 </p>
                 
-                {/* Highlight text - Available worldwide */}
-                <div className="mb-8">
-                  <p className="text-sm text-gray-400 bg-gray-50 px-3 py-2 rounded-md border-l-2 border-gray-300 italic">
-                    {t('products.bull_wallet.highlight')}
-                  </p>
+                {/* Highlight text - Available worldwide - BOLD DESIGN */}
+                <div className="mb-8 relative">
+                  {/* Animated gradient background */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-xl blur-sm animate-pulse"></div>
+                  
+                  {/* Main highlight container */}
+                  <div className="relative bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 p-[2px] rounded-xl overflow-hidden">
+                    <div className="bg-white rounded-[10px] px-6 py-4 relative overflow-hidden">
+                      {/* Animated shimmer effect */}
+                      <div className="absolute inset-0 -translate-x-full animate-[shimmer_2s_infinite] bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-12"></div>
+                      
+                      {/* Content */}
+                      <div className="relative z-10 flex items-center justify-center space-x-3">
+                        {/* Globe icon */}
+                        <div className="flex-shrink-0">
+                          <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center">
+                            <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                          </div>
+                        </div>
+                        
+                        {/* Text content */}
+                        <div className="flex-1 text-center">
+                          <p className="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-blue-600 to-purple-600 uppercase tracking-wider">
+                            🌍 {t('products.bull_wallet.highlight')} ⚡
+                          </p>
+                        </div>
+                        
+                        {/* Lock icon */}
+                        <div className="flex-shrink-0">
+                          <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
+                            <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Floating badges */}
+                      <div className="absolute -top-2 -right-2">
+                        <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg transform rotate-12 animate-bounce">
+                          FREE
+                        </div>
+                      </div>
+                      
+                      <div className="absolute -bottom-2 -left-2">
+                        <div className="bg-gradient-to-r from-green-400 to-green-600 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg transform -rotate-12">
+                          NO KYC
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="flex gap-3 mt-auto">
