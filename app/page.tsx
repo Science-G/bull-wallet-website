@@ -421,7 +421,7 @@ export default function Home() {
               Uncompromising Principles
             </h2>
             <p className="text-lg md:text-xl text-gray-700 fade-in-up">
-              The fiat banking system is collapsing. We are leading civilization change: the transition to Bitcoin as a universal sound money and decentralized payment system. We take this responsibility seriously. All of our projects and services align with these principles.
+              The fiat banking system is collapsing. We are leading civilization change: the transition to Bitcoin as a universal sound money and decentralized payment system. We take this responsibility seriously. All of our projects and services are built and operated follow strict moral codes from which we refuse to deviate.
             </p>
           </div>
           
