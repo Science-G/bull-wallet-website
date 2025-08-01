@@ -114,7 +114,12 @@ const countries = [
   { flag: "🇪🇺", name: "Europe", description: "Serving the European Bitcoin community" },
   { flag: "🇨🇷", name: "Costa Rica", description: "Expanding Bitcoin adoption in Central America" },
   { flag: "🇲🇽", name: "Mexico", description: "Bringing Bitcoin to Latin America" },
-  { flag: "🇦🇷", name: "Argentina", description: "Supporting financial sovereignty in South America" },
+  { 
+    flag: "/argentina-coat-of-arms-bw.svg", 
+    name: "Argentina", 
+    description: "Supporting financial sovereignty in South America",
+    isImage: true 
+  },
 ]
 
 const testimonials = [
@@ -563,7 +568,19 @@ export default function Home() {
                 className="fade-in-up bg-black/50 backdrop-blur-sm border border-white/10 rounded-lg p-6 text-center hover:border-white/20 transition-all duration-300"
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <div className="text-4xl mb-4">{country.flag}</div>
+                <div className="text-4xl mb-4 flex justify-center items-center h-16">
+                  {country.isImage ? (
+                    <Image
+                      src={country.flag}
+                      alt={`${country.name} coat of arms`}
+                      width={64}
+                      height={64}
+                      className="filter grayscale brightness-0 invert opacity-80"
+                    />
+                  ) : (
+                    <span className="text-4xl">{country.flag}</span>
+                  )}
+                </div>
                 <h3 className="text-xl font-semibold mb-3">{country.name}</h3>
                 <p className="text-gray-400 text-sm">{country.description}</p>
               </div>
