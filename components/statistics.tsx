@@ -65,7 +65,7 @@ export default function Statistics() {
             Proven Track Record
           </h2>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
-            Over a decade of excellence in Bitcoin services. Our numbers speak for themselves.
+            Our numbers speak for themselves.
           </p>
         </div>
         
