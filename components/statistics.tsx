@@ -10,7 +10,7 @@ const stats = [
   { label: "Client Funds Lost", value: 0, suffix: "", isYear: false },
   { label: "Review Rating", value: 4.7, suffix: "", isDecimal: true },
   { label: "Transaction Success Rate", value: 99.9, suffix: "%", isDecimal: true },
-  { label: "minutes to create an account", value: 5, suffix: "", isYear: false },
+  { label: "transaction volume", value: 5, suffix: "$ billions", isYear: false },
 ]
 
 export default function Statistics() {
@@ -74,12 +74,18 @@ export default function Statistics() {
             <div key={index} className="text-center fade-in-up">
               <div className="stat-counter text-4xl md:text-5xl lg:text-6xl font-bold mb-2">
                 {isVisible ? (
-                  stat.isDecimal 
-                    ? (animatedValues[index] || 0).toFixed(1)
-                    : (animatedValues[index] || 0).toLocaleString()
+                  stat.suffix === "$ billions" ? (
+                    `$${(animatedValues[index] || 0)} billions`
+                  ) : stat.isDecimal ? (
+                    `${(animatedValues[index] || 0).toFixed(1)}${stat.suffix}`
+                  ) : stat.isYear ? (
+                    `${animatedValues[index] || 0}${stat.suffix}`
+                  ) : (
+                    `${(animatedValues[index] || 0).toLocaleString()}${stat.suffix}`
+                  )
                 ) : (
-                  stat.isDecimal ? "0.0" : "0"
-                )}{stat.suffix}
+                  stat.suffix === "$ billions" ? "$0 billions" : stat.isDecimal ? `0.0${stat.suffix}` : `0${stat.suffix}`
+                )}
               </div>
               <p className="text-gray-400 uppercase text-sm tracking-wider">
                 {stat.label}
