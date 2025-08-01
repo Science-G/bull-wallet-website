@@ -82,8 +82,8 @@ export default function AppShowcase() {
               {features.map((feature, index) => (
                 <div 
                   key={index} 
-                  className={`bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 ${
-                    openFeature === index ? 'ring-2 ring-blue-100 border-blue-200 shadow-lg' : ''
+                  className={`bg-white border-2 border-gray-400 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 ${
+                    openFeature === index ? 'ring-2 ring-blue-200 border-blue-300 shadow-xl' : ''
                   }`}
                 >
                   <button
