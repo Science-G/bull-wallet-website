@@ -3,10 +3,14 @@
 import { useState, useEffect, useRef } from 'react'
 
 const stats = [
-  { label: "Bitcoin Transactions", value: 500000, suffix: "+" },
-  { label: "Satisfied Customers", value: 50000, suffix: "+" },
-  { label: "Years of Experience", value: 11, suffix: "" },
-  { label: "Countries Served", value: 5, suffix: "" },
+  { label: "Established", value: 2013, suffix: "", isYear: true },
+  { label: "Bitcoins Sold", value: 50000, suffix: "+", isYear: false },
+  { label: "Countries Supported", value: 40, suffix: "+", isYear: false },
+  { label: "Employees", value: 35, suffix: "+", isYear: false },
+  { label: "Client Funds Lost", value: 0, suffix: "", isYear: false },
+  { label: "Review Rating", value: 4.7, suffix: "", isDecimal: true },
+  { label: "Transaction Success Rate", value: 99.9, suffix: "%", isDecimal: true },
+  { label: "Time to Create Account", value: 5, suffix: " minutes", isYear: false },
 ]
 
 export default function Statistics() {
@@ -33,7 +37,7 @@ export default function Statistics() {
               }
               setAnimatedValues(prev => {
                 const newValues = [...prev]
-                newValues[index] = Math.floor(current)
+                newValues[index] = stat.isDecimal ? parseFloat(current.toFixed(1)) : Math.floor(current)
                 return newValues
               })
             }, 20)
@@ -58,10 +62,10 @@ export default function Statistics() {
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
         <div className="text-center mb-12 fade-in-up">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-            Trusted by Thousands
+            Proven Track Record
           </h2>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
-            Join the growing community of Bitcoin enthusiasts who trust Bull Bitcoin for their financial sovereignty.
+            Over a decade of excellence in Bitcoin services. Our numbers speak for themselves.
           </p>
         </div>
         
@@ -69,7 +73,13 @@ export default function Statistics() {
           {stats.map((stat, index) => (
             <div key={index} className="text-center fade-in-up">
               <div className="stat-counter text-4xl md:text-5xl lg:text-6xl font-bold mb-2">
-                {isVisible ? animatedValues[index].toLocaleString() : 0}{stat.suffix}
+                {isVisible ? (
+                  stat.isDecimal 
+                    ? (animatedValues[index] || 0).toFixed(1)
+                    : (animatedValues[index] || 0).toLocaleString()
+                ) : (
+                  stat.isDecimal ? "0.0" : "0"
+                )}{stat.suffix}
               </div>
               <p className="text-gray-400 uppercase text-sm tracking-wider">
                 {stat.label}
