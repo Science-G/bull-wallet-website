@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 
 const features = [
@@ -24,6 +24,23 @@ const features = [
 
 export default function AppShowcase() {
   const [openFeature, setOpenFeature] = useState<number | null>(null)
+  const [heights, setHeights] = useState<{ [key: number]: number }>({})
+  const contentRefs = useRef<{ [key: number]: HTMLDivElement | null }>({})
+
+  useEffect(() => {
+    // Measure content heights for smooth animations
+    const newHeights: { [key: number]: number } = {}
+    features.forEach((_, index) => {
+      if (contentRefs.current[index]) {
+        newHeights[index] = contentRefs.current[index]!.scrollHeight
+      }
+    })
+    setHeights(newHeights)
+  }, [])
+
+  const toggleFeature = (index: number) => {
+    setOpenFeature(openFeature === index ? null : index)
+  }
 
   return (
     <section className="py-16 md:py-24 bg-white text-black">
@@ -60,37 +77,66 @@ export default function AppShowcase() {
               Experience Bitcoin the right way, without giving up self-custody.
             </p>
 
-            {/* Features Accordion */}
+            {/* Enhanced Features Accordion */}
             <div className="space-y-4">
               {features.map((feature, index) => (
-                <div key={index} className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                <div 
+                  key={index} 
+                  className={`bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 ${
+                    openFeature === index ? 'ring-2 ring-blue-100 border-blue-200 shadow-lg' : ''
+                  }`}
+                >
                   <button
-                    onClick={() => setOpenFeature(openFeature === index ? null : index)}
-                    className="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50 transition-colors text-black"
+                    onClick={() => toggleFeature(index)}
+                    className="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50 transition-all duration-200 text-black group"
                   >
-                    <span className="font-semibold">{feature.title}</span>
-                    {openFeature === index ? (
-                      <ChevronUp className="w-5 h-5" />
-                    ) : (
+                    <span className="font-semibold group-hover:text-blue-600 transition-colors duration-200">
+                      {feature.title}
+                    </span>
+                    <div className={`transform transition-transform duration-300 ${openFeature === index ? 'rotate-180' : ''}`}>
                       <ChevronDown className="w-5 h-5" />
-                    )}
+                    </div>
                   </button>
-                  {openFeature === index && (
-                    <div className="px-4 pb-4 text-gray-600 bg-white">
+                  
+                  {/* Animated Content Container */}
+                  <div
+                    className={`transition-all duration-500 ease-in-out overflow-hidden ${
+                      openFeature === index ? 'opacity-100' : 'opacity-0'
+                    }`}
+                    style={{
+                      height: openFeature === index ? `${heights[index] || 0}px` : '0px',
+                    }}
+                  >
+                    <div
+                      ref={(el) => { contentRefs.current[index] = el }}
+                      className="px-4 pb-4 text-gray-600 bg-white"
+                    >
                       {feature.description.split('\n').map((line, lineIndex) => (
-                        <div key={lineIndex} className={lineIndex === 0 ? "mb-3" : "mb-1"}>
+                        <div 
+                          key={lineIndex} 
+                          className={`${lineIndex === 0 ? "mb-3" : "mb-1"} transform transition-all duration-300 ${
+                            openFeature === index 
+                              ? 'translate-y-0 opacity-100' 
+                              : 'translate-y-2 opacity-0'
+                          }`}
+                          style={{
+                            transitionDelay: openFeature === index ? `${lineIndex * 50}ms` : '0ms'
+                          }}
+                        >
                           {line.startsWith('•') ? (
-                            <div className="flex items-start">
-                              <span className="mr-2 text-gray-400">•</span>
-                              <span>{line.substring(1).trim()}</span>
+                            <div className="flex items-start group">
+                              <span className="mr-2 text-blue-400 group-hover:scale-110 transition-transform duration-200">•</span>
+                              <span className="hover:text-gray-800 transition-colors duration-200">{line.substring(1).trim()}</span>
                             </div>
                           ) : (
-                            <span className={lineIndex === 0 ? "font-medium" : ""}>{line}</span>
+                            <span className={`${lineIndex === 0 ? "font-medium text-gray-800" : ""} hover:text-gray-800 transition-colors duration-200`}>
+                              {line}
+                            </span>
                           )}
                         </div>
                       ))}
                     </div>
-                  )}
+                  </div>
                 </div>
               ))}
             </div>
