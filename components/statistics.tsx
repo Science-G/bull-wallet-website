@@ -10,7 +10,7 @@ const stats = [
   { label: "Client Funds Lost", value: 0, suffix: "", isYear: false },
   { label: "Review Rating", value: 4.7, suffix: "", isDecimal: true },
   { label: "Transaction Success Rate", value: 99.9, suffix: "%", isDecimal: true },
-  { label: "Time to Create Account", value: 5, suffix: " minutes", isYear: false },
+  { label: "minutes to create an account", value: 5, suffix: "", isYear: false },
 ]
 
 export default function Statistics() {
