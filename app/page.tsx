@@ -215,7 +215,7 @@ export default function Home() {
         </div>
         
         <div className="relative z-10 text-center px-4 w-full h-full flex flex-col items-center justify-center">
-          <h1 className="hero-text font-black tracking-tighter text-white">
+          <h1 className="hero-text font-black tracking-tighter text-white whitespace-pre-line">
             {t('hero.title')}
           </h1>
         </div>
