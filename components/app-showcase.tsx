@@ -63,7 +63,7 @@ export default function AppShowcase() {
             {/* Features Accordion */}
             <div className="space-y-4">
               {features.map((feature, index) => (
-                <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
+                <div key={index} className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                   <button
                     onClick={() => setOpenFeature(openFeature === index ? null : index)}
                     className="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50 transition-colors text-black"
@@ -76,7 +76,7 @@ export default function AppShowcase() {
                     )}
                   </button>
                   {openFeature === index && (
-                    <div className="px-4 pb-4 text-gray-600">
+                    <div className="px-4 pb-4 text-gray-600 bg-white">
                       {feature.description.split('\n').map((line, lineIndex) => (
                         <div key={lineIndex} className={lineIndex === 0 ? "mb-3" : "mb-1"}>
                           {line.startsWith('•') ? (
