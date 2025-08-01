@@ -279,7 +279,7 @@ export default function Home() {
               {t('products.title')}
             </h2>
             <p className="text-lg md:text-xl text-gray-400 fade-in-up">
-              {t('products.description')}
+              {t('products.subtitle')}
             </p>
           </div>
           
@@ -301,13 +301,13 @@ export default function Home() {
                     href="/rates"
                     className="flex-1 inline-flex items-center justify-center bg-black text-white px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-800 transition-colors duration-300"
                   >
-                    {t('products.bull_exchange.join_now')}
+                    {t('products.bull_exchange.primary_action')}
                   </Link>
                   <Link
                     href="/features"
                     className="flex-1 inline-flex items-center justify-center border border-gray-300 bg-transparent text-black px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-black hover:text-white transition-colors duration-300"
                   >
-                    {t('products.bull_exchange.features')}
+                    {t('products.bull_exchange.secondary_action')}
                     <ArrowRight className="ml-1 w-3 h-3" />
                   </Link>
                 </div>
@@ -331,13 +331,13 @@ export default function Home() {
                     href="/otc"
                     className="flex-1 inline-flex items-center justify-center bg-black text-white px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-800 transition-colors duration-300"
                   >
-                    {t('products.prime_otc.book_call')}
+                    {t('products.prime_otc.primary_action')}
                   </Link>
                   <Link
                     href="/otc"
                     className="flex-1 inline-flex items-center justify-center border border-gray-300 bg-transparent text-black px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-black hover:text-white transition-colors duration-300"
                   >
-                    {t('products.prime_otc.learn_more')}
+                    {t('products.prime_otc.secondary_action')}
                     <ArrowRight className="ml-1 w-3 h-3" />
                   </Link>
                 </div>
@@ -352,22 +352,29 @@ export default function Home() {
                 <p className="text-lg text-gray-700 mb-4">
                   {t('products.bull_wallet.summary')}
                 </p>
-                <p className="text-gray-600 mb-8 leading-relaxed flex-1">
+                <p className="text-gray-600 mb-4 leading-relaxed flex-1">
                   {t('products.bull_wallet.description')}
                 </p>
+                
+                {/* Highlight text - Available worldwide */}
+                <div className="mb-8">
+                  <p className="text-sm text-gray-400 bg-gray-50 px-3 py-2 rounded-md border-l-2 border-gray-300 italic">
+                    {t('products.bull_wallet.highlight')}
+                  </p>
+                </div>
                 
                 <div className="flex gap-3 mt-auto">
                   <Link
                     href="/wallet"
                     className="flex-1 inline-flex items-center justify-center bg-black text-white px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-800 transition-colors duration-300"
                   >
-                    {t('products.bull_wallet.download')}
+                    {t('products.bull_wallet.primary_action')}
                   </Link>
                   <Link
                     href="/wallet"
                     className="flex-1 inline-flex items-center justify-center border border-gray-300 bg-transparent text-black px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-black hover:text-white transition-colors duration-300"
                   >
-                    {t('products.bull_wallet.features')}
+                    {t('products.bull_wallet.secondary_action')}
                     <ArrowRight className="ml-1 w-3 h-3" />
                   </Link>
                 </div>
@@ -424,7 +431,7 @@ export default function Home() {
           <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white fade-in-up">
               Features that set us apart
-            </h2>
+          </h2>
             <p className="text-lg md:text-xl text-gray-400 fade-in-up">
               Discover the core advantages that make our platform unique and powerful for your Bitcoin journey.
             </p>

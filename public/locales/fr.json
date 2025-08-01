@@ -1,52 +1,50 @@
 {
   "navigation": {
-    "products": "Produits",
-    "features": "Fonctionnalités", 
+    "home": "Accueil",
     "about": "À propos",
+    "products": "Produits",
+    "features": "Fonctionnalités",
     "blog": "Blog",
     "contact": "Contact",
-    "login": "Se connecter",
-    "signup": "S'inscrire"
+    "login": "Connexion",
+    "signup": "S'inscrire",
+    "rates": "Taux",
+    "mission": "Mission"
   },
   "hero": {
-    "title": "POSSÉDEZ\nVOTRE\nARGENT"
+    "title": "POSSÉDEZ<br />VOTRE<br />ARGENT"
   },
   "engineering_sovereignty": {
     "title": "Ingénierie de la Souveraineté",
-    "description": "Nous construisons les outils et l'infrastructure que vous méritez pour {buy}, {sell}, {hold} et {spend} du Bitcoin—sans compromis.",
+    "description": "Nous construisons les outils et l'infrastructure que vous méritez pour <span class=\"bitcoin-action\">acheter</span>, <span class=\"bitcoin-action\">vendre</span>, <span class=\"bitcoin-action\">détenir</span> et <span class=\"bitcoin-action\">dépenser</span> du Bitcoin—sans compromis.",
     "legacy": "Reconquérez votre souveraineté. Que votre liberté soit notre héritage.",
     "download_app": "TÉLÉCHARGER L'APP",
-    "create_account": "CRÉER UN COMPTE",
-    "actions": {
-      "buy": "acheter",
-      "sell": "vendre", 
-      "hold": "détenir",
-      "spend": "dépenser"
-    }
+    "create_account": "CRÉER UN COMPTE"
   },
   "products": {
     "title": "Nos Produits",
-    "description": "Nous développons des produits Bitcoin qui privilégient la sécurité, la confidentialité et la souveraineté. Nos solutions sont conçues pour les Bitcoiners qui refusent de faire des compromis sur leurs valeurs.",
+    "subtitle": "Nous construisons des produits Bitcoin qui privilégient la sécurité, la confidentialité et la souveraineté. Nos solutions sont conçues pour les Bitcoiners qui refusent de compromettre leurs valeurs.",
     "bull_exchange": {
       "title": "BULL EXCHANGE",
-      "summary": "Achetez, vendez et payez vos factures avec Bitcoin instantanément",
+      "summary": "Achetez, vendez et payez des factures avec Bitcoin instantanément",
       "description": "Portail facile à utiliser pour acheter du Bitcoin, vendre du Bitcoin et envoyer des virements bancaires vers et depuis des portefeuilles Bitcoin, avec un service client intégré et des fonctionnalités puissantes.",
-      "join_now": "REJOINDRE",
-      "features": "FONCTIONNALITÉS"
+      "primary_action": "REJOINDRE",
+      "secondary_action": "FONCTIONNALITÉS"
     },
     "prime_otc": {
       "title": "PRIME OTC",
-      "summary": "Transactions importantes ou d'entreprise",
-      "description": "Service VIP pour les grandes transactions et les clients d'entreprise avec des gestionnaires de compte dédiés et des solutions personnalisées.",
-      "book_call": "RÉSERVER UN APPEL",
-      "learn_more": "EN SAVOIR PLUS"
+      "summary": "Transactions importantes ou corporatives",
+      "description": "Service VIP pour les grandes transactions et les clients corporatifs avec des gestionnaires de compte dédiés et des solutions personnalisées.",
+      "primary_action": "RÉSERVER UN APPEL",
+      "secondary_action": "EN SAVOIR PLUS"
     },
     "bull_wallet": {
       "title": "BULL WALLET",
       "summary": "Portefeuille Bitcoin auto-géré",
       "description": "Portefeuille Bitcoin avancé avec des fonctionnalités de confidentialité de pointe et une intégration transparente avec les services Bull Bitcoin.",
-      "download": "TÉLÉCHARGER",
-      "features": "FONCTIONNALITÉS"
+      "highlight": "Disponible dans le monde entier. Aucun compte ou KYC requis.",
+      "primary_action": "TÉLÉCHARGER",
+      "secondary_action": "FONCTIONNALITÉS"
     }
   },
   "principles": {

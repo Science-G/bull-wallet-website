@@ -1,52 +1,50 @@
 {
   "navigation": {
-    "products": "Products",
-    "features": "Features", 
+    "home": "Home",
     "about": "About",
+    "products": "Products",
+    "features": "Features",
     "blog": "Blog",
     "contact": "Contact",
-    "login": "Log In",
-    "signup": "Sign Up"
+    "login": "Login",
+    "signup": "Sign Up",
+    "rates": "Rates",
+    "mission": "Mission"
   },
   "hero": {
-    "title": "OWN\nYOUR\nMONEY"
+    "title": "OWN<br />YOUR<br />MONEY"
   },
   "engineering_sovereignty": {
     "title": "Engineering Sovereignty",
-    "description": "We build the tools and infrastructure you deserve to {buy}, {sell}, {hold}, and {spend} Bitcoin—without compromise.",
+    "description": "We build the tools and infrastructure you deserve to <span class=\"bitcoin-action\">buy</span>, <span class=\"bitcoin-action\">sell</span>, <span class=\"bitcoin-action\">hold</span>, and <span class=\"bitcoin-action\">spend</span> Bitcoin—without compromise.",
     "legacy": "Reclaim your sovereignty. Let your freedom be our legacy.",
     "download_app": "DOWNLOAD APP",
-    "create_account": "CREATE ACCOUNT",
-    "actions": {
-      "buy": "buy",
-      "sell": "sell", 
-      "hold": "hold",
-      "spend": "spend"
-    }
+    "create_account": "CREATE ACCOUNT"
   },
   "products": {
     "title": "Our Products",
-    "description": "We build Bitcoin products that prioritize security, privacy, and sovereignty. Our solutions are designed for Bitcoiners who refuse to compromise on their values.",
+    "subtitle": "We build Bitcoin products that prioritize security, privacy, and sovereignty. Our solutions are designed for Bitcoiners who refuse to compromise on their values.",
     "bull_exchange": {
       "title": "BULL EXCHANGE",
       "summary": "Buy, sell and pay bills with Bitcoin instantly",
       "description": "Easy-to-use portal to buy Bitcoin, sell Bitcoin and send bank transfers to and from Bitcoin wallets, with built-in customer service and powerful features.",
-      "join_now": "JOIN NOW",
-      "features": "FEATURES"
+      "primary_action": "JOIN NOW",
+      "secondary_action": "FEATURES"
     },
     "prime_otc": {
       "title": "PRIME OTC",
       "summary": "Large or corporate transactions",
       "description": "VIP service for large transactions and corporate clients with dedicated account managers and custom solutions.",
-      "book_call": "BOOK A CALL",
-      "learn_more": "LEARN MORE"
+      "primary_action": "BOOK A CALL",
+      "secondary_action": "LEARN MORE"
     },
     "bull_wallet": {
       "title": "BULL WALLET",
       "summary": "Self-custody Bitcoin wallet",
       "description": "Advanced Bitcoin wallet with cutting-edge privacy features and seamless integration with Bull Bitcoin services.",
-      "download": "DOWNLOAD",
-      "features": "FEATURES"
+      "highlight": "Available worldwide. No account or KYC required.",
+      "primary_action": "DOWNLOAD",
+      "secondary_action": "FEATURES"
     }
   },
   "principles": {
