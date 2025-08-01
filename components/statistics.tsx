@@ -75,7 +75,7 @@ export default function Statistics() {
               <div className="stat-counter text-4xl md:text-5xl lg:text-6xl font-bold mb-2">
                 {isVisible ? (
                   stat.suffix === "$ billions" ? (
-                    `$${(animatedValues[index] || 0)} billions`
+                    "$ billions"
                   ) : stat.isDecimal ? (
                     `${(animatedValues[index] || 0).toFixed(1)}${stat.suffix}`
                   ) : stat.isYear ? (
@@ -84,7 +84,7 @@ export default function Statistics() {
                     `${(animatedValues[index] || 0).toLocaleString()}${stat.suffix}`
                   )
                 ) : (
-                  stat.suffix === "$ billions" ? "$0 billions" : stat.isDecimal ? `0.0${stat.suffix}` : `0${stat.suffix}`
+                  stat.suffix === "$ billions" ? "$ billions" : stat.isDecimal ? `0.0${stat.suffix}` : `0${stat.suffix}`
                 )}
               </div>
               <p className="text-gray-400 uppercase text-sm tracking-wider">
