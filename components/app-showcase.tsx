@@ -5,20 +5,20 @@ import { ChevronDown, ChevronUp } from 'lucide-react'
 
 const features = [
   {
-    title: "Lightning Network Integration",
-    description: "Instant Bitcoin payments with minimal fees through Lightning Network channels."
+    title: "Invest in real Bitcoin",
+    description: "We offer multiple ways to acquire Bitcoin:\n• Buy on-chain, with Lightning or Liquid Network\n• Purchases sent straight to your wallet\n• Dollar-cost averaging strategies\n• Limit orders to buy the dip\n• Automated buying from your bank account"
   },
   {
-    title: "Advanced Security",
-    description: "Multi-signature wallets, hardware wallet support, and end-to-end encryption."
+    title: "Hold Bitcoin for long term",
+    description: "The Bull Bitcoin wallet allows you to:\n• Secure your wealth without trusting a custodian\n• Easily protect yourself against loss and theft\n• Connect to your hardware wallet\n• View your holdings in real time"
   },
   {
-    title: "Privacy Features",
-    description: "CoinJoin integration and Tor support for maximum transaction privacy."
+    title: "Use Bitcoin for payments",
+    description: "Straight from your Bitcoin wallet, you can:\n• Send bank transfers to anyone\n• Pay your bills (yes, really!)\n• Send and receive Bitcoin payments\n• Automatically convert Bitcoin transaction to fiat"
   },
   {
-    title: "DCA Automation",
-    description: "Automated dollar-cost averaging with customizable schedules and amounts."
+    title: "Your business on a Bitcoin standard",
+    description: "We help our business clients:\n• Accumulate Bitcoin for their corporate treasury\n• Accept Bitcoin payments for their business\n• Pay suppliers and staff with Bitcoin\n• Large commercial transactions\n• Automatically convert Bitcoin to fiat payments and vice-versa\n• Consulting for all types of Bitcoin integrations"
   }
 ]
 
@@ -77,7 +77,18 @@ export default function AppShowcase() {
                   </button>
                   {openFeature === index && (
                     <div className="px-4 pb-4 text-gray-600">
-                      {feature.description}
+                      {feature.description.split('\n').map((line, lineIndex) => (
+                        <div key={lineIndex} className={lineIndex === 0 ? "mb-3" : "mb-1"}>
+                          {line.startsWith('•') ? (
+                            <div className="flex items-start">
+                              <span className="mr-2 text-gray-400">•</span>
+                              <span>{line.substring(1).trim()}</span>
+                            </div>
+                          ) : (
+                            <span className={lineIndex === 0 ? "font-medium" : ""}>{line}</span>
+                          )}
+                        </div>
+                      ))}
                     </div>
                   )}
                 </div>
