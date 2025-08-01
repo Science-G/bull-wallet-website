@@ -1,65 +1,88 @@
 "use client"
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 interface TrustpilotProps {
   className?: string
-  businessunitId?: string
-  templateId?: string
-  locale?: string
-  theme?: 'light' | 'dark'
-  height?: string
-  width?: string
-  stars?: string
-  reviewLanguages?: string
 }
 
-const loadScript = (src: string): Promise<void> =>
-  new Promise((resolve) => {
-    // Check if script is already loaded
-    if (document.querySelector(`script[src="${src}"]`)) {
-      resolve()
-      return
-    }
-    
-    const script = document.createElement('script')
-    script.onload = () => resolve()
-    script.onerror = () => resolve() // Resolve even on error to prevent hanging
-    script.src = src
-    script.async = true
-    document.head.appendChild(script)
-  })
-
-export default function Trustpilot({
-  className = "",
-  businessunitId = "5d07ba5f79256400013b6808", // Bull Bitcoin's business unit ID
-  templateId = "53aa8912dec7e10d38f59f36", // Carousel template
-  locale = "en-US",
-  theme = "light",
-  height = "140px",
-  width = "100%",
-  stars = "5",
-  reviewLanguages = "en"
-}: TrustpilotProps) {
-  const divRef = useRef<HTMLDivElement>(null)
+export default function Trustpilot({ className = "" }: TrustpilotProps) {
+  const containerRef = useRef<HTMLDivElement>(null)
+  const [status, setStatus] = useState<'loading' | 'loaded' | 'error' | 'fallback'>('loading')
 
   useEffect(() => {
-    if (!divRef.current) return
+    // Function to load Trustpilot script
+    const loadTrustpilotScript = () => {
+      return new Promise<void>((resolve, reject) => {
+        // Check if script already exists
+        const existingScript = document.querySelector('script[src*="tp.widget.bootstrap.min.js"]')
+        if (existingScript) {
+          console.log('Trustpilot script already exists')
+          resolve()
+          return
+        }
 
+        console.log('Loading Trustpilot script...')
+        const script = document.createElement('script')
+        script.type = 'text/javascript'
+        script.src = '//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js'
+        script.async = true
+        
+        script.onload = () => {
+          console.log('Trustpilot script loaded successfully')
+          resolve()
+        }
+        
+        script.onerror = () => {
+          console.error('Failed to load Trustpilot script')
+          setStatus('error')
+          reject(new Error('Failed to load Trustpilot script'))
+        }
+
+        document.head.appendChild(script)
+      })
+    }
+
+    // Initialize Trustpilot widget
     const initializeTrustpilot = async () => {
       try {
-        // Load Trustpilot script if not already loaded
-        await loadScript('//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js')
+        await loadTrustpilotScript()
         
-        // Wait a bit for the script to initialize
-        setTimeout(() => {
-          const { Trustpilot } = (window as any) || {}
-          if (Trustpilot && divRef.current) {
-            Trustpilot.loadFromElement(divRef.current, true)
-          }
-        }, 100)
+        // Wait for window.Trustpilot to be available
+        let attempts = 0
+        const maxAttempts = 50 // 5 seconds total
+        
+        const checkTrustpilot = () => {
+          return new Promise<void>((resolve, reject) => {
+            const check = () => {
+              attempts++
+              const trustpilot = (window as any).Trustpilot
+              
+              console.log(`Attempt ${attempts}: Checking for Trustpilot object...`, !!trustpilot)
+              
+              if (trustpilot && containerRef.current) {
+                console.log('Trustpilot object found, loading widget...')
+                trustpilot.loadFromElement(containerRef.current, true)
+                setStatus('loaded')
+                resolve()
+              } else if (attempts >= maxAttempts) {
+                console.error('Trustpilot object not found after maximum attempts')
+                setStatus('fallback')
+                reject(new Error('Trustpilot not available'))
+              } else {
+                setTimeout(check, 100)
+              }
+            }
+            check()
+          })
+        }
+
+        await checkTrustpilot()
+        console.log('Trustpilot widget initialized successfully')
+        
       } catch (error) {
-        console.warn('Failed to load Trustpilot widget:', error)
+        console.error('Error initializing Trustpilot:', error)
+        setStatus('error')
       }
     }
 
@@ -69,18 +92,18 @@ export default function Trustpilot({
   return (
     <div className={`trustpilot-container ${className}`}>
       <div
-        ref={divRef}
+        ref={containerRef}
         className="trustpilot-widget"
-        data-locale={locale}
-        data-template-id={templateId}
-        data-businessunit-id={businessunitId}
-        data-style-height={height}
-        data-style-width={width}
-        data-stars={stars}
-        data-review-languages={reviewLanguages}
+        data-locale="en-US"
+        data-template-id="53aa8912dec7e10d38f59f36"
+        data-businessunit-id="5d07ba5f79256400013b6808"
+        data-style-height="140px"
+        data-style-width="100%"
+        data-stars="5"
+        data-review-languages="en"
       >
-        {/* Fallback content while widget loads */}
-        <div className="flex items-center justify-center p-6 bg-gray-50 rounded-lg border border-gray-200">
+        {/* Fallback content */}
+        <div className="flex items-center justify-center p-6 bg-gray-50 rounded-lg border border-gray-200 min-h-[140px]">
           <div className="text-center">
             <div className="flex items-center justify-center mb-2">
               {[...Array(5)].map((_, i) => (
@@ -93,44 +116,20 @@ export default function Trustpilot({
                 </svg>
               ))}
             </div>
-            <p className="text-sm text-gray-600 mb-1">Excellent</p>
-            <p className="text-xs text-gray-500">Based on customer reviews</p>
+            <p className="text-sm text-gray-600 mb-1">Excellent • 4.7/5</p>
+            <p className="text-xs text-gray-500 mb-2">Based on customer reviews</p>
             <a
               href="https://www.trustpilot.com/review/bullbitcoin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-2"
+              className="inline-block text-xs text-green-600 hover:text-green-700 font-medium"
             >
-              <svg
-                className="h-6 w-auto"
-                viewBox="0 0 126 31"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0 0h126v31H0z"
-                  fill="#00B67A"
-                />
-                <path
-                  d="M25.5 23.5L20 18l-5.5 5.5L20 29l5.5-5.5z"
-                  fill="#fff"
-                />
-                <path
-                  d="M35 8h8v2h-8V8zM35 12h8v2h-8v-2zM35 16h5v2h-5v-2z"
-                  fill="#fff"
-                />
-                <text
-                  x="50"
-                  y="20"
-                  fill="#fff"
-                  fontSize="12"
-                  fontFamily="Arial, sans-serif"
-                  fontWeight="bold"
-                >
-                  Trustpilot
-                </text>
-              </svg>
+              View on Trustpilot
             </a>
+            {/* Debug info */}
+            <div className="mt-2 text-xs text-gray-400">
+              Status: {status}
+            </div>
           </div>
         </div>
       </div>

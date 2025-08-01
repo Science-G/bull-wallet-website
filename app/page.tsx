@@ -673,11 +673,7 @@ export default function Home() {
           {/* Trustpilot Widget Integration */}
           <div className="mb-12 fade-in-up">
             <div className="max-w-4xl mx-auto">
-              <Trustpilot 
-                className="flex justify-center"
-                height="140px"
-                theme="light"
-              />
+              <Trustpilot className="flex justify-center" />
             </div>
           </div>
           
