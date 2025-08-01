@@ -432,7 +432,7 @@ export default function Home() {
                 className="fade-in-up bg-black/90 backdrop-blur-sm border border-gray-800 rounded-lg p-6 hover:border-gray-600 hover:shadow-lg transition-all duration-300"
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
-                <h3 className="text-xl font-semibold mb-4 text-white">{principle.title}</h3>
+                <h3 className="text-xl md:text-2xl font-bold mb-4 text-white uppercase">{principle.title}</h3>
                 <p className="text-base md:text-lg text-gray-300">{principle.description}</p>
               </div>
             ))}
