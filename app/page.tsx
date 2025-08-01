@@ -414,13 +414,13 @@ export default function Home() {
       </section>
 
       {/* Principles Section - Moved up after Products */}
-      <section className="py-16 md:py-24 bg-zinc-900 text-white">
+      <section className="py-16 md:py-24 bg-white text-black">
         <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
           <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white fade-in-up">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-black fade-in-up">
               Uncompromising Principles
             </h2>
-            <p className="text-lg md:text-xl text-gray-300 fade-in-up">
+            <p className="text-lg md:text-xl text-gray-700 fade-in-up">
               The fiat banking system is collapsing. We are leading civilization change: the transition to Bitcoin as a universal sound money and decentralized payment system. We take this responsibility seriously. All of our projects and services align with these principles.
             </p>
           </div>
@@ -429,18 +429,18 @@ export default function Home() {
             {principles.map((principle, index) => (
               <div
                 key={index}
-                className="fade-in-up bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-400 hover:shadow-lg transition-all duration-300"
+                className="fade-in-up bg-black/90 backdrop-blur-sm border border-gray-800 rounded-lg p-6 hover:border-gray-600 hover:shadow-lg transition-all duration-300"
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
-                <h3 className="text-xl font-semibold mb-4 text-black">{principle.title}</h3>
-                <p className="text-base md:text-lg text-gray-700">{principle.description}</p>
+                <h3 className="text-xl font-semibold mb-4 text-white">{principle.title}</h3>
+                <p className="text-base md:text-lg text-gray-300">{principle.description}</p>
               </div>
             ))}
           </div>
           
           <div className="text-center fade-in-up">
             <Link href="/mission">
-              <span className="inline-flex items-center justify-center border border-white/30 bg-transparent text-white px-8 py-3 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-colors duration-300">
+              <span className="inline-flex items-center justify-center border border-black/30 bg-transparent text-black px-8 py-3 uppercase text-sm tracking-wider hover:bg-black hover:text-white transition-colors duration-300">
                 Learn About Our Principles
               </span>
             </Link>
