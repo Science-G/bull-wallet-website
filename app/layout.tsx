@@ -1,51 +1,17 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import I18nProvider from '@/components/i18n-provider'
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
+import I18nProvider from "@/components/i18n-provider"
+import Script from "next/script"
 
-const inter = Inter({ 
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-})
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Bull Bitcoin | Own Your Money',
-  description: 'Buy, sell, hold, and spend Bitcoin—without compromise. Non-custodial Bitcoin exchange service focused on security, privacy, and sovereignty.',
-  keywords: ['Bitcoin', 'cryptocurrency', 'exchange', 'non-custodial', 'privacy', 'sovereignty'],
-  authors: [{ name: 'Bull Bitcoin' }],
-  creator: 'Bull Bitcoin',
-  publisher: 'Bull Bitcoin',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL('https://bullbitcoin.com'),
-  openGraph: {
-    title: 'Bull Bitcoin | Own Your Money',
-    description: 'Buy, sell, hold, and spend Bitcoin—without compromise.',
-    url: 'https://bullbitcoin.com',
-    siteName: 'Bull Bitcoin',
-    locale: 'en_US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Bull Bitcoin | Own Your Money',
-    description: 'Buy, sell, hold, and spend Bitcoin—without compromise.',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  title: "Bull Bitcoin - Own Your Money",
+  description: "Canada's premier Bitcoin exchange. Buy, sell, and store Bitcoin with complete security and privacy. Non-custodial solutions for true financial sovereignty.",
+  keywords: "Bitcoin, cryptocurrency, exchange, Canada, non-custodial, privacy, security",
+  authors: [{ name: "Bull Bitcoin" }],
+  viewport: "width=device-width, initial-scale=1",
 }
 
 export default function RootLayout({
@@ -54,8 +20,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} scroll-smooth`}>
-      <body className="font-sans">
+    <html lang="en">
+      <head>
+        {/* Trustpilot Script */}
+        <Script
+          src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+          strategy="afterInteractive"
+          async
+        />
+      </head>
+      <body className={inter.className}>
         <I18nProvider>
           {children}
         </I18nProvider>
