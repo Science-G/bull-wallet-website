@@ -284,7 +284,7 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col">
+            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col fade-in-up" style={{ transitionDelay: '0ms' }}>
               <div className="relative z-10 flex-1 flex flex-col">
                 <h3 className="text-xl md:text-2xl font-bold mb-3 text-black">
                   {t('products.bull_exchange.title')}
@@ -314,7 +314,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col">
+            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col fade-in-up" style={{ transitionDelay: '150ms' }}>
               <div className="relative z-10 flex-1 flex flex-col">
                 <h3 className="text-xl md:text-2xl font-bold mb-3 text-black">
                   {t('products.prime_otc.title')}
@@ -344,7 +344,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col">
+            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col fade-in-up" style={{ transitionDelay: '300ms' }}>
               <div className="relative z-10 flex-1 flex flex-col">
                 <h3 className="text-xl md:text-2xl font-bold mb-3 text-black">
                   {t('products.bull_wallet.title')}
