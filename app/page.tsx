@@ -384,13 +384,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Statistics - Keep as Interactive Component */}
-      <Statistics />
-
-      {/* App Showcase - Keep as Interactive Component */}
-      <AppShowcase />
-
-      {/* Principles Section - Inline */}
+      {/* Principles Section - Moved up after Products */}
       <section className="py-16 md:py-24 bg-zinc-900 text-white">
         <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
           <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
@@ -424,6 +418,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Statistics - Keep as Interactive Component */}
+      <Statistics />
+
+      {/* App Showcase - Keep as Interactive Component */}
+      <AppShowcase />
 
       {/* Features Preview - Inline */}
       <section className="py-16 md:py-24 bg-black text-white">
