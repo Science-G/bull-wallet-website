@@ -26,7 +26,7 @@ export default function AppShowcase() {
   const [openFeature, setOpenFeature] = useState<number | null>(null)
 
   return (
-    <section className="py-16 md:py-24 bg-zinc-900 text-white">
+    <section className="py-16 md:py-24 bg-white text-black">
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Phone Mockup */}
@@ -38,7 +38,7 @@ export default function AppShowcase() {
                     <div className="w-12 h-1 bg-gray-600 rounded-full"></div>
                   </div>
                   <div className="flex-1 p-4 text-center flex flex-col justify-center">
-                    <div className="text-2xl font-bold mb-2">Bull Bitcoin</div>
+                    <div className="text-2xl font-bold mb-2 text-white">Bull Bitcoin</div>
                     <div className="text-sm text-gray-400 mb-6">Your Bitcoin, Your Way</div>
                     <div className="space-y-3">
                       <div className="h-8 bg-white/10 rounded"></div>
@@ -53,28 +53,28 @@ export default function AppShowcase() {
 
           {/* Content */}
           <div className="fade-in-up">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-black">
               Experience Bitcoin Like Never Before
             </h2>
-            <p className="text-lg md:text-xl text-gray-300 mb-8">
+            <p className="text-lg md:text-xl text-gray-700 mb-8">
               Our mobile app brings the full power of Bitcoin to your fingertips. Trade, store, and spend Bitcoin with confidence.
             </p>
 
             {/* Testimonial */}
-            <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-lg p-6 mb-8">
-              <blockquote className="text-lg italic text-gray-300 mb-4">
+            <div className="bg-gray-100 border border-gray-200 rounded-lg p-6 mb-8">
+              <blockquote className="text-lg italic text-gray-700 mb-4">
                 "Bull Bitcoin's app is the most intuitive Bitcoin wallet I've ever used. The Lightning integration is seamless."
               </blockquote>
-              <cite className="text-sm text-gray-400">— Sarah M., Long-time Bitcoin user</cite>
+              <cite className="text-sm text-gray-500">— Sarah M., Long-time Bitcoin user</cite>
             </div>
 
             {/* Features Accordion */}
             <div className="space-y-4">
               {features.map((feature, index) => (
-                <div key={index} className="border border-white/10 rounded-lg overflow-hidden">
+                <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
                   <button
                     onClick={() => setOpenFeature(openFeature === index ? null : index)}
-                    className="w-full flex items-center justify-between p-4 text-left hover:bg-white/5 transition-colors"
+                    className="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50 transition-colors text-black"
                   >
                     <span className="font-semibold">{feature.title}</span>
                     {openFeature === index ? (
@@ -84,7 +84,7 @@ export default function AppShowcase() {
                     )}
                   </button>
                   {openFeature === index && (
-                    <div className="px-4 pb-4 text-gray-300">
+                    <div className="px-4 pb-4 text-gray-600">
                       {feature.description}
                     </div>
                   )}
