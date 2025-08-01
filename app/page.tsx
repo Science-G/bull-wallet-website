@@ -11,6 +11,7 @@ import Navigation from '@/components/layout/navigation'
 import Statistics from '@/components/statistics'
 import AppShowcase from '@/components/app-showcase'
 import Footer from '@/components/footer'
+import Trustpilot from '@/components/trustpilot'
 
 // All static data consolidated here
 const products = [
@@ -659,7 +660,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trustpilot Reviews - Inline */}
+      {/* Trustpilot Reviews - Real Integration */}
       <section className="py-16 md:py-24 bg-black text-white">
         <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
           <div className="text-center mb-12 fade-in-up">
@@ -669,27 +670,36 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {testimonials.map((testimonial, index) => (
-              <div
-                key={index}
-                className="fade-in-up bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-lg p-6 hover:border-white/20 transition-all duration-300"
-                style={{ transitionDelay: `${index * 150}ms` }}
-              >
-                <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                    </svg>
-                  ))}
-                </div>
-                <blockquote className="text-gray-300 mb-4 italic">"{testimonial.text}"</blockquote>
-                <div className="flex items-center justify-between">
-                  <cite className="text-sm font-semibold text-white not-italic">{testimonial.author}</cite>
-                  <span className="text-xs text-gray-500">{testimonial.timeAgo}</span>
-                </div>
+          {/* Trustpilot Widget Integration */}
+          <div className="mb-12 fade-in-up">
+            <div className="max-w-4xl mx-auto">
+              <Trustpilot 
+                className="flex justify-center"
+                height="200px"
+                theme="light"
+              />
+            </div>
+          </div>
+          
+          {/* Featured Testimonial */}
+          <div className="max-w-2xl mx-auto mb-12 fade-in-up">
+            <div className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-lg p-8 hover:border-white/20 transition-all duration-300 text-center">
+              <div className="flex items-center justify-center mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-6 h-6 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                ))}
               </div>
-            ))}
+              <blockquote className="text-xl text-gray-300 mb-6 italic">
+                "Bull Bitcoin is hands down the best Bitcoin exchange I've used. The customer service is exceptional and the platform is incredibly secure."
+              </blockquote>
+              <div className="flex items-center justify-center space-x-4">
+                <cite className="text-lg font-semibold text-white not-italic">Alex Thompson</cite>
+                <span className="text-gray-400">•</span>
+                <span className="text-sm text-gray-500">Verified Customer</span>
+              </div>
+            </div>
           </div>
           
           <div className="text-center fade-in-up">
@@ -702,12 +712,19 @@ export default function Home() {
                     </svg>
                   ))}
                 </div>
-                <span className="text-lg font-semibold">4.9/5</span>
+                <span className="text-lg font-semibold">4.7/5</span>
               </div>
               <span className="text-gray-400">•</span>
-              <span className="text-gray-400">Based on 2,847 reviews</span>
+              <span className="text-gray-400">Excellent rating on Trustpilot</span>
             </div>
-            <p className="text-sm text-gray-500">Excellent rating on Trustpilot</p>
+            <a 
+              href="https://www.trustpilot.com/review/bullbitcoin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center border border-white/30 bg-transparent text-white px-8 py-3 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-colors duration-300"
+            >
+              View All Reviews on Trustpilot
+            </a>
           </div>
         </div>
       </section>
