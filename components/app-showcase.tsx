@@ -54,19 +54,11 @@ export default function AppShowcase() {
           {/* Content */}
           <div className="fade-in-up">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-black">
-              Experience Bitcoin Like Never Before
+              Full-stack toolkit for your Bitcoin journey
             </h2>
             <p className="text-lg md:text-xl text-gray-700 mb-8">
-              Our mobile app brings the full power of Bitcoin to your fingertips. Trade, store, and spend Bitcoin with confidence.
+              Experience Bitcoin the right way, without giving up self-custody.
             </p>
-
-            {/* Testimonial */}
-            <div className="bg-gray-100 border border-gray-200 rounded-lg p-6 mb-8">
-              <blockquote className="text-lg italic text-gray-700 mb-4">
-                "Bull Bitcoin's app is the most intuitive Bitcoin wallet I've ever used. The Lightning integration is seamless."
-              </blockquote>
-              <cite className="text-sm text-gray-500">— Sarah M., Long-time Bitcoin user</cite>
-            </div>
 
             {/* Features Accordion */}
             <div className="space-y-4">
