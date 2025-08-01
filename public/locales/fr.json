@@ -1,0 +1,237 @@
+{
+  "navigation": {
+    "products": "Produits",
+    "features": "Fonctionnalités", 
+    "about": "À propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "login": "Se connecter",
+    "signup": "S'inscrire"
+  },
+  "hero": {
+    "title": "POSSÉDEZ\nVOTRE\nARGENT"
+  },
+  "engineering_sovereignty": {
+    "title": "Ingénierie de la Souveraineté",
+    "description": "Nous vous donnons les moyens de reconquérir votre souveraineté en construisant les outils et l'infrastructure que vous méritez pour {buy}, {sell}, {hold} et {spend} du Bitcoin—sans compromis.",
+    "legacy": "Que votre liberté soit notre héritage.",
+    "download_app": "TÉLÉCHARGER L'APP",
+    "create_account": "CRÉER UN COMPTE",
+    "actions": {
+      "buy": "acheter",
+      "sell": "vendre", 
+      "hold": "détenir",
+      "spend": "dépenser"
+    }
+  },
+  "products": {
+    "title": "Nos Produits",
+    "description": "Nous développons des produits Bitcoin qui privilégient la sécurité, la confidentialité et la souveraineté. Nos solutions sont conçues pour les Bitcoiners qui refusent de faire des compromis sur leurs valeurs.",
+    "bull_exchange": {
+      "title": "BULL EXCHANGE",
+      "summary": "Achetez, vendez et payez vos factures avec Bitcoin instantanément",
+      "description": "Portail facile à utiliser pour acheter du Bitcoin, vendre du Bitcoin et envoyer des virements bancaires vers et depuis des portefeuilles Bitcoin, avec un service client intégré et des fonctionnalités puissantes.",
+      "join_now": "REJOINDRE",
+      "features": "FONCTIONNALITÉS"
+    },
+    "prime_otc": {
+      "title": "PRIME OTC",
+      "summary": "Transactions importantes ou d'entreprise",
+      "description": "Service VIP pour les grandes transactions et les clients d'entreprise avec des gestionnaires de compte dédiés et des solutions personnalisées.",
+      "book_call": "RÉSERVER UN APPEL",
+      "learn_more": "EN SAVOIR PLUS"
+    },
+    "bull_wallet": {
+      "title": "BULL WALLET",
+      "summary": "Portefeuille Bitcoin auto-géré",
+      "description": "Portefeuille Bitcoin avancé avec des fonctionnalités de confidentialité de pointe et une intégration transparente avec les services Bull Bitcoin.",
+      "download": "TÉLÉCHARGER",
+      "features": "FONCTIONNALITÉS"
+    }
+  },
+  "principles": {
+    "title": "Nos Principes",
+    "description": "Ce sont les valeurs fondamentales qui guident tout ce que nous faisons chez Bull Bitcoin.",
+    "learn_more": "En savoir plus sur nos principes",
+    "items": {
+      "privacy": {
+        "title": "Confidentialité et sécurité par défaut",
+        "description": "Aucun autre échange crypto n'a la technologie, les compétences, le code éthique et le courage. Notre modèle non-custodial et notre infrastructure logicielle sont conçus pour vous protéger à tout prix."
+      },
+      "excellence": {
+        "title": "Excellence opérationnelle",
+        "description": "Nous nous tenons au plus haut standard de professionnalisme, et vous devriez en faire autant. En tant que notre client, votre expérience est qu'avec Bull Bitcoin, tout fonctionne toujours parfaitement."
+      },
+      "integrity": {
+        "title": "Intégrité et honnêteté", 
+        "description": "Nous sommes guidés par un code moral strict. Nous n'avons pas d'investisseurs qui nous pressent de couper les coins ronds et de compromettre nos valeurs. Nous ne trompons pas ou n'induisons pas en erreur nos clients. Contrairement aux autres échanges, nous n'avons pas de frais cachés ni de spreads cachés."
+      },
+      "customer": {
+        "title": "Obsession client",
+        "description": "Nous traitons nos clients comme nous traiterions les membres de notre propre famille. Pas de chatbot, pas de tickets de support : vous parlez toujours à un vrai humain. Nous allons au-delà parce que nous nous soucions vraiment de faire de votre expérience Bitcoin un succès, sécurisé et agréable."
+      },
+      "technology": {
+        "title": "Maîtrise technologique",
+        "description": "Bull Bitcoin se distingue en ayant la sophistication technique la plus élevée de tous les échanges crypto de la planète. Nous sommes la source que les autres suivent, toujours à la pointe."
+      },
+      "flexibility": {
+        "title": "Flexibilité et créativité",
+        "description": "Nous accommodons les besoins et transactions compliqués. Nous ne nous soucions que de livrer des résultats, même si cela signifie changer nos processus ou inventer de nouvelles technologies pour le faire."
+      }
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités qui nous distinguent",
+    "description": "Découvrez les avantages fondamentaux qui rendent notre plateforme unique et puissante pour votre parcours Bitcoin.",
+    "explore_all": "Explorer toutes les fonctionnalités",
+    "items": {
+      "security": {
+        "title": "Sécurité non-custodiale",
+        "description": "Votre Bitcoin, vos clés. Nous ne détenons jamais vos fonds, garantissant un contrôle complet et la sécurité de vos actifs numériques."
+      },
+      "lightning": {
+        "title": "Transactions ultra-rapides", 
+        "description": "Vivez des paiements Bitcoin instantanés avec notre intégration Lightning Network, parfaite pour les transactions quotidiennes."
+      },
+      "privacy": {
+        "title": "Confidentialité par conception",
+        "description": "Fonctionnalités de confidentialité intégrées incluant l'intégration Tor et le support CoinJoin pour garder vos transactions confidentielles."
+      },
+      "support": {
+        "title": "Support client humain",
+        "description": "Pas de bots, pas de tickets. Parlez directement à nos experts Bitcoin qui comprennent vos besoins et fournissent une assistance personnalisée."
+      },
+      "community": {
+        "title": "Communautaire", 
+        "description": "Rejoignez une communauté florissante d'enthousiastes Bitcoin, d'éducateurs et d'avocats travaillant vers la souveraineté financière."
+      },
+      "investment": {
+        "title": "Stratégies d'investissement automatisées",
+        "description": "Nous permettons quatre stratégies d'investissement Bitcoin différentes : Dollar Cost Averaging (DCA), Value Averaging, Lump Sum et HODL. Configurez et oubliez - laissez nos algorithmes faire le travail pendant que vous vous concentrez sur ce qui compte le plus."
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de Bull Bitcoin",
+    "description": "Fondée en 2013, Bull Bitcoin a été à l'avant-garde de l'innovation Bitcoin au Canada et au-delà. Nous sommes une équipe de maximalistes Bitcoin, de cypherpunks et d'avocats de la liberté dédiés à rendre Bitcoin accessible à tous.",
+    "mission": "Notre mission est simple : fournir les services Bitcoin les plus sécurisés, privés et conviviaux de la planète. Nous croyons que Bitcoin est l'avenir de l'argent, et nous sommes là pour vous aider à naviguer cet avenir avec confiance.",
+    "ceo_name": "Francis Pouliot",
+    "ceo_title": "PDG et Fondateur",
+    "ceo_quote": "Bitcoin n'est pas seulement une technologie—c'est un mouvement vers la souveraineté individuelle et la liberté financière. Chez Bull Bitcoin, nous construisons les outils pour faire de cette vision une réalité.",
+    "learn_more": "En savoir plus sur nous"
+  },
+  "geographic": {
+    "title": "Accès Bitcoin Global",
+    "description": "Nous étendons l'accès Bitcoin dans plusieurs pays, apportant la souveraineté financière aux gens du monde entier.",
+    "countries": {
+      "canada": "Notre base d'origine avec une conformité réglementaire complète",
+      "europe": "Au service de la communauté Bitcoin européenne", 
+      "costa_rica": "Expansion de l'adoption Bitcoin en Amérique centrale",
+      "mexico": "Apporter Bitcoin en Amérique latine",
+      "argentina": "Soutenir la souveraineté financière en Amérique du Sud"
+    }
+  },
+  "talk_to_human": {
+    "title": "Parlez à un Humain",
+    "description": "Pas de chatbots, pas de tickets de support, pas de réponses automatisées. Quand vous avez besoin d'aide, vous parlez directement à une vraie personne qui se soucie de résoudre votre problème.",
+    "promise": "Nous traitons nos clients comme nous traiterions les membres de notre propre famille. Pas de chatbot, pas de tickets de support : vous parlez toujours à un vrai humain.",
+    "promise_attribution": "Promesse client Bull Bitcoin",
+    "contact_support": "Contacter le support",
+    "login_chat": "Connectez-vous et chattez avec nous",
+    "channels": {
+      "live_chat": {
+        "title": "Chat en direct",
+        "description": "Support instantané pendant les heures d'ouverture avec des membres d'équipe compétents"
+      },
+      "email": {
+        "title": "Support par email", 
+        "description": "Réponses détaillées de notre équipe d'experts dans les 24 heures"
+      },
+      "phone": {
+        "title": "Support téléphonique",
+        "description": "Ligne téléphonique directe pour les questions urgentes et les transactions complexes"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos utilisateurs",
+    "description": "Ne nous croyez pas sur parole. Voyez ce que des milliers de clients satisfaits ont à dire sur leur expérience Bull Bitcoin.",
+    "rating": "4,9/5",
+    "review_count": "Basé sur 2 847 avis",
+    "trustpilot": "Excellente note sur Trustpilot",
+    "reviews": {
+      "alex": {
+        "text": "Bull Bitcoin est de loin le meilleur échange Bitcoin que j'ai utilisé. Le service client est exceptionnel et la plateforme est incroyablement sécurisée.",
+        "author": "Alex Thompson",
+        "time": "il y a 2 jours"
+      },
+      "maria": {
+        "text": "J'ai enfin trouvé un service Bitcoin qui se soucie vraiment de la confidentialité et de la sécurité. L'approche non-custodiale me donne la tranquillité d'esprit.",
+        "author": "Maria Rodriguez",
+        "time": "il y a 1 semaine"
+      },
+      "david": {
+        "text": "L'intégration Lightning Network est transparente. Je peux faire des paiements Bitcoin instantanés sans tracas. Hautement recommandé !",
+        "author": "David Chen", 
+        "time": "il y a 2 semaines"
+      }
+    }
+  },
+  "join_mission": {
+    "title": "REJOIGNEZ LA MISSION",
+    "description": "Faites partie de la révolution Bitcoin. Possédez votre argent, contrôlez votre avenir et aidez à construire un monde plus souverain.",
+    "ceo_quote": "Bitcoin n'est pas seulement une technologie—c'est un mouvement vers la souveraineté individuelle et la liberté financière.",
+    "ceo_attribution": "Francis Pouliot, Fondateur et PDG",
+    "start_today": "Commencer aujourd'hui",
+    "learn_more": "En savoir plus",
+    "user_count": "Rejoignez plus de 50 000 utilisateurs qui ont choisi la souveraineté financière",
+    "features": {
+      "own_keys": {
+        "title": "Possédez vos clés",
+        "description": "La vraie souveraineté financière commence par contrôler votre propre Bitcoin"
+      },
+      "lightning_fast": {
+        "title": "Ultra rapide",
+        "description": "Transactions Bitcoin instantanées avec une technologie de pointe"
+      },
+      "join_thousands": {
+        "title": "Rejoignez des milliers", 
+        "description": "Faites partie d'une communauté croissante d'avocats de la souveraineté Bitcoin"
+      }
+    }
+  },
+  "blog": {
+    "title": "Dernières perspectives",
+    "description": "Restez informé avec les dernières nouvelles Bitcoin, le contenu éducatif et les perspectives de notre équipe d'experts.",
+    "view_all": "Voir tous les articles",
+    "read_more": "Lire plus",
+    "posts": {
+      "privacy": {
+        "title": "L'avenir de la confidentialité Bitcoin",
+        "description": "Explorer les derniers développements en technologie de confidentialité Bitcoin et ce qu'ils signifient pour la souveraineté financière.",
+        "category": "Technologie",
+        "read_time": "5 min de lecture",
+        "date": "15 janvier 2024"
+      },
+      "custody": {
+        "title": "Pourquoi l'auto-garde est plus importante que jamais",
+        "description": "Comprendre l'importance de contrôler vos propres clés Bitcoin dans un monde financier de plus en plus incertain.",
+        "category": "Éducation", 
+        "read_time": "7 min de lecture",
+        "date": "10 janvier 2024"
+      },
+      "lightning": {
+        "title": "Lightning Network : La solution de mise à l'échelle",
+        "description": "Comment le Lightning Network révolutionne les paiements Bitcoin avec des transactions instantanées et à faible coût.",
+        "category": "Technologie",
+        "read_time": "6 min de lecture", 
+        "date": "5 janvier 2024"
+      }
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer"
+  }
+} 

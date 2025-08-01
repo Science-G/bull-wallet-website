@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-black text-white antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Disable scroll snap initially, enable it only after user interaction */
+  }
+  
+  /* Enable scroll snap only after user scrolls */
+  html.scroll-snap-enabled {
+    scroll-snap-type: y mandatory;
+  }
+  
+  /* Disable scroll snap after 2 seconds */
+  html.scroll-snap-disabled {
+    scroll-snap-type: none;
+  }
+}
+
+@layer components {
+  /* Hero section */
+  .hero-section {
+    height: 100vh;
+    margin-bottom: 50vh;
+    @apply relative w-full flex items-center justify-center overflow-hidden bg-black;
+    scroll-snap-align: start;
+  }
+
+  /* Hero text - massive and screen-filling */
+  .hero-text {
+    opacity: 0;
+    animation: fadeInUp 4s ease-out 0.5s forwards;
+    font-size: clamp(5rem, 18vw, 25rem);
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+    word-spacing: 0.2em;
+  }
+
+  /* Engineering Sovereignty section */
+  .engineering-sovereignty-section {
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    min-height: 100vh;
+    @apply flex items-center justify-center bg-black text-white relative overflow-hidden py-24;
+    /* Scroll snap target */
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+  }
+
+  /* Engineering Sovereignty content animations */
+  .engineering-content {
+    animation: engineeringFadeIn 2s ease-out 0.5s both;
+  }
+
+  .engineering-content h1 {
+    animation: engineeringSlideUp 1.5s ease-out 0.8s both;
+  }
+
+  .engineering-content p:first-of-type {
+    animation: engineeringSlideUp 1.5s ease-out 1.2s both;
+  }
+
+  .engineering-content p:nth-of-type(2) {
+    animation: engineeringSlideUp 1.5s ease-out 1.6s both;
+  }
+
+  .engineering-content div:last-child {
+    animation: engineeringSlideUp 1.5s ease-out 2s both;
+  }
+
+  @keyframes engineeringFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes engineeringSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Bitcoin action highlights */
+  .bitcoin-action {
+    @apply font-medium text-white bg-gray-600 px-2 py-px rounded-sm;
+  }
+
+  /* Isolated section spacing */
+  .section-isolated {
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    min-height: 100vh;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Hover effects */
+  .button-hover {
+    @apply transition-all duration-300 hover:bg-white hover:text-black;
+  }
+
+  /* Card hover effects */
+  .product-card {
+    @apply transition-all duration-300 hover:border-gray-400 hover:shadow-lg;
+  }
+
+  /* Navigation fade in */
+  .nav-visible {
+    @apply opacity-100 translate-y-0 pointer-events-auto;
+  }
+
+  .nav-hidden {
+    @apply opacity-0 -translate-y-full pointer-events-none;
+  }
+
+  /* Nordic pattern background */
+  .nordic-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: 400px auto;
+    background-repeat: repeat;
+    mix-blend-mode: overlay;
+  }
+
+  /* Stats counter animation */
+  .stat-counter {
+    @apply tabular-nums;
+  }
+
+  /* Intersection observer fade in */
+  .fade-in-up {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.6s ease-out;
+  }
+
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Custom radial gradient utility */
+  .bg-gradient-radial {
+    background-image: radial-gradient(var(--tw-gradient-stops));
+  }
+}

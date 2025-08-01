@@ -1,0 +1,237 @@
+{
+  "navigation": {
+    "products": "Products",
+    "features": "Features", 
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "login": "Log In",
+    "signup": "Sign Up"
+  },
+  "hero": {
+    "title": "OWN\nYOUR\nMONEY"
+  },
+  "engineering_sovereignty": {
+    "title": "Engineering Sovereignty",
+    "description": "We empower you to reclaim your sovereignty by building the tools and infrastructure you deserve to {buy}, {sell}, {hold}, and {spend} Bitcoin—without compromise.",
+    "legacy": "Let your freedom be our legacy.",
+    "download_app": "DOWNLOAD APP",
+    "create_account": "CREATE ACCOUNT",
+    "actions": {
+      "buy": "buy",
+      "sell": "sell", 
+      "hold": "hold",
+      "spend": "spend"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "description": "We build Bitcoin products that prioritize security, privacy, and sovereignty. Our solutions are designed for Bitcoiners who refuse to compromise on their values.",
+    "bull_exchange": {
+      "title": "BULL EXCHANGE",
+      "summary": "Buy, sell and pay bills with Bitcoin instantly",
+      "description": "Easy-to-use portal to buy Bitcoin, sell Bitcoin and send bank transfers to and from Bitcoin wallets, with built-in customer service and powerful features.",
+      "join_now": "JOIN NOW",
+      "features": "FEATURES"
+    },
+    "prime_otc": {
+      "title": "PRIME OTC",
+      "summary": "Large or corporate transactions",
+      "description": "VIP service for large transactions and corporate clients with dedicated account managers and custom solutions.",
+      "book_call": "BOOK A CALL",
+      "learn_more": "LEARN MORE"
+    },
+    "bull_wallet": {
+      "title": "BULL WALLET",
+      "summary": "Self-custody Bitcoin wallet",
+      "description": "Advanced Bitcoin wallet with cutting-edge privacy features and seamless integration with Bull Bitcoin services.",
+      "download": "DOWNLOAD",
+      "features": "FEATURES"
+    }
+  },
+  "principles": {
+    "title": "Our Principles",
+    "description": "These are the core values that guide everything we do at Bull Bitcoin.",
+    "learn_more": "Learn About Our Principles",
+    "items": {
+      "privacy": {
+        "title": "Privacy and security by default",
+        "description": "No other crypto exchange has the technology, skill, ethical code and courage. Our non-custodial model and software infrastructure is designed to protect you at all costs."
+      },
+      "excellence": {
+        "title": "Operational excellence",
+        "description": "We hold ourselves to the highest standard of professionalism, and so should you. As our client, your experience is that with Bull Bitcoin everything always just works flawlessly."
+      },
+      "integrity": {
+        "title": "Integrity and honesty", 
+        "description": "We are driven by a strict moral code. We do not have investors pressuring us to cut corners and compromise our values. We do not mislead or misdirect our clients. Unlike other exchanges, we do not have hidden fees and hidden spreads."
+      },
+      "customer": {
+        "title": "Customer obsession",
+        "description": "We treat our clients like we would members of our own family. No chatbot, no support tickets: you always talk to a real human. We go above and beyond because we truly care about making your Bitcoin experience a success, secure and pleasant."
+      },
+      "technology": {
+        "title": "Technological mastery",
+        "description": "Bull Bitcoin distinguishes itself by having the highest technical sophistication of any crypto exchange on the planet. We are the fountainhead others follow, always on the bleeding edge."
+      },
+      "flexibility": {
+        "title": "Flexibility and creativity",
+        "description": "We accommodate complicated needs and transactions. We care only about delivering results, even if it means changing our processes or inventing new technologies to do it."
+      }
+    }
+  },
+  "features": {
+    "title": "Features that set us apart",
+    "description": "Discover the core advantages that make our platform unique and powerful for your Bitcoin journey.",
+    "explore_all": "Explore All Features",
+    "items": {
+      "security": {
+        "title": "Non-custodial security",
+        "description": "Your Bitcoin, your keys. We never hold your funds, ensuring complete control and security over your digital assets."
+      },
+      "lightning": {
+        "title": "Lightning-fast transactions", 
+        "description": "Experience instant Bitcoin payments with our Lightning Network integration, perfect for everyday transactions."
+      },
+      "privacy": {
+        "title": "Privacy by design",
+        "description": "Built-in privacy features including Tor integration and CoinJoin support to keep your transactions confidential."
+      },
+      "support": {
+        "title": "Human customer support",
+        "description": "No bots, no tickets. Talk directly to our Bitcoin experts who understand your needs and provide personalized assistance."
+      },
+      "community": {
+        "title": "Community-driven", 
+        "description": "Join a thriving community of Bitcoin enthusiasts, educators, and advocates working towards financial sovereignty."
+      },
+      "investment": {
+        "title": "Automated investment strategies",
+        "description": "We enable four different Bitcoin investment strategies: Dollar Cost Averaging (DCA), Value Averaging, Lump Sum and HODL. Set it and forget it - let our algorithms do the work while you focus on what matters most."
+      }
+    }
+  },
+  "about": {
+    "title": "About Bull Bitcoin",
+    "description": "Founded in 2013, Bull Bitcoin has been at the forefront of Bitcoin innovation in Canada and beyond. We are a team of Bitcoin maximalists, cypherpunks, and freedom advocates dedicated to making Bitcoin accessible to everyone.",
+    "mission": "Our mission is simple: to provide the most secure, private, and user-friendly Bitcoin services on the planet. We believe that Bitcoin is the future of money, and we're here to help you navigate that future with confidence.",
+    "ceo_name": "Francis Pouliot",
+    "ceo_title": "CEO & Founder",
+    "ceo_quote": "Bitcoin is not just a technology—it's a movement toward individual sovereignty and financial freedom. At Bull Bitcoin, we're building the tools to make that vision a reality.",
+    "learn_more": "Learn More About Us"
+  },
+  "geographic": {
+    "title": "Global Bitcoin Access",
+    "description": "We're expanding Bitcoin access across multiple countries, bringing financial sovereignty to people worldwide.",
+    "countries": {
+      "canada": "Our home base with full regulatory compliance",
+      "europe": "Serving the European Bitcoin community", 
+      "costa_rica": "Expanding Bitcoin adoption in Central America",
+      "mexico": "Bringing Bitcoin to Latin America",
+      "argentina": "Supporting financial sovereignty in South America"
+    }
+  },
+  "talk_to_human": {
+    "title": "Talk to a Human",
+    "description": "No chatbots, no support tickets, no automated responses. When you need help, you talk directly to a real person who cares about solving your problem.",
+    "promise": "We treat our clients like we would members of our own family. No chatbot, no support tickets: you always talk to a real human.",
+    "promise_attribution": "Bull Bitcoin Customer Promise",
+    "contact_support": "Contact Support",
+    "login_chat": "Log in and chat with us",
+    "channels": {
+      "live_chat": {
+        "title": "Live Chat",
+        "description": "Instant support during business hours with knowledgeable team members"
+      },
+      "email": {
+        "title": "Email Support", 
+        "description": "Detailed responses from our expert team within 24 hours"
+      },
+      "phone": {
+        "title": "Phone Support",
+        "description": "Direct phone line for urgent matters and complex transactions"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Users Say",
+    "description": "Don't just take our word for it. See what thousands of satisfied customers have to say about their Bull Bitcoin experience.",
+    "rating": "4.9/5",
+    "review_count": "Based on 2,847 reviews",
+    "trustpilot": "Excellent rating on Trustpilot",
+    "reviews": {
+      "alex": {
+        "text": "Bull Bitcoin is hands down the best Bitcoin exchange I've used. The customer service is exceptional and the platform is incredibly secure.",
+        "author": "Alex Thompson",
+        "time": "2 days ago"
+      },
+      "maria": {
+        "text": "Finally found a Bitcoin service that actually cares about privacy and security. The non-custodial approach gives me peace of mind.",
+        "author": "Maria Rodriguez",
+        "time": "1 week ago"
+      },
+      "david": {
+        "text": "The Lightning Network integration is seamless. I can make instant Bitcoin payments without any hassle. Highly recommended!",
+        "author": "David Chen", 
+        "time": "2 weeks ago"
+      }
+    }
+  },
+  "join_mission": {
+    "title": "JOIN THE MISSION",
+    "description": "Be part of the Bitcoin revolution. Own your money, control your future, and help build a more sovereign world.",
+    "ceo_quote": "Bitcoin is not just a technology—it's a movement toward individual sovereignty and financial freedom.",
+    "ceo_attribution": "Francis Pouliot, Founder & CEO",
+    "start_today": "Start Today",
+    "learn_more": "Learn More",
+    "user_count": "Join 50,000+ users who have chosen financial sovereignty",
+    "features": {
+      "own_keys": {
+        "title": "Own Your Keys",
+        "description": "True financial sovereignty starts with controlling your own Bitcoin"
+      },
+      "lightning_fast": {
+        "title": "Lightning Fast",
+        "description": "Instant Bitcoin transactions with cutting-edge technology"
+      },
+      "join_thousands": {
+        "title": "Join Thousands", 
+        "description": "Be part of a growing community of Bitcoin sovereignty advocates"
+      }
+    }
+  },
+  "blog": {
+    "title": "Latest Insights",
+    "description": "Stay informed with the latest Bitcoin news, educational content, and insights from our team of experts.",
+    "view_all": "View All Articles",
+    "read_more": "Read More",
+    "posts": {
+      "privacy": {
+        "title": "The Future of Bitcoin Privacy",
+        "description": "Exploring the latest developments in Bitcoin privacy technology and what they mean for financial sovereignty.",
+        "category": "Technology",
+        "read_time": "5 min read",
+        "date": "January 15, 2024"
+      },
+      "custody": {
+        "title": "Why Self-Custody Matters More Than Ever",
+        "description": "Understanding the importance of controlling your own Bitcoin keys in an increasingly uncertain financial world.",
+        "category": "Education", 
+        "read_time": "7 min read",
+        "date": "January 10, 2024"
+      },
+      "lightning": {
+        "title": "Lightning Network: The Scaling Solution",
+        "description": "How the Lightning Network is revolutionizing Bitcoin payments with instant, low-cost transactions.",
+        "category": "Technology",
+        "read_time": "6 min read", 
+        "date": "January 5, 2024"
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry"
+  }
+} 
