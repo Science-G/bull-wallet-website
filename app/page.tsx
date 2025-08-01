@@ -675,7 +675,7 @@ export default function Home() {
             <div className="max-w-4xl mx-auto">
               <Trustpilot 
                 className="flex justify-center"
-                height="200px"
+                height="140px"
                 theme="light"
               />
             </div>

@@ -10,6 +10,8 @@ interface TrustpilotProps {
   theme?: 'light' | 'dark'
   height?: string
   width?: string
+  stars?: string
+  reviewLanguages?: string
 }
 
 const loadScript = (src: string): Promise<void> =>
@@ -31,11 +33,13 @@ const loadScript = (src: string): Promise<void> =>
 export default function Trustpilot({
   className = "",
   businessunitId = "5d07ba5f79256400013b6808", // Bull Bitcoin's business unit ID
-  templateId = "53aa8807dec7e10d38f59f32", // Standard review template
+  templateId = "53aa8912dec7e10d38f59f36", // Carousel template
   locale = "en-US",
   theme = "light",
-  height = "150px",
-  width = "100%"
+  height = "140px",
+  width = "100%",
+  stars = "5",
+  reviewLanguages = "en"
 }: TrustpilotProps) {
   const divRef = useRef<HTMLDivElement>(null)
 
@@ -72,9 +76,8 @@ export default function Trustpilot({
         data-businessunit-id={businessunitId}
         data-style-height={height}
         data-style-width={width}
-        data-theme={theme}
-        data-stars="1,2,3,4,5"
-        data-schema-type="Organization"
+        data-stars={stars}
+        data-review-languages={reviewLanguages}
       >
         {/* Fallback content while widget loads */}
         <div className="flex items-center justify-center p-6 bg-gray-50 rounded-lg border border-gray-200">
