@@ -389,10 +389,10 @@ export default function Home() {
         <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
           <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white fade-in-up">
-              Our Principles
+              Uncompromising Principles
             </h2>
             <p className="text-lg md:text-xl text-gray-300 fade-in-up">
-              These are the core values that guide everything we do at Bull Bitcoin.
+              The fiat banking system is collapsing. We are leading civilization change: the transition to Bitcoin as a universal sound money and decentralized payment system. We take this responsibility seriously. All of our projects and services align with these principles.
             </p>
           </div>
           
