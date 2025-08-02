@@ -44,6 +44,43 @@ const products = [
   },
 ]
 
+// Enhanced products for the new layout
+const enhancedProducts = [
+  {
+    id: 1,
+    title: "BULL EXCHANGE",
+    summary: "Buy, sell and pay bills with Bitcoin instantly",
+    description: "Easy-to-use portal to buy Bitcoin, sell Bitcoin and send bank transfers to and from Bitcoin wallets, with built-in customer service and powerful features.",
+    primaryAction: "JOIN NOW",
+    primaryHref: "/rates",
+    secondaryAction: "FEATURES", 
+    secondaryHref: "/features",
+    highlight: null
+  },
+  {
+    id: 2,
+    title: "PRIME OTC",
+    summary: "Large or corporate transactions",
+    description: "VIP service for large transactions and corporate clients with dedicated account managers and custom solutions.",
+    primaryAction: "BOOK A CALL",
+    primaryHref: "/otc",
+    secondaryAction: "LEARN MORE",
+    secondaryHref: "/otc",
+    highlight: null
+  },
+  {
+    id: 3,
+    title: "BULL WALLET",
+    summary: "Self-custody Bitcoin wallet", 
+    description: "Advanced Bitcoin wallet with cutting-edge privacy features and seamless integration with Bull Bitcoin services.",
+    primaryAction: "DOWNLOAD",
+    primaryHref: "/wallet",
+    secondaryAction: "FEATURES",
+    secondaryHref: "/wallet",
+    highlight: "Available worldwide. No account or KYC required."
+  }
+]
+
 const principles = [
   {
     title: "Privacy and security by default",
@@ -301,115 +338,68 @@ export default function Home() {
       </section>
 
       {/* Enhanced Product Section - Inline */}
-      <section className="section-isolated py-16 md:py-24 bg-zinc-900 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5 nordic-pattern"></div>
-        <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24 relative z-10">
-          <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white fade-in-up">
-              {t('products.title')}
-            </h2>
-            <p className="text-lg md:text-xl text-gray-400 fade-in-up">
+      <section className="py-16 md:py-24 bg-black text-white">
+        <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
+          <div className="text-center mb-12 fade-in-up">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">{t('products.title')}</h2>
+            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
               {t('products.subtitle')}
             </p>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col fade-in-up" style={{ transitionDelay: '0ms' }}>
-              <div className="relative z-10 flex-1 flex flex-col">
-                <h3 className="text-xl md:text-2xl font-bold mb-3 text-black">
-                  {t('products.bull_exchange.title')}
-                </h3>
-                <p className="text-lg text-gray-700 mb-4">
-                  {t('products.bull_exchange.summary')}
-                </p>
-                <p className="text-gray-600 mb-8 leading-relaxed flex-1">
-                  {t('products.bull_exchange.description')}
-                </p>
-                
-                <div className="flex gap-3 mt-auto">
-                  <Link
-                    href="/rates"
-                    className="flex-1 inline-flex items-center justify-center bg-black text-white px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-800 transition-colors duration-300"
-                  >
-                    {t('products.bull_exchange.primary_action')}
-                  </Link>
-                  <Link
-                    href="/features"
-                    className="flex-1 inline-flex items-center justify-center border border-gray-300 bg-transparent text-black px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-black hover:text-white transition-colors duration-300"
-                  >
-                    {t('products.bull_exchange.secondary_action')}
-                    <ArrowRight className="ml-1 w-3 h-3" />
-                  </Link>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {enhancedProducts.map((product, index) => (
+              <div
+                key={product.id}
+                className="fade-in-up bg-white text-black border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col"
+                style={{ transitionDelay: `${index * 150}ms` }}
+              >
+                <div className="p-6 flex-1 flex flex-col">
+                  <h3 className="text-xl md:text-2xl font-bold mb-3">{product.title}</h3>
+                  <p className="text-gray-700 font-medium mb-4">{product.summary}</p>
+                  <p className="text-gray-600 mb-4 flex-1">{product.description}</p>
+                  {product.highlight && (
+                    <div className="mb-4">
+                      <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded border border-gray-400">
+                        {product.highlight}
+                      </span>
+                    </div>
+                  )}
+                  <div className="flex gap-3 mt-auto">
+                    <Link 
+                      href={product.primaryHref}
+                      className="flex-1 bg-black text-white px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-800 transition-colors duration-200 text-center"
+                    >
+                      {product.primaryAction}
+                    </Link>
+                    <Link 
+                      href={product.secondaryHref}
+                      className="flex-1 border border-gray-300 bg-transparent text-black px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-100 transition-colors duration-200 text-center flex items-center justify-center gap-2"
+                    >
+                      {product.secondaryAction}
+                      <ArrowRight className="w-3 h-3" />
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col fade-in-up" style={{ transitionDelay: '150ms' }}>
-              <div className="relative z-10 flex-1 flex flex-col">
-                <h3 className="text-xl md:text-2xl font-bold mb-3 text-black">
-                  {t('products.prime_otc.title')}
-                </h3>
-                <p className="text-lg text-gray-700 mb-4">
-                  {t('products.prime_otc.summary')}
-                </p>
-                <p className="text-gray-600 mb-8 leading-relaxed flex-1">
-                  {t('products.prime_otc.description')}
-                </p>
-                
-                <div className="flex gap-3 mt-auto">
-                  <Link
-                    href="/otc"
-                    className="flex-1 inline-flex items-center justify-center bg-black text-white px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-800 transition-colors duration-300"
-                  >
-                    {t('products.prime_otc.primary_action')}
-                  </Link>
-                  <Link
-                    href="/otc"
-                    className="flex-1 inline-flex items-center justify-center border border-gray-300 bg-transparent text-black px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-black hover:text-white transition-colors duration-300"
-                  >
-                    {t('products.prime_otc.secondary_action')}
-                    <ArrowRight className="ml-1 w-3 h-3" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="product-card bg-white border border-gray-200 rounded-lg p-8 relative overflow-hidden flex flex-col fade-in-up" style={{ transitionDelay: '300ms' }}>
-              <div className="relative z-10 flex-1 flex flex-col">
-                <h3 className="text-xl md:text-2xl font-bold mb-3 text-black">
-                  {t('products.bull_wallet.title')}
-                </h3>
-                <p className="text-lg text-gray-700 mb-4">
-                  {t('products.bull_wallet.summary')}
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed flex-1">
-                  {t('products.bull_wallet.description')}
-                </p>
-                
-                {/* Highlight text - Available worldwide */}
-                <div className="mb-8">
-                  <p className="text-sm text-gray-500 bg-gray-100 px-3 py-2 rounded-md border-l-2 border-gray-400 italic">
-                    {t('products.bull_wallet.highlight')}
-                  </p>
-                </div>
-                
-                <div className="flex gap-3 mt-auto">
-                  <Link
-                    href="/wallet"
-                    className="flex-1 inline-flex items-center justify-center bg-black text-white px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-800 transition-colors duration-300"
-                  >
-                    {t('products.bull_wallet.primary_action')}
-                  </Link>
-                  <Link
-                    href="/wallet"
-                    className="flex-1 inline-flex items-center justify-center border border-gray-300 bg-transparent text-black px-4 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-black hover:text-white transition-colors duration-300"
-                  >
-                    {t('products.bull_wallet.secondary_action')}
-                    <ArrowRight className="ml-1 w-3 h-3" />
-                  </Link>
-                </div>
-              </div>
-            </div>
+      {/* New to Bitcoin Section */}
+      <section className="py-12 bg-zinc-900 text-white">
+        <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
+          <div className="max-w-2xl mx-auto text-center fade-in-up">
+            <p className="text-lg md:text-xl text-gray-300 mb-6">
+              New to Bitcoin? Don't know where to start? Click here, we'll take care of you.
+            </p>
+            <Link 
+              href="/getting-started"
+              className="inline-flex items-center justify-center bg-white text-black px-8 py-3 font-semibold uppercase tracking-wider hover:bg-gray-200 transition-colors duration-200"
+            >
+              Begin your journey
+            </Link>
           </div>
         </div>
       </section>
