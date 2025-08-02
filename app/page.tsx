@@ -398,11 +398,11 @@ export default function Home() {
             ))}
           </div>
           
-          {/* Shared Country Availability Section */}
+          {/* Shared Country Availability Section - Only for Exchange and OTC */}
           <div className="mt-12 fade-in-up">
             <div className="relative">
-              {/* Visual bracket connecting to Exchange and OTC cards */}
-              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-8 border-l-2 border-t-2 border-r-2 border-gray-300 rounded-t-lg"></div>
+              {/* Visual bracket connecting only to the first two cards */}
+              <div className="absolute top-0 left-1/4 transform -translate-x-1/2 w-1/2 h-8 border-l-2 border-t-2 border-r-2 border-gray-300 rounded-t-lg"></div>
               
               {/* Country availability content */}
               <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8">
