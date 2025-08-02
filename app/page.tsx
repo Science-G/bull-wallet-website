@@ -685,6 +685,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Bull Bitcoin API - Placeholder */}
+      <section className="py-16 md:py-24 bg-black text-white">
+        <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
+          <div className="text-center fade-in-up">
+            <div className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-lg p-12 hover:border-white/20 transition-all duration-300">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">PLACEHOLDER: BULL BITCOIN API</h2>
+              <p className="text-lg md:text-xl text-gray-300">
+                Bull Bitcoin API integration will be added here
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </main>
   )
