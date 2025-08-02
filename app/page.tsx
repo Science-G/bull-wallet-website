@@ -388,18 +388,39 @@ export default function Home() {
       </section>
 
       {/* New to Bitcoin Section */}
-      <section className="py-12 bg-zinc-900 text-white">
+      <section className="py-16 md:py-24 bg-zinc-900 text-white">
         <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
-          <div className="max-w-2xl mx-auto text-center fade-in-up">
-            <p className="text-lg md:text-xl text-gray-300 mb-6">
-              New to Bitcoin? Don't know where to start? Click here, we'll take care of you.
-            </p>
-            <Link 
-              href="/getting-started"
-              className="inline-flex items-center justify-center bg-white text-black px-8 py-3 font-semibold uppercase tracking-wider hover:bg-gray-200 transition-colors duration-200"
-            >
-              Begin your journey
-            </Link>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Content */}
+            <div className="fade-in-up">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                New to Bitcoin?
+              </h2>
+              <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
+                Don't know where to start? Click here, we'll take care of you. Our expert team provides personalized guidance to help you begin your Bitcoin journey with confidence.
+              </p>
+              <Link 
+                href="/getting-started"
+                className="inline-flex items-center justify-center bg-white text-black px-8 py-4 text-lg font-semibold uppercase tracking-wider hover:bg-gray-200 transition-colors duration-200"
+              >
+                Begin your journey
+              </Link>
+            </div>
+            
+            {/* Image */}
+            <div className="flex justify-center lg:justify-end fade-in-up">
+              <div className="relative">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/consulting-young-old-businessman-laptop-7TyQR2XkJ9FmL8nZ4pD6V5hK3P1sW8.jpg"
+                  alt="Young professional consulting with experienced businessman at laptop"
+                  width={600}
+                  height={400}
+                  className="rounded-lg shadow-xl"
+                  priority={false}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
