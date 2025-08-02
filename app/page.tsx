@@ -401,36 +401,36 @@ export default function Home() {
           {/* Shared Country Availability Section - Only for Exchange and OTC */}
           <div className="mt-12 fade-in-up">
             <div className="relative">
-              {/* Visual bracket connecting only to the first two cards */}
-              <div className="absolute top-0 left-1/4 transform -translate-x-1/2 w-1/2 h-8 border-l-2 border-t-2 border-r-2 border-gray-300 rounded-t-lg"></div>
+              {/* Visual bracket connecting only to the first two cards - pointing upward */}
+              <div className="absolute top-0 left-1/6 transform -translate-x-1/2 w-1/3 h-8 border-l-2 border-b-2 border-r-2 border-gray-300 rounded-b-lg"></div>
               
-              {/* Country availability content */}
-              <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8">
+              {/* Country availability content - same width as bracket */}
+              <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8 mx-auto" style={{ width: '33.333%' }}>
                 <p className="text-sm text-gray-600 mb-4 font-medium uppercase tracking-wider text-center">
                   Localized services available in these countries
                 </p>
-                <div className="flex flex-wrap justify-center gap-3">
-                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
-                    <span className="text-sm font-medium text-gray-700">🇨🇦 Canada</span>
+                <div className="flex flex-wrap justify-center gap-2">
+                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
+                    <span className="text-xs font-medium text-gray-700">🇨🇦 Canada</span>
                   </div>
-                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
-                    <span className="text-sm font-medium text-gray-700">🇪🇺 Europe</span>
+                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
+                    <span className="text-xs font-medium text-gray-700">🇪🇺 Europe</span>
                   </div>
-                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
-                    <span className="text-sm font-medium text-gray-700">🇲🇽 Mexico</span>
+                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
+                    <span className="text-xs font-medium text-gray-700">🇲🇽 Mexico</span>
                   </div>
-                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
-                    <span className="text-sm font-medium text-gray-700">🇨🇷 Costa Rica</span>
+                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
+                    <span className="text-xs font-medium text-gray-700">🇨🇷 Costa Rica</span>
                   </div>
-                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
+                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
                     <Image
                       src="/argentina-coat-of-arms-bw.svg"
                       alt="Argentina"
-                      width={16}
-                      height={16}
-                      className="mr-2"
+                      width={12}
+                      height={12}
+                      className="mr-1"
                     />
-                    <span className="text-sm font-medium text-gray-700">Argentina</span>
+                    <span className="text-xs font-medium text-gray-700">Argentina</span>
                   </div>
                 </div>
               </div>
