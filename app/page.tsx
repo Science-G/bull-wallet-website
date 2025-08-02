@@ -358,11 +358,37 @@ export default function Home() {
                   <h3 className="text-xl md:text-2xl font-bold mb-3">{product.title}</h3>
                   <p className="text-gray-700 font-medium mb-4">{product.summary}</p>
                   <p className="text-gray-600 mb-4 flex-1">{product.description}</p>
-                  {product.highlight && (
-                    <div className="mb-4">
-                      <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded border border-gray-400">
-                        {product.highlight}
-                      </span>
+                  
+                  {/* Country availability for Exchange and OTC */}
+                  {product.id <= 2 && (
+                    <div className="mb-6">
+                      <p className="text-xs text-gray-500 mb-3 font-medium uppercase tracking-wider">
+                        Available in these countries
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <span className="text-xs font-medium text-gray-700">🇨🇦 Canada</span>
+                        </div>
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <span className="text-xs font-medium text-gray-700">🇪🇺 Europe</span>
+                        </div>
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <span className="text-xs font-medium text-gray-700">🇲🇽 Mexico</span>
+                        </div>
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <span className="text-xs font-medium text-gray-700">🇨🇷 Costa Rica</span>
+                        </div>
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <Image
+                            src="/argentina-coat-of-arms-bw.svg"
+                            alt="Argentina"
+                            width={12}
+                            height={12}
+                            className="mr-1"
+                          />
+                          <span className="text-xs font-medium text-gray-700">Argentina</span>
+                        </div>
+                      </div>
                     </div>
                   )}
                   
