@@ -397,45 +397,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-          
-          {/* Geographic Service Differentiation */}
-          <div className="mt-16 fade-in-up">
-            <div className="relative">
-              {/* Bracket connecting to first two cards only */}
-              <div className="absolute top-0 left-1/6 transform -translate-x-1/2 w-1/3 h-8 border-l-2 border-b-2 border-r-2 border-gray-300 rounded-b-lg"></div>
-              
-              {/* Country availability section - same width as bracket */}
-              <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8 mx-auto" style={{ width: '33.333%' }}>
-                <p className="text-sm text-gray-600 mb-4 font-medium uppercase tracking-wider text-center">
-                  Localized services available in these countries
-                </p>
-                <div className="flex flex-wrap justify-center gap-2">
-                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
-                    <span className="text-xs font-medium text-gray-700">🇨🇦 Canada</span>
-                  </div>
-                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
-                    <span className="text-xs font-medium text-gray-700">🇪🇺 Europe</span>
-                  </div>
-                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
-                    <span className="text-xs font-medium text-gray-700">🇲🇽 Mexico</span>
-                  </div>
-                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
-                    <span className="text-xs font-medium text-gray-700">🇨🇷 Costa Rica</span>
-                  </div>
-                  <div className="flex items-center bg-white px-2 py-1 rounded border border-gray-200 shadow-sm">
-                    <Image
-                      src="/argentina-coat-of-arms-bw.svg"
-                      alt="Argentina"
-                      width={12}
-                      height={12}
-                      className="mr-1"
-                    />
-                    <span className="text-xs font-medium text-gray-700">Argentina</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -472,6 +433,44 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Talk to a Human Section */}
+      <section className="py-16 md:py-24 bg-black text-white">
+        <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Image - Left side */}
+            <div className="flex justify-center lg:justify-start fade-in-up">
+              <div className="relative">
+                <Image
+                  src="/call-center-representative.jpg"
+                  alt="Professional call center representative helping customer"
+                  width={600}
+                  height={400}
+                  className="rounded-lg shadow-xl"
+                  priority={false}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
+              </div>
+            </div>
+            
+            {/* Content - Right side */}
+            <div className="fade-in-up">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                Talk to a human
+              </h2>
+              <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
+                You can talk with a real human expert that speaks your own language, via secure in-app chat or over the phone. That is why everyone says Bull Bitcoin has best customer support in the world!
+              </p>
+              <Link 
+                href="/contact"
+                className="inline-flex items-center justify-center bg-white text-black px-8 py-4 text-lg font-semibold uppercase tracking-wider hover:bg-gray-200 transition-colors duration-200"
+              >
+                Talk to a human
+              </Link>
             </div>
           </div>
         </div>
@@ -649,76 +648,6 @@ export default function Home() {
                 <p className="text-gray-400 text-sm">{country.description}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Talk to Human - Inline */}
-      <section className="py-16 md:py-24 bg-zinc-900 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-black to-zinc-900"></div>
-        <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="fade-in-up">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Talk to a Human</h2>
-              <p className="text-lg md:text-xl text-gray-300 mb-8">
-                No chatbots, no support tickets, no automated responses. When you need help, 
-                you talk directly to a real person who cares about solving your problem.
-              </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                <div className="text-center fade-in-up">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-white/10 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Live Chat</h3>
-                  <p className="text-gray-400 text-sm">Instant support during business hours with knowledgeable team members</p>
-                </div>
-                
-                <div className="text-center fade-in-up">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-white/10 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Email Support</h3>
-                  <p className="text-gray-400 text-sm">Detailed responses from our expert team within 24 hours</p>
-                </div>
-                
-                <div className="text-center fade-in-up">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-white/10 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Phone Support</h3>
-                  <p className="text-gray-400 text-sm">Direct phone line for urgent matters and complex transactions</p>
-                </div>
-              </div>
-              
-              <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-lg p-8 mb-8">
-                <blockquote className="text-lg md:text-xl italic text-gray-300 mb-4">
-                  "We treat our clients like we would members of our own family. No chatbot, no support tickets: you always talk to a real human."
-                </blockquote>
-                <cite className="text-sm text-gray-400">— Bull Bitcoin Customer Promise</cite>
-              </div>
-              
-              <div className="fade-in-up">
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center bg-white text-black px-8 py-3 uppercase text-sm tracking-wider hover:bg-gray-100 transition-colors duration-300 mr-4"
-                >
-                  Contact Support
-                </Link>
-                <Link
-                  href="/login"
-                  className="inline-flex items-center justify-center border border-white/30 bg-transparent text-white px-8 py-3 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-colors duration-300"
-                >
-                  Log in and chat with us
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </section>
