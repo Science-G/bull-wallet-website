@@ -366,39 +366,6 @@ export default function Home() {
                     </div>
                   )}
                   
-                  {/* Country cards for Exchange and OTC */}
-                  {product.id <= 2 && (
-                    <div className="mb-6">
-                      <p className="text-xs text-gray-500 mb-3 font-medium uppercase tracking-wider">
-                        Localized services available in these countries
-                      </p>
-                      <div className="flex flex-wrap gap-2">
-                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
-                          <span className="text-xs font-medium text-gray-700">🇨🇦 Canada</span>
-                        </div>
-                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
-                          <span className="text-xs font-medium text-gray-700">🇪🇺 Europe</span>
-                        </div>
-                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
-                          <span className="text-xs font-medium text-gray-700">🇲🇽 Mexico</span>
-                        </div>
-                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
-                          <span className="text-xs font-medium text-gray-700">🇨🇷 Costa Rica</span>
-                        </div>
-                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
-                          <Image
-                            src="/argentina-coat-of-arms-bw.svg"
-                            alt="Argentina"
-                            width={16}
-                            height={16}
-                            className="mr-1"
-                          />
-                          <span className="text-xs font-medium text-gray-700">Argentina</span>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                  
                   {/* Worldwide availability for Wallet */}
                   {product.id === 3 && (
                     <div className="mb-6">
@@ -429,6 +396,45 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+          
+          {/* Shared Country Availability Section */}
+          <div className="mt-12 fade-in-up">
+            <div className="relative">
+              {/* Visual bracket connecting to Exchange and OTC cards */}
+              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-8 border-l-2 border-t-2 border-r-2 border-gray-300 rounded-t-lg"></div>
+              
+              {/* Country availability content */}
+              <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8">
+                <p className="text-sm text-gray-600 mb-4 font-medium uppercase tracking-wider text-center">
+                  Localized services available in these countries
+                </p>
+                <div className="flex flex-wrap justify-center gap-3">
+                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
+                    <span className="text-sm font-medium text-gray-700">🇨🇦 Canada</span>
+                  </div>
+                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
+                    <span className="text-sm font-medium text-gray-700">🇪🇺 Europe</span>
+                  </div>
+                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
+                    <span className="text-sm font-medium text-gray-700">🇲🇽 Mexico</span>
+                  </div>
+                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
+                    <span className="text-sm font-medium text-gray-700">🇨🇷 Costa Rica</span>
+                  </div>
+                  <div className="flex items-center bg-white px-3 py-2 rounded border border-gray-200 shadow-sm">
+                    <Image
+                      src="/argentina-coat-of-arms-bw.svg"
+                      alt="Argentina"
+                      width={16}
+                      height={16}
+                      className="mr-2"
+                    />
+                    <span className="text-sm font-medium text-gray-700">Argentina</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
