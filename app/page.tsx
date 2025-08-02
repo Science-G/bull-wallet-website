@@ -398,13 +398,13 @@ export default function Home() {
             ))}
           </div>
           
-          {/* Shared Country Availability Section - Only for Exchange and OTC */}
-          <div className="mt-12 fade-in-up">
+          {/* Geographic Service Differentiation */}
+          <div className="mt-16 fade-in-up">
             <div className="relative">
-              {/* Visual bracket connecting only to the first two cards - pointing upward */}
+              {/* Bracket connecting to first two cards only */}
               <div className="absolute top-0 left-1/6 transform -translate-x-1/2 w-1/3 h-8 border-l-2 border-b-2 border-r-2 border-gray-300 rounded-b-lg"></div>
               
-              {/* Country availability content - same width as bracket */}
+              {/* Country availability section - same width as bracket */}
               <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8 mx-auto" style={{ width: '33.333%' }}>
                 <p className="text-sm text-gray-600 mb-4 font-medium uppercase tracking-wider text-center">
                   Localized services available in these countries
