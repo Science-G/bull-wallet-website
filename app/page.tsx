@@ -558,23 +558,23 @@ export default function Home() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="fade-in-up bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-lg p-6 hover:border-white/20 transition-all duration-300"
+                className="fade-in-up bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-lg transition-all duration-300"
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center">
-                      <feature.icon className="w-6 h-6 text-white" />
+                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
+                      <feature.icon className="w-6 h-6 text-gray-700" />
                     </div>
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center space-x-3 mb-3">
-                      <span className="text-xs font-mono text-gray-500 bg-white/5 px-2 py-1 rounded">
+                      <span className="text-xs font-mono text-gray-500 bg-gray-100 px-2 py-1 rounded">
                         {feature.number}
                       </span>
-                      <h3 className="text-lg font-semibold text-white">{feature.title}</h3>
+                      <h3 className="text-lg font-semibold text-black">{feature.title}</h3>
                     </div>
-                    <p className="text-gray-400 text-sm leading-relaxed">{feature.description}</p>
+                    <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
                   </div>
                 </div>
               </div>
