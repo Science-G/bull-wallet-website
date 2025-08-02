@@ -365,6 +365,52 @@ export default function Home() {
                       </span>
                     </div>
                   )}
+                  
+                  {/* Country cards for Exchange and OTC */}
+                  {product.id <= 2 && (
+                    <div className="mb-6">
+                      <p className="text-xs text-gray-500 mb-3 font-medium uppercase tracking-wider">
+                        Localized services available in these countries
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <span className="text-xs font-medium text-gray-700">🇨🇦 Canada</span>
+                        </div>
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <span className="text-xs font-medium text-gray-700">🇪🇺 Europe</span>
+                        </div>
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <span className="text-xs font-medium text-gray-700">🇲🇽 Mexico</span>
+                        </div>
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <span className="text-xs font-medium text-gray-700">🇨🇷 Costa Rica</span>
+                        </div>
+                        <div className="flex items-center bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                          <Image
+                            src="/argentina-coat-of-arms-bw.svg"
+                            alt="Argentina"
+                            width={16}
+                            height={16}
+                            className="mr-1"
+                          />
+                          <span className="text-xs font-medium text-gray-700">Argentina</span>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                  
+                  {/* Worldwide availability for Wallet */}
+                  {product.id === 3 && (
+                    <div className="mb-6">
+                      <div className="flex items-center bg-green-50 px-3 py-2 rounded border border-green-200">
+                        <span className="text-green-600 mr-2">🌍</span>
+                        <span className="text-sm text-green-700 font-medium">
+                          Available worldwide, no KYC or account required
+                        </span>
+                      </div>
+                    </div>
+                  )}
+                  
                   <div className="flex gap-3 mt-auto">
                     <Link 
                       href={product.primaryHref}
@@ -411,8 +457,8 @@ export default function Home() {
             <div className="flex justify-center lg:justify-end fade-in-up">
               <div className="relative">
                 <Image
-                  src="/bitcoin-office-meeting.png"
-                  alt="Professional consultation - guiding newcomers to Bitcoin"
+                  src="/tmpw4rr1826.jpg"
+                  alt="Professional consultation - young and experienced professionals working together"
                   width={600}
                   height={400}
                   className="rounded-lg shadow-xl"
