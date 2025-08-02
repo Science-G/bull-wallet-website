@@ -554,6 +554,15 @@ export default function Home() {
             </p>
           </div>
           
+          {/* Placeholder text */}
+          <div className="text-center mb-12 fade-in-up">
+            <div className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-lg p-8 hover:border-white/20 transition-all duration-300">
+              <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+                ON THIS PAGE, WE LIST ALL THE FEATURES AVAILABLE ON BULL BITCOIN AND ALL THE USES CASES. WE WILL ORGANIZE THE FEATURES BY BOTH CATEGORY OR COUNTRY
+              </p>
+            </div>
+          </div>
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {features.map((feature, index) => (
               <div
