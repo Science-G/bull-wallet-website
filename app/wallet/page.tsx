@@ -320,6 +320,42 @@ export default function WalletPage() {
 				</div>
 			</section>
 
+			{/* Subtle Open-Source Footer Section */}
+			<section className="py-12 md:py-16 bg-white text-black border-t border-gray-200">
+				<div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
+					<div className="grid grid-cols-1 md:grid-cols-5 gap-10 items-center">
+						<div className="md:col-span-3 fade-in-up">
+							<h3 className="text-xl md:text-2xl font-bold mb-2">Fully free and open source under MIT license</h3>
+							<p className="text-gray-700 mb-2">Developer contributions welcome</p>
+							<p className="text-gray-700 mb-6">
+								We are hiring! If you're looking to make money in open-source Bitcoin software, create a PR on our Github project. Impress us, and you might just get a job.
+							</p>
+							<a
+								href="https://github.com/SatoshiPortal"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="inline-flex items-center justify-center border border-black/30 bg-transparent text-black px-6 py-2 uppercase text-sm tracking-wider hover:bg-black hover:text-white transition-colors duration-200"
+							>
+								Contribute on GitHub
+							</a>
+
+						</div>
+						<div className="md:col-span-2 fade-in-up">
+							<div className="relative w-full max-w-md mx-auto">
+								<Image
+									src="/social-preview.png"
+									alt="Bull Bitcoin — Engineering Sovereignty"
+									width={1200}
+									height={630}
+									className="w-full h-auto rounded-lg border border-gray-200 shadow-sm"
+									priority={false}
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		</main>
 	)
 }
