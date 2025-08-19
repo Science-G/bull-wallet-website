@@ -323,8 +323,8 @@ export default function WalletPage() {
 			{/* Subtle Open-Source Footer Section */}
 			<section className="py-12 md:py-16 bg-white text-black border-t border-gray-200">
 				<div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
-					<div className="grid grid-cols-1 md:grid-cols-5 gap-10 items-center">
-						<div className="md:col-span-3 fade-in-up">
+					<div className="grid grid-cols-1 items-center">
+						<div className="fade-in-up text-center md:text-left">
 							<h3 className="text-xl md:text-2xl font-bold mb-2">Fully free and open source under MIT license</h3>
 							<p className="text-gray-700 mb-2">Developer contributions welcome</p>
 							<p className="text-gray-700 mb-6">
@@ -349,18 +349,6 @@ export default function WalletPage() {
 								</a>
 							</div>
 
-						</div>
-						<div className="md:col-span-2 fade-in-up">
-							<div className="relative w-full max-w-md mx-auto">
-								<Image
-									src="/social-preview.png"
-									alt="Bull Bitcoin — Engineering Sovereignty"
-									width={1200}
-									height={630}
-									className="w-full h-auto rounded-lg border border-gray-200 shadow-sm"
-									priority={false}
-								/>
-							</div>
 						</div>
 					</div>
 				</div>
