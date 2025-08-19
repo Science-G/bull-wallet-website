@@ -22,15 +22,8 @@ export function middleware(req: NextRequest) {
     return NextResponse.next()
   }
 
-  // Allow wallet itself only
-  if (pathname === '/wallet') {
-    return NextResponse.next()
-  }
-
-  // Redirect everything else to wallet
-  const url = req.nextUrl.clone()
-  url.pathname = '/wallet'
-  return NextResponse.redirect(url)
+  // No route restrictions now; let Next.js handle 404s
+  return NextResponse.next()
 }
 
 export const config = {
