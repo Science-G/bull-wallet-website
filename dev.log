@@ -1,0 +1,58 @@
+
+> bull-bitcoin-web@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.2.4
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.123:3000
+
+ ✓ Starting...
+ ✓ Ready in 1318ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.5s (845 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 4764ms
+ ✓ Compiled in 130ms (374 modules)
+ ✓ Compiled /otc in 287ms (824 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /otc. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /otc 200 in 360ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /otc. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /otc 200 in 32ms
+ ✓ Compiled in 369ms (835 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /otc. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /otc 200 in 49ms
+ ✓ Compiled in 281ms (838 modules)
+ ✓ Compiled in 482ms (791 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /otc. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /otc 200 in 105ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /otc. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /otc 200 in 41ms
+ ✓ Compiled in 307ms (787 modules)
+ ✓ Compiled in 231ms (373 modules)
+ ○ Compiling /otc ...
+ ✓ Compiled /otc in 716ms (820 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /otc. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+Translation key not found: navigation.features
+Translation key not found: navigation.about
+Translation key not found: navigation.login
+Translation key not found: navigation.signup
+ GET /otc 200 in 873ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /otc. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+Translation key not found: navigation.features
+Translation key not found: navigation.about
+Translation key not found: navigation.login
+Translation key not found: navigation.signup
+ GET /otc 200 in 60ms
+ ✓ Compiled in 407ms (834 modules)
+ ✓ Compiled in 275ms (823 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /otc. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /otc 200 in 98ms

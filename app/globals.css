@@ -58,6 +58,19 @@
   scroll-snap-stop: always;
   }
 
+  /* Nudge wallet section to snap to the very top on mobile only */
+  @media (max-width: 768px) {
+    .wallet-snap {
+      scroll-snap-align: start;
+      /* Ensure long content is not clipped and all CTAs are visible */
+      overflow: visible;
+      min-height: auto;
+      padding-bottom: 6rem;
+    }
+  }
+
+  /* (No mobile overrides; keep snap behavior consistent and use scroll-padding) */
+
   /* Engineering Sovereignty content animations */
   .engineering-content {
     animation: engineeringFadeIn 2s ease-out 0.5s both;
