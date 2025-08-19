@@ -44,7 +44,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ScrollHeader />
-        <div className="pt-24 md:pt-28">
+        <div>
           <I18nProvider>
             {children}
           </I18nProvider>
