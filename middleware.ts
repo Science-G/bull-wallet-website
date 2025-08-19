@@ -22,8 +22,8 @@ export function middleware(req: NextRequest) {
     return NextResponse.next()
   }
 
-  // Allow wallet itself
-  if (pathname === '/wallet' || pathname === '/') {
+  // Allow wallet itself only
+  if (pathname === '/wallet') {
     return NextResponse.next()
   }
 
