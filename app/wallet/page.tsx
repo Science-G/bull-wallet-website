@@ -328,11 +328,11 @@ export default function WalletPage() {
 							<h3 className="text-xl md:text-2xl font-bold mb-2">Fully free and open source under MIT license</h3>
 							<p className="text-gray-700 mb-2">Developer contributions welcome</p>
 							{/* Hiring blurb removed per request */}
-							<div className="mt-2">
-								<a href="https://github.com/SatoshiPortal" target="_blank" rel="noopener noreferrer" aria-label="Visit our GitHub organization">
+							<div className="mt-2 flex justify-center md:justify-start">
+								<a href="https://github.com/SatoshiPortal/bullbitcoin-mobile" target="_blank" rel="noopener noreferrer" aria-label="Visit the bullbitcoin-mobile repository on GitHub">
 									<img
-										src="https://img.shields.io/badge/GitHub-SatoshiPortal-181717?style=for-the-badge&logo=github&logoColor=white"
-										alt="GitHub – SatoshiPortal"
+										src="https://img.shields.io/badge/GitHub-bullbitcoin--mobile-181717?style=for-the-badge&logo=github&logoColor=white"
+										alt="GitHub – bullbitcoin-mobile"
 										width="240"
 										height="40"
 									/>
