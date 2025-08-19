@@ -338,6 +338,16 @@ export default function WalletPage() {
 							>
 								Contribute on GitHub
 							</a>
+							<div className="mt-4">
+								<a href="https://github.com/SatoshiPortal" target="_blank" rel="noopener noreferrer" aria-label="Visit our GitHub organization">
+									<img
+										src="https://img.shields.io/badge/GitHub-SatoshiPortal-181717?style=for-the-badge&logo=github&logoColor=white"
+										alt="GitHub – SatoshiPortal"
+										width="240"
+										height="40"
+									/>
+								</a>
+							</div>
 
 						</div>
 						<div className="md:col-span-2 fade-in-up">
