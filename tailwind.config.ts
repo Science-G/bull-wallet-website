@@ -12,6 +12,7 @@ const config: Config = {
       colors: {
         background: 'hsl(0 0% 0%)',
         foreground: 'hsl(0 0% 100%)',
+        brandRed: '#C50909',
         primary: {
           DEFAULT: 'hsl(0 0% 100%)',
           foreground: 'hsl(0 0% 0%)',

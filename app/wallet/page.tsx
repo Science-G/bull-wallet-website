@@ -4,6 +4,7 @@ import React, { useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { useTranslation } from "@/lib/i18n"
+import { Shield, EyeOff, Zap, DollarSign, Lock } from "lucide-react"
 
 // Wallet features (mimic home features card style)
 const walletFeatures: { title: string; description: string; ctaLabel?: string; ctaHref?: string }[] = [
@@ -263,26 +264,53 @@ export default function WalletPage() {
 						<p className="text-lg md:text-xl text-gray-300 fade-in-up">Many said it couldn’t be done, but we’ve achieved our impossible dream: the perfect Bitcoin wallet, for anyone.</p>
 					</div>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-						{walletFeatures.map((feature, index) => (
-							<div
-								key={index}
-								className="fade-in-up bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-lg transition-all duration-300"
-								style={{ transitionDelay: `${index * 50}ms` }}
-							>
-								<h3 className="text-lg font-semibold text-black mb-3">{feature.title}</h3>
-								<p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
-								{feature.ctaHref && (
-									<a
-										href={feature.ctaHref}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="mt-3 inline-block text-sm font-semibold text-black underline underline-offset-2 hover:opacity-80"
-									>
-										{feature.ctaLabel}
-									</a>
-								)}
-							</div>
-						))}
+						{walletFeatures.map((feature, index) => {
+							const lower = `${feature.title} ${feature.description}`.toLowerCase()
+							let Icon: any = null
+							if (lower.includes('confidential') || lower.includes('privacy') || lower.includes('payjoin')) {
+								Icon = EyeOff
+							} else if (
+								lower.includes('security') ||
+								lower.includes('securely recover') ||
+								lower.includes('encrypted') ||
+								lower.includes('coldcard') ||
+								lower.includes('open-source') ||
+								lower.includes('open source')
+							) {
+								Icon = Shield
+							} else if (lower.includes('swap') || lower.includes('swaps') || lower.includes('lightning'))) {
+								Icon = Zap
+							} else if (lower.includes('fee') || lower.includes('currency') || lower.includes('currencies'))) {
+								Icon = DollarSign
+							}
+							return (
+								<div
+									key={index}
+									className="fade-in-up bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-lg transition-all duration-300"
+									style={{ transitionDelay: `${index * 50}ms` }}
+								>
+									<div className="flex items-center gap-3 mb-3">
+										{Icon && (
+											<span className="inline-flex items-center justify-center w-9 h-9 rounded-full border border-brandRed/40 bg-white">
+												<Icon className="w-5 h-5 text-brandRed" />
+											</span>
+										)}
+										<h3 className="text-lg font-semibold text-black">{feature.title}</h3>
+									</div>
+									<p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
+									{feature.ctaHref && (
+										<a
+											href={feature.ctaHref}
+											target="_blank"
+											rel="noopener noreferrer"
+											className="mt-3 inline-block text-sm font-semibold text-black underline underline-offset-2 hover:opacity-80"
+										>
+											{feature.ctaLabel}
+											</a>
+									)}
+								</div>
+							)
+						})}
 					</div>
 				</div>
 			</section>

@@ -116,7 +116,7 @@
 
   /* Bitcoin action highlights */
   .bitcoin-action {
-    @apply font-medium text-white bg-gray-600 px-2 py-px rounded-sm;
+    @apply font-medium text-white bg-brandRed px-2 py-px rounded-sm;
   }
 
   /* Isolated section spacing */

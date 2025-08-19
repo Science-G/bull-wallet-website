@@ -22,7 +22,7 @@ export default function ScrollHeader() {
   if (!hasScrolled) return null
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 bg-black/40 backdrop-blur-md opacity-100 translate-y-0 transition-all duration-500">
+    <header className="fixed top-0 left-0 right-0 z-40 bg-black/40 backdrop-blur-md border-b border-brandRed/40 opacity-100 translate-y-0 transition-all duration-500">
       <div className="w-full pl-4 md:pl-8 lg:pl-10 pr-4 flex items-center justify-start h-20 md:h-24">
         <a href={externalHomeUrl} target="_blank" rel="noopener noreferrer">
           <Image
