@@ -66,6 +66,8 @@
       overflow: visible;
       min-height: auto;
       padding-bottom: 6rem;
+      /* Reduce extra space before the next section on mobile */
+      margin-bottom: 2rem;
     }
   }
 
