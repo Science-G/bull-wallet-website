@@ -7,14 +7,14 @@ import ScrollHeader from "@/components/scroll-header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Bull Bitcoin - Own Your Money",
-  description: "Canada's premier Bitcoin exchange. Buy, sell, and store Bitcoin with complete security and privacy. Non-custodial solutions for true financial sovereignty.",
+  title: "Bull Bitcoin Wallet",
+  description: "World's best mobile Bitcoin wallet",
   keywords: "Bitcoin, cryptocurrency, exchange, Canada, non-custodial, privacy, security",
   authors: [{ name: "Bull Bitcoin" }],
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://wallet.bullbitcoin.com'),
   openGraph: {
-    title: "Bull Bitcoin - Own Your Money",
-    description: "Canada's premier Bitcoin exchange. Buy, sell, and store Bitcoin with complete security and privacy.",
+    title: "Bull Bitcoin Wallet",
+    description: "World's best mobile Bitcoin wallet",
     url: '/',
     siteName: 'Bull Bitcoin',
     type: 'website',
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bull Bitcoin - Own Your Money',
-    description: "Canada's premier Bitcoin exchange. Buy, sell, and store Bitcoin with complete security and privacy.",
+    title: 'Bull Bitcoin Wallet',
+    description: "World's best mobile Bitcoin wallet",
     images: ['/social-preview.png'],
   },
 }
