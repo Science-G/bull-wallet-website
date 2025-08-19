@@ -330,15 +330,7 @@ export default function WalletPage() {
 							<p className="text-gray-700 mb-6">
 								We are hiring! If you're looking to make money in open-source Bitcoin software, create a PR on our Github project. Impress us, and you might just get a job.
 							</p>
-							<a
-								href="https://github.com/SatoshiPortal"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="inline-flex items-center justify-center border border-black/30 bg-transparent text-black px-6 py-2 uppercase text-sm tracking-wider hover:bg-black hover:text-white transition-colors duration-200"
-							>
-								Contribute on GitHub
-							</a>
-							<div className="mt-4">
+							<div className="mt-2">
 								<a href="https://github.com/SatoshiPortal" target="_blank" rel="noopener noreferrer" aria-label="Visit our GitHub organization">
 									<img
 										src="https://img.shields.io/badge/GitHub-SatoshiPortal-181717?style=for-the-badge&logo=github&logoColor=white"
