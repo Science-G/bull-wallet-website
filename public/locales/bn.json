@@ -1,58 +1,58 @@
 {
-  "hero": {"title": "OWN\nYOUR\nMONEY"},
+  "hero": {"title": "নিজের\nটাকা\nনিজের হাতে"},
   "wallet": {
-    "title": "The greatest mobile Bitcoin wallet of all time",
-    "subtitle": "Focused on privacy, security and usability for day-to-day Bitcoin transactions.",
+    "title": "এ পর্যন্ত সেরা মোবাইল বিটকয়েন ওয়ালেট",
+    "subtitle": "দৈনন্দিন বিটকয়েন লেনদেনের জন্য গোপনীয়তা, নিরাপত্তা ও ব্যবহার সহজতায় কেন্দ্রীভূত।",
     "labels": {
-      "self_custodial": "Self-custodial",
-      "open_source": "Open-Source",
-      "bitcoin_only": "Bitcoin-only",
-      "no_kyc": "No-KYC"
+      "self_custodial": "স্ব‑কাস্টডি",
+      "open_source": "ওপেন‑সোর্স",
+      "bitcoin_only": "শুধু বিটকয়েন",
+      "no_kyc": "KYC নয়"
     },
-    "cta": "Start using Bull wallet",
-    "features_title": "Wallet features",
-    "features_subtitle": "Many said it couldn't be done, but we've achieved our impossible dream: the perfect Bitcoin wallet, for anyone."
+    "cta": "Bull Wallet ব্যবহার শুরু করুন",
+    "features_title": "ওয়ালেট বৈশিষ্ট্য",
+    "features_subtitle": "অনেকে বলেছিল অসম্ভব—আমরা করেছি: সবার জন্য নিখুঁত বিটকয়েন ওয়ালেট।"
   },
   "founder_quote": {
-    "title": "Suitable for beginners and experts alike.",
-    "quote": "I built this wallet so that it would offer all the advanced features I want, but also that my mom could use it without being confused.",
-    "author": "— Francis Pouliot, founder of Bull Bitcoin"
+    "title": "নবীন ও বিশেষজ্ঞ—সবার জন্য উপযুক্ত।",
+    "quote": "আমি এমন ওয়ালেট বানিয়েছি যাতে আমার সব উন্নত চাহিদা থাকে, আবার এতটাই সহজ যে আমার মাও বিভ্রান্ত হবেন না।",
+    "author": "— ফ্রান্সিস পুলিও, Bull Bitcoin প্রতিষ্ঠাতা"
   },
   "networks": {
-    "title": "Multi-network compatibility",
-    "description": "Transact seamlessly on the <span class=\"bitcoin-action\">Bitcoin</span> Network, <span class=\"bitcoin-action\">Lightning</span> Network and <span class=\"bitcoin-action\">Liquid</span> Network. Using non-custodial atomic-swap technologies, you can move funds between networks anonymously and securely."
+    "title": "মাল্টি‑নেটওয়ার্ক সামঞ্জস্য",
+    "description": "<span class=\"bitcoin-action\">Bitcoin</span>, <span class=\"bitcoin-action\">Lightning</span> ও <span class=\"bitcoin-action\">Liquid</span> নেটওয়ার্কে নিরবচ্ছিন্ন লেনদেন। নন‑কাস্টডিয়াল অ্যাটমিক‑সোয়াপ দিয়ে নেটওয়ার্কের মাঝে অর্থ নিরাপদে ও গোপনে স্থানান্তর করুন।"
   },
   "exchange": {
-    "title": "Native integration with the Bull Bitcoin exchange",
-    "description": "Connect your Bull Bitcoin account to buy bitcoin, sell bitcoin and make fiat payments directly with your self-custodial wallet. This is <span class=\"bitcoin-action\">optional</span>, and you don't have to link an account if you don't want to. It's so easy, it feels like using a custodial app!"
+    "title": "Bull Bitcoin এক্সচেঞ্জের নেটিভ ইন্টিগ্রেশন",
+    "description": "Bull Bitcoin অ্যাকাউন্ট যুক্ত করে স্ব‑কাস্টডি ওয়ালেট থেকেই সরাসরি বিটকয়েন কিনুন, বিক্রি করুন ও ফিয়াট পেমেন্ট করুন। এটি <span class=\"bitcoin-action\">ঐচ্ছিক</span>; না চাইলে অ্যাকাউন্ট লিঙ্ক করার প্রয়োজন নেই। ক custodiaল অ্যাপের মতই সহজ!"
   },
   "open_source": {
-    "title": "Fully free and open source under MIT license",
-    "subtitle": "Developer contributions welcome"
+    "title": "MIT লাইসেন্সের অধীনে সম্পূর্ণ বিনামূল্যে ও ওপেন‑সোর্স",
+    "subtitle": "ডেভেলপার অবদান স্বাগত"
   },
   "engineering_sovereignty": {
-    "title": "Engineering Sovereignty",
-    "description": "We build the tools and infrastructure you deserve to {buy}, {sell}, {hold}, and {spend} Bitcoin—without compromise.",
-    "actions": {"buy": "buy", "sell": "sell", "hold": "hold", "spend": "spend"}
+    "title": "সার্বভৌমত্বের ইঞ্জিনিয়ারিং",
+    "description": "কোনো আপস ছাড়াই আপনি বিটকয়েন {buy}, {sell}, {hold}, {spend} করতে পারেন—এমন টুল ও অবকাঠামো আমরা তৈরি করি।",
+    "actions": {"buy": "কিনুন", "sell": "বিক্রি করুন", "hold": "রাখুন", "spend": "খরচ করুন"}
   },
   "features_list": {
-    "instant_lightning": {"title": "Instant and cheap lightning payments", "description": "Lightning payments without liquidity and channel management. Send and receive payments seamlessly with one click."},
-    "cross_network_swaps": {"title": "Automatic cross-network swaps", "description": "Receive small payments in your Liquid Network wallet that are automatically swapped for a secure Bitcoin wallet once you reach a customisable threshold."},
-    "confidential_transactions": {"title": "Confidential transactions", "description": "Liquid Network confidential transactions hide the amount and asset type of your transactions."},
-    "smart_fee": {"title": "Smart fee management", "description": "Customizable mempool-based fee calculations and RBF technologies ensure you never overpay mining fees."},
-    "mobile_security": {"title": "Security for mobile devices", "description": "Secure-storage for private keys, vetted open-source crypto libraries, screenshot prevention and secure in-app keyboard."},
-    "privacy_first": {"title": "Privacy first approach", "description": "No KYC email or phone required, no data collection, no push notifications, no IP tracking. Privacy by default."},
-    "encrypted_backups": {"title": "Easy and secure encrypted cloud backups", "description": "We invented recoverbull (encrypted vault) wallet backups to keep beginners safe from loss or theft.", "cta": "learn more"},
-    "own_node": {"title": "Connect to your own node", "description": "Maintain self-sovereignty by connecting to your own Electrum server for direct access to the Bitcoin network."},
-    "payjoin": {"title": "Payjoin protection from chain analysis", "description": "Create collaborative transactions to mitigate on-chain spying of your wallet activity."},
-    "watch_only": {"title": "Watch-only hardware wallets (cold storage)", "description": "Receive to any offline wallet, monitor balances and transaction history of your hardware wallets."},
-    "coldcard_q": {"title": "Coldcard Q airgapped integration", "description": "Spend from long-term cold storage without putting funds at risk."},
-    "coin_control": {"title": "Coin control and labelling", "description": "Smart labelling and coin control to protect privacy and manage UTXOs."},
-    "multi_currency": {"title": "Multi-currency", "description": "Support for multiple currencies and SATS/BTC display options."},
-    "advanced_details": {"title": "Advanced wallet details", "description": "View descriptors, xpubs and derivation paths of your wallet."},
-    "recover_backup": {"title": "Securely recover from backup", "description": "Import backups, discover funds and sweep them to a new wallet."},
-    "customer_support": {"title": "Customer support", "description": "Ask questions in our active telegram channel and get help from our team."},
-    "open_source": {"title": "Fully free and open-source", "description": "All our software is public and reproducible. No backdoors, no data leaks."}
+    "instant_lightning": {"title": "তাৎক্ষণিক ও কম খরচের Lightning পেমেন্ট", "description": "লিকুইডিটি/চ্যানেল ম্যানেজমেন্ট ছাড়াই—এক ট্যাপে পাঠান‑নিন।"},
+    "cross_network_swaps": {"title": "স্বয়ংক্রিয় ক্রস‑নেটওয়ার্ক সোয়াপ", "description": "Liquid‑এ ছোট পেমেন্ট সীমা পার হলেই নিরাপদ Bitcoin ওয়ালেটে স্বয়ংক্রিয় সোয়াপ।"},
+    "confidential_transactions": {"title": "গোপনীয় লেনদেন", "description": "Liquid‑এর কনফিডেনশিয়াল ট্রান্সঅ্যাকশন লেনদেনের পরিমাণ ও সম্পদ‑ধরন আড়াল করে।"},
+    "smart_fee": {"title": "স্মার্ট ফি ম্যানেজমেন্ট", "description": "mempool ও RBF‑ভিত্তিক হিসেব—অতিরিক্ত ফি নয়।"},
+    "mobile_security": {"title": "মোবাইলে নিরাপত্তা", "description": "কী‑এর নিরাপদ সংরক্ষণ, যাচাইকৃত ওপেন‑সোর্স ক্রিপ্টো, স্ক্রিনশট প্রতিরোধ ও সুরক্ষিত কিবোর্ড।"},
+    "privacy_first": {"title": "প্রাইভেসি প্রথম", "description": "KYC নয়, ডেটা সংগ্রহ নয়, পুশ নয়, IP ট্র্যাকিং নয়।"},
+    "encrypted_backups": {"title": "নিরাপদ এনক্রিপ্টেড ক্লাউড ব্যাকআপ", "description": "নবীনদের লোকসান/চুরির ঝুঁকি ঠেকাতে আমরা Recoverbull (এনক্রিপ্টেড ভল্ট) তৈরি করেছি।", "cta": "আরও জানুন"},
+    "own_node": {"title": "নিজস্ব নোডে যুক্ত হন", "description": "নিজস্ব Electrum সার্ভার দিয়ে সার্বভৌমত্ব বজায় রাখুন।"},
+    "payjoin": {"title": "চেইন বিশ্লেষণ রোধে Payjoin", "description": "সহযোগী লেনদেনে অন‑চেইন নজরদারি কমান।"},
+    "watch_only": {"title": "ওয়াচ‑অনলি হার্ডওয়্যার ওয়ালেট", "description": "অফলাইন ওয়ালেটে গ্রহণ করুন, ব্যালেন্স ও ইতিহাস দেখুন।"},
+    "coldcard_q": {"title": "আইসোলেটেড Coldcard Q ইন্টিগ্রেশন", "description": "দীর্ঘমেয়াদি কোল্ড স্টোরেজ থেকে ঝুঁকি ছাড়াই খরচ করুন।"},
+    "coin_control": {"title": "কয়েন কন্ট্রোল ও লেবেলিং", "description": "স্মার্ট লেবেলিং ও UTXO ম্যানেজমেন্টে প্রাইভেসি রক্ষা করুন।"},
+    "multi_currency": {"title": "মাল্টি‑কারেন্সি", "description": "একাধিক ফিয়াট ও SATS/BTC প্রদর্শন।"},
+    "advanced_details": {"title": "অ্যাডভান্সড ওয়ালেট ডিটেইল", "description": "ডিসক্রিপ্টর, xpub ও ডেরিভেশন পাথ দেখুন।"},
+    "recover_backup": {"title": "নিরাপদে ব্যাকআপ থেকে রিকভার", "description": "ব্যাকআপ ইম্পোর্ট, ফান্ড সন্ধান ও নতুন ওয়ালেটে সুইপ।"},
+    "customer_support": {"title": "কাস্টমার সাপোর্ট", "description": "আমাদের Telegram চ্যানেলে জিজ্ঞেস করুন; টিম সাহায্য করবে।"},
+    "open_source": {"title": "সম্পূর্ণ মুক্ত ও ওপেন‑সোর্স", "description": "সর্বসাধারণের জন্য উন্মুক্ত ও পুনরুৎপাদনযোগ্য সফটওয়্যার—কোনো ব্যাকডোর/ডেটা লিক নয়।"}
   }
 }
 
