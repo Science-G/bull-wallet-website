@@ -190,6 +190,8 @@ export default function WalletPage() {
 								case 'mobile_security':
 								case 'watch_only':
 								case 'coldcard_q':
+								case 'encrypted_backups':
+								case 'recover_backup':
 								case 'open_source':
 									Icon = Shield; break
 								case 'instant_lightning':
@@ -202,6 +204,8 @@ export default function WalletPage() {
 									Icon = Network; break
 								case 'advanced_details':
 									Icon = Settings; break
+								case 'customer_support':
+									Icon = User; break
 								default:
 									Icon = null
 							}
