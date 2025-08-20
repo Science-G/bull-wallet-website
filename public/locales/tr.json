@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "PARANA\nSAHİP OL"},
+  "wallet": {
+    "title": "Gelmiş geçmiş en iyi mobil Bitcoin cüzdanı",
+    "subtitle": "Gizlilik, güvenlik ve günlük Bitcoin ödemelerinde kullanım kolaylığına odaklanır.",
+    "labels": {
+      "self_custodial": "Kendi saklaman",
+      "open_source": "Açık kaynak",
+      "bitcoin_only": "Sadece Bitcoin",
+      "no_kyc": "KYC yok"
+    },
+    "cta": "Bull Wallet’ı kullanmaya başlayın",
+    "features_title": "Cüzdan özellikleri",
+    "features_subtitle": "Birçok kişi imkânsız dedi, biz yaptık: herkes için kusursuz bir Bitcoin cüzdanı."
+  },
+  "founder_quote": {
+    "title": "Hem yeni başlayanlar hem uzmanlar için uygundur.",
+    "quote": "Bu cüzdanı, istediğim tüm gelişmiş özelliklere sahip olacak ve aynı zamanda annemin hiçbir kafa karışıklığı olmadan kullanabileceği kadar basit olacak şekilde yaptım.",
+    "author": "— Francis Pouliot, Bull Bitcoin kurucusu"
+  },
+  "networks": {
+    "title": "Çoklu ağ uyumluluğu",
+    "description": "<span class=\"bitcoin-action\">Bitcoin</span>, <span class=\"bitcoin-action\">Lightning</span> ve <span class=\"bitcoin-action\">Liquid</span> ağlarında sorunsuz işlemler. Saklama gerektirmeyen atomik takaslarla ağlar arasında fonları anonim ve güvenli biçimde taşıyın."
+  },
+  "exchange": {
+    "title": "Bull Bitcoin borsasıyla yerel entegrasyon",
+    "description": "Bull Bitcoin hesabınızı bağlayarak kendi saklamalı cüzdanınızdan doğrudan Bitcoin alıp satın ve itibari ödemeler yapın. Bu <span class=\"bitcoin-action\">opsiyoneldir</span>; istemiyorsanız hesap bağlamanıza gerek yok. Velayetli uygulama kadar kolay!"
+  },
+  "open_source": {
+    "title": "MIT lisansı altında tamamen ücretsiz ve açık kaynak",
+    "subtitle": "Geliştirici katkılarını memnuniyetle karşılıyoruz"
+  },
+  "engineering_sovereignty": {
+    "title": "Egemenliği mühendislik etmek",
+    "description": "Hiçbir ödün vermeden Bitcoin’i {buy}, {sell}, {hold}, {spend} edebilmeniz için araçlar ve altyapı inşa ediyoruz.",
+    "actions": {"buy": "satın alma", "sell": "satma", "hold": "tutma", "spend": "harcama"}
+  },
+  "features_list": {
+    "instant_lightning": {"title": "Anında ve düşük maliyetli Lightning ödemeleri", "description": "Likidite/kanal yönetimi yok. Tek dokunuşla gönder ve al."},
+    "cross_network_swaps": {"title": "Otomatik çapraz ağ takasları", "description": "Liquid’deki küçük ödemeler, eşik aşıldığında güvenli Bitcoin cüzdanına otomatik olarak takas edilir."},
+    "confidential_transactions": {"title": "Gizli işlemler", "description": "Liquid gizli işlemleri, tutarı ve varlık türünü gizler."},
+    "smart_fee": {"title": "Akıllı ücret yönetimi", "description": "Mempool ve RBF’e dayalı hesaplama; gereğinden fazla ödeme yok."},
+    "mobile_security": {"title": "Mobilde güvenlik", "description": "Güvenli anahtar saklama, açık kaynak kripto, ekran görüntüsü engelleme ve güvenli klavye."},
+    "privacy_first": {"title": "Önce gizlilik", "description": "KYC yok, veri toplama yok, push yok, IP takibi yok."},
+    "encrypted_backups": {"title": "Güvenli şifreli bulut yedekleri", "description": "Recoverbull (şifreli kasa) acemileri kayıp/çalınmaya karşı korur.", "cta": "daha fazla bilgi"},
+    "own_node": {"title": "Kendi düğümünüze bağlanın", "description": "Kendi Electrum sunucunuzu kullanarak egemenliğinizi koruyun."},
+    "payjoin": {"title": "Zincir analizi karşıtı Payjoin", "description": "İşbirlikçi işlemlerle zincir üzeri gözetlemeyi azaltın."},
+    "watch_only": {"title": "Sadece‑izleme donanım cüzdanı (soğuk saklama)", "description": "Çevrimdışı cüzdana alın, bakiyeyi ve geçmişi izleyin."},
+    "coldcard_q": {"title": "Yalıtılmış Coldcard Q entegrasyonu", "description": "Uzun vadeli soğuk depodan fon riski olmadan harcayın."},
+    "coin_control": {"title": "Coin control ve etiketleme", "description": "Akıllı etiketler ve UTXO yönetimiyle gizliliğinizi koruyun."},
+    "multi_currency": {"title": "Çoklu para birimi", "description": "Birden fazla fiat para birimi ve SATS/BTC görüntüsü."},
+    "advanced_details": {"title": "Gelişmiş cüzdan detayları", "description": "Descriptor’lar, xpub ve türetim yollarını görüntüleyin."},
+    "recover_backup": {"title": "Güvenli kurtarma", "description": "Yedek içe aktarın, fonları bulun ve yeni cüzdana tarayın."},
+    "customer_support": {"title": "Müşteri desteği", "description": "Telegram kanalımızda sorun; ekibimiz yardımcı olur."},
+    "open_source": {"title": "Tamamen özgür ve açık", "description": "Kamusal ve yeniden üretilebilir yazılım. Arka kapı yok, veri sızıntısı yok."}
+  }
+}
+
+

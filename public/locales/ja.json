@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "OWN\nYOUR\nMONEY"},
+  "wallet": {
+    "title": "The greatest mobile Bitcoin wallet of all time",
+    "subtitle": "Focused on privacy, security and usability for day-to-day Bitcoin transactions.",
+    "labels": {
+      "self_custodial": "Self-custodial",
+      "open_source": "Open-Source",
+      "bitcoin_only": "Bitcoin-only",
+      "no_kyc": "No-KYC"
+    },
+    "cta": "Start using Bull wallet",
+    "features_title": "Wallet features",
+    "features_subtitle": "Many said it couldn't be done, but we've achieved our impossible dream: the perfect Bitcoin wallet, for anyone."
+  },
+  "founder_quote": {
+    "title": "Suitable for beginners and experts alike.",
+    "quote": "I built this wallet so that it would offer all the advanced features I want, but also that my mom could use it without being confused.",
+    "author": "— Francis Pouliot, founder of Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Multi-network compatibility",
+    "description": "Transact seamlessly on the <span class=\"bitcoin-action\">Bitcoin</span> Network, <span class=\"bitcoin-action\">Lightning</span> Network and <span class=\"bitcoin-action\">Liquid</span> Network. Using non-custodial atomic-swap technologies, you can move funds between networks anonymously and securely."
+  },
+  "exchange": {
+    "title": "Native integration with the Bull Bitcoin exchange",
+    "description": "Connect your Bull Bitcoin account to buy bitcoin, sell bitcoin and make fiat payments directly with your self-custodial wallet. This is <span class=\"bitcoin-action\">optional</span>, and you don't have to link an account if you don't want to. It's so easy, it feels like using a custodial app!"
+  },
+  "open_source": {
+    "title": "Fully free and open source under MIT license",
+    "subtitle": "Developer contributions welcome"
+  },
+  "engineering_sovereignty": {
+    "title": "Engineering Sovereignty",
+    "description": "We build the tools and infrastructure you deserve to {buy}, {sell}, {hold}, and {spend} Bitcoin—without compromise.",
+    "actions": {"buy": "buy", "sell": "sell", "hold": "hold", "spend": "spend"}
+  },
+  "features_list": {
+    "instant_lightning": {"title": "Instant and cheap lightning payments", "description": "Lightning payments without liquidity and channel management. Send and receive payments seamlessly with one click."},
+    "cross_network_swaps": {"title": "Automatic cross-network swaps", "description": "Receive small payments in your Liquid Network wallet that are automatically swapped for a secure Bitcoin wallet once you reach a customisable threshold."},
+    "confidential_transactions": {"title": "Confidential transactions", "description": "Liquid Network confidential transactions hide the amount and asset type of your transactions."},
+    "smart_fee": {"title": "Smart fee management", "description": "Customizable mempool-based fee calculations and RBF technologies ensure you never overpay mining fees."},
+    "mobile_security": {"title": "Security for mobile devices", "description": "Secure-storage for private keys, vetted open-source crypto libraries, screenshot prevention and secure in-app keyboard."},
+    "privacy_first": {"title": "Privacy first approach", "description": "No KYC email or phone required, no data collection, no push notifications, no IP tracking. Privacy by default."},
+    "encrypted_backups": {"title": "Easy and secure encrypted cloud backups", "description": "We invented recoverbull (encrypted vault) wallet backups to keep beginners safe from loss or theft.", "cta": "learn more"},
+    "own_node": {"title": "Connect to your own node", "description": "Maintain self-sovereignty by connecting to your own Electrum server for direct access to the Bitcoin network."},
+    "payjoin": {"title": "Payjoin protection from chain analysis", "description": "Create collaborative transactions to mitigate on-chain spying of your wallet activity."},
+    "watch_only": {"title": "Watch-only hardware wallets (cold storage)", "description": "Receive to any offline wallet, monitor balances and transaction history of your hardware wallets."},
+    "coldcard_q": {"title": "Coldcard Q airgapped integration", "description": "Spend from long-term cold storage without putting funds at risk."},
+    "coin_control": {"title": "Coin control and labelling", "description": "Smart labelling and coin control to protect privacy and manage UTXOs."},
+    "multi_currency": {"title": "Multi-currency", "description": "Support for multiple currencies and SATS/BTC display options."},
+    "advanced_details": {"title": "Advanced wallet details", "description": "View descriptors, xpubs and derivation paths of your wallet."},
+    "recover_backup": {"title": "Securely recover from backup", "description": "Import backups, discover funds and sweep them to a new wallet."},
+    "customer_support": {"title": "Customer support", "description": "Ask questions in our active telegram channel and get help from our team."},
+    "open_source": {"title": "Fully free and open-source", "description": "All our software is public and reproducible. No backdoors, no data leaks."}
+  }
+}
+
+

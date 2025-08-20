@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "BEZIT\nJE\nGELD"},
+  "wallet": {
+    "title": "De grootste mobiele Bitcoin-wallet ooit",
+    "subtitle": "Gefocust op privacy, veiligheid en gebruiksgemak voor dagelijks gebruik.",
+    "labels": {
+      "self_custodial": "Zelf-custody",
+      "open_source": "Open-Source",
+      "bitcoin_only": "Alleen Bitcoin",
+      "no_kyc": "Geen-KYC"
+    },
+    "cta": "Begin met Bull wallet",
+    "features_title": "Wallet-functies",
+    "features_subtitle": "We hebben het onmogelijke bereikt: de perfecte Bitcoin-wallet, voor iedereen."
+  },
+  "open_source": {
+    "title": "Volledig gratis en open source onder MIT-licentie",
+    "subtitle": "Bijdragen van ontwikkelaars zijn welkom"
+  },
+  "features_list": {
+    "instant_lightning": {"title": "Directe en goedkope Lightning-betalingen", "description": "Lightning-betalingen zonder liquiditeits- of kanaalbeheer. Verstuur en ontvang met één klik."},
+    "cross_network_swaps": {"title": "Automatische netwerk-overschrijdende swaps", "description": "Kleine betalingen op Liquid automatisch omgewisseld naar Bitcoin bij een drempel."},
+    "confidential_transactions": {"title": "Vertrouwelijke transacties", "description": "Liquid vertrouwelijke transacties verbergen bedrag en asset-type."},
+    "smart_fee": {"title": "Slim kostenbeheer", "description": "Mempool-gebaseerde kosten en RBF zodat je nooit te veel betaalt."},
+    "mobile_security": {"title": "Beveiliging op mobiel", "description": "Veilige sleutelopslag, open-source crypto, screenshot-blokkade en veilig toetsenbord."},
+    "privacy_first": {"title": "Privacy eerst", "description": "Geen KYC, geen dataverzameling, geen push, geen IP-tracking."},
+    "encrypted_backups": {"title": "Versleutelde back-ups", "description": "We bedachten recoverbull om verlies of diefstal van back-ups te voorkomen.", "cta": "meer info"},
+    "own_node": {"title": "Verbind je eigen node", "description": "Souvereiniteit door je eigen Electrum-server te gebruiken."},
+    "payjoin": {"title": "Payjoin tegen ketenanalyse", "description": "Collaboratieve transacties om on-chain spionage te beperken."},
+    "watch_only": {"title": "Watch-only hardware wallets", "description": "Ontvang op offline wallets en volg saldi en geschiedenis."},
+    "coldcard_q": {"title": "Coldcard Q airgapped-integratie", "description": "Besteed vanuit cold storage zonder risico."},
+    "coin_control": {"title": "Coin control en labeling", "description": "Slim labelen en UTXO-beheer voor privacy."},
+    "multi_currency": {"title": "Meerdere valuta's", "description": "Ondersteuning voor meerdere valuta's en SATS/BTC-weergave."},
+    "advanced_details": {"title": "Geavanceerde walletdetails", "description": "Bekijk descriptors, xpubs en derivatiepaden."},
+    "recover_backup": {"title": "Veilig herstellen", "description": "Importeer back-ups, vind fondsen en veeg ze naar een nieuwe wallet."},
+    "customer_support": {"title": "Klantondersteuning", "description": "Stel vragen op ons Telegram-kanaal en krijg hulp van het team."},
+    "open_source": {"title": "Volledig vrij en open-source", "description": "Publieke, reproduceerbare software. Geen backdoors, geen datalekken."}
+  },
+  "engineering_sovereignty": {
+    "title": "Ingenieurschap van Soevereiniteit",
+    "description": "We bouwen de tools en infrastructuur om Bitcoin te {buy}, {sell}, {hold} en {spend} — zonder compromissen.",
+    "actions": {"buy": "kopen", "sell": "verkopen", "hold": "houden", "spend": "uitgeven"}
+  },
+  "founder_quote": {
+    "title": "Geschikt voor zowel beginners als experts.",
+    "quote": "Ik heb deze wallet gebouwd zodat hij alle geavanceerde functies biedt die ik wil, maar ook zodat mijn moeder hem zonder verwarring kan gebruiken.",
+    "author": "— Francis Pouliot, oprichter van Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Multi-netwerk compatibiliteit",
+    "description": "Transacties zonder moeite op het <span class=\"bitcoin-action\">Bitcoin</span>-netwerk, <span class=\"bitcoin-action\">Lightning</span>-netwerk en <span class=\"bitcoin-action\">Liquid</span>-netwerk. Met non-custodial atomic-swap technologieën kun je fondsen anoniem en veilig tussen netwerken verplaatsen."
+  },
+  "exchange": {
+    "title": "Native integratie met de Bull Bitcoin exchange",
+    "description": "Verbind je Bull Bitcoin-account om bitcoin te kopen, verkopen en fiat-betalingen te doen rechtstreeks met je zelf-custody wallet. Dit is <span class=\"bitcoin-action\">optioneel</span>, en je hoeft geen account te koppelen als je dat niet wilt. Het is zo eenvoudig dat het aanvoelt als een custodial app!"
+  }
+}
+
+

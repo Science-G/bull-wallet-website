@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "拥有\n你的\n金钱"},
+  "wallet": {
+    "title": "史上最强大的移动比特币钱包",
+    "subtitle": "专注隐私、安全与易用性，适用于日常支付。",
+    "labels": {
+      "self_custodial": "自我托管",
+      "open_source": "开源",
+      "bitcoin_only": "仅比特币",
+      "no_kyc": "无KYC"
+    },
+    "cta": "开始使用 Bull 钱包",
+    "features_title": "钱包功能",
+    "features_subtitle": "我们实现了看似不可能的目标：为所有人打造完美的比特币钱包。"
+  },
+  "open_source": {
+    "title": "完全免费并基于 MIT 许可的开源项目",
+    "subtitle": "欢迎开发者贡献"
+  },
+  "features_list": {
+    "instant_lightning": {"title": "即时低费的闪电支付", "description": "无需管理流动性和通道，一键收发闪电支付。"},
+    "cross_network_swaps": {"title": "自动跨网络交换", "description": "Liquid 上的小额收款在达到阈值后自动交换到安全的比特币钱包。"},
+    "confidential_transactions": {"title": "保密交易", "description": "Liquid 的保密交易隐藏交易金额和资产类型。"},
+    "smart_fee": {"title": "智能手续费管理", "description": "基于 mempool 的费率和 RBF，避免过高的矿工费。"},
+    "mobile_security": {"title": "移动端安全", "description": "私钥安全存储，开源加密库，截屏防护与应用内安全键盘。"},
+    "privacy_first": {"title": "隐私优先", "description": "无需 KYC，无数据收集，无推送通知，无 IP 跟踪。"},
+    "encrypted_backups": {"title": "加密云备份", "description": "我们发明了 recoverbull（加密保险库）以防止备份丢失或被盗。", "cta": "了解更多"},
+    "own_node": {"title": "连接你的节点", "description": "连接你自己的 Electrum 服务器以保持主权。"},
+    "payjoin": {"title": "Payjoin 防链上分析", "description": "创建协作交易以减少链上窥探。"},
+    "watch_only": {"title": "只读硬件钱包", "description": "接收至离线钱包并监控余额与交易历史。"},
+    "coldcard_q": {"title": "Coldcard Q 隔离集成", "description": "从冷储存安全支出而不增加风险。"},
+    "coin_control": {"title": "币控制与标记", "description": "智能标记与 UTXO 管理以保护隐私。"},
+    "multi_currency": {"title": "多币种", "description": "支持多币种以及 SATS/BTC 显示方式。"},
+    "advanced_details": {"title": "高级钱包细节", "description": "查看 descriptors、xpub 与派生路径。"},
+    "recover_backup": {"title": "安全恢复备份", "description": "导入备份，发现资金并转移到新钱包。"},
+    "customer_support": {"title": "客户支持", "description": "在我们的 Telegram 频道提问并获得团队帮助。"},
+    "open_source": {"title": "完全自由且开源", "description": "公开且可复现的软件。无后门，无数据泄露。"}
+  },
+  "engineering_sovereignty": {
+    "title": "工程主权",
+    "description": "我们构建您应得的工具和基础设施，用于{buy}、{sell}、{hold}和{spend} 比特币——毫不妥协。",
+    "actions": {"buy": "购买", "sell": "出售", "hold": "持有", "spend": "花费"}
+  },
+  "founder_quote": {
+    "title": "适合新手和专家。",
+    "quote": "我打造这款钱包，是为了提供我想要的所有高级功能，同时也让我的母亲能够毫无困惑地使用。",
+    "author": "— Francis Pouliot，Bull Bitcoin 创始人"
+  },
+  "networks": {
+    "title": "多网络兼容",
+    "description": "在 <span class=\"bitcoin-action\">比特币</span> 网络、<span class=\"bitcoin-action\">闪电</span> 网络和 <span class=\"bitcoin-action\">Liquid</span> 网络上无缝交易。通过非托管原子交换技术，您可以在网络之间匿名且安全地转移资金。"
+  },
+  "exchange": {
+    "title": "与 Bull Bitcoin 交易所深度集成",
+    "description": "连接您的 Bull Bitcoin 账户，直接在自我托管钱包中完成比特币买卖和法币支付。这是 <span class=\"bitcoin-action\">可选</span> 的，如果您不想，也无需关联账户。它非常易用，感觉就像托管应用！"
+  }
+}
+
+

@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "MILIKI\nUANGMU"},
+  "wallet": {
+    "title": "Dompet Bitcoin seluler terbaik sepanjang masa",
+    "subtitle": "Fokus pada privasi, keamanan, dan kemudahan untuk transaksi Bitcoin harian.",
+    "labels": {
+      "self_custodial": "Swakustodi",
+      "open_source": "Sumber Terbuka",
+      "bitcoin_only": "Hanya Bitcoin",
+      "no_kyc": "Tanpa KYC"
+    },
+    "cta": "Mulai gunakan Bull Wallet",
+    "features_title": "Fitur dompet",
+    "features_subtitle": "Banyak yang bilang mustahil, tapi kami mewujudkannya: dompet Bitcoin sempurna untuk semua orang."
+  },
+  "founder_quote": {
+    "title": "Cocok untuk pemula dan ahli.",
+    "quote": "Saya membangun dompet ini agar memiliki semua fitur canggih yang saya inginkan, namun tetap mudah digunakan oleh ibu saya tanpa kebingungan.",
+    "author": "— Francis Pouliot, pendiri Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Kompatibel multi‑jaringan",
+    "description": "Bertransaksi mulus di jaringan <span class=\"bitcoin-action\">Bitcoin</span>, <span class=\"bitcoin-action\">Lightning</span>, dan <span class=\"bitcoin-action\">Liquid</span>. Dengan atomic‑swap non‑kustodial, pindahkan dana antar jaringan secara anonim dan aman."
+  },
+  "exchange": {
+    "title": "Integrasi asli dengan bursa Bull Bitcoin",
+    "description": "Hubungkan akun Bull Bitcoin untuk beli/jual Bitcoin dan pembayaran fiat langsung dari dompet swakustodi. Ini <span class=\"bitcoin-action\">opsional</span>; Anda tak perlu menautkan akun bila tak ingin. Mudah sekali, serasa aplikasi kustodian!"
+  },
+  "open_source": {
+    "title": "Sepenuhnya gratis dan open‑source di bawah lisensi MIT",
+    "subtitle": "Kontribusi pengembang sangat diterima"
+  },
+  "engineering_sovereignty": {
+    "title": "Rekayasa kedaulatan",
+    "description": "Kami membangun alat dan infrastruktur agar Anda dapat {buy}, {sell}, {hold}, {spend} Bitcoin tanpa kompromi.",
+    "actions": {"buy": "membeli", "sell": "menjual", "hold": "menyimpan", "spend": "membelanjakan"}
+  },
+  "features_list": {
+    "instant_lightning": {"title": "Pembayaran Lightning instan dan murah", "description": "Tanpa kelola likuiditas/kanal. Kirim/terima sekali sentuh."},
+    "cross_network_swaps": {"title": "Swap lintas jaringan otomatis", "description": "Pembayaran kecil di Liquid otomatis ditukar ke dompet Bitcoin aman saat melewati ambang tertentu."},
+    "confidential_transactions": {"title": "Transaksi rahasia", "description": "Transaksi rahasia Liquid menyembunyikan jumlah dan jenis aset."},
+    "smart_fee": {"title": "Manajemen biaya pintar", "description": "Perhitungan berbasis mempool dan RBF agar tak membayar berlebihan."},
+    "mobile_security": {"title": "Keamanan di ponsel", "description": "Penyimpanan kunci aman, kripto open‑source, cegah tangkapan layar dan keyboard aman."},
+    "privacy_first": {"title": "Privasi utama", "description": "Tanpa KYC, tanpa pengumpulan data, tanpa push, tanpa pelacakan IP."},
+    "encrypted_backups": {"title": "Cadangan awan terenkripsi yang aman", "description": "Recoverbull (brankas terenkripsi) melindungi pemula dari kehilangan/penyusupan.", "cta": "pelajari lebih lanjut"},
+    "own_node": {"title": "Hubungkan node Anda", "description": "Pertahankan kedaulatan dengan server Electrum milik Anda sendiri."},
+    "payjoin": {"title": "Payjoin anti analisis rantai", "description": "Transaksi kolaboratif untuk kurangi pengintaian on‑chain."},
+    "watch_only": {"title": "Dompet perangkat keras watch‑only", "description": "Terima ke dompet offline, pantau saldo dan riwayat."},
+    "coldcard_q": {"title": "Integrasi Coldcard Q terisolasi", "description": "Belanja dari cold storage jangka panjang tanpa risiko dana."},
+    "coin_control": {"title": "Coin control dan pelabelan", "description": "Pelabelan pintar dan manajemen UTXO untuk privasi."},
+    "multi_currency": {"title": "Multi‑mata uang", "description": "Dukungan beberapa mata uang dan tampilan SATS/BTC."},
+    "advanced_details": {"title": "Detail dompet lanjutan", "description": "Lihat descriptor, xpub, dan jalur derivasi."},
+    "recover_backup": {"title": "Pulihkan dari cadangan dengan aman", "description": "Impor cadangan, temukan dana, dan pindahkan ke dompet baru."},
+    "customer_support": {"title": "Dukungan pelanggan", "description": "Tanya di kanal Telegram kami; tim siap membantu."},
+    "open_source": {"title": "Sepenuhnya bebas dan open‑source", "description": "Perangkat lunak publik dan dapat direproduksi. Tanpa backdoor/ kebocoran data."}
+  }
+}
+
+

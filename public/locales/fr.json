@@ -14,12 +14,44 @@
   "hero": {
     "title": "POSSÉDEZ\nVOTRE\nARGENT"
   },
+  "wallet": {
+    "title": "Le plus grand portefeuille Bitcoin mobile de tous les temps",
+    "subtitle": "Axé sur la confidentialité, la sécurité et la facilité d'utilisation pour les transactions quotidiennes en Bitcoin.",
+    "labels": {
+      "self_custodial": "Auto-custodie",
+      "open_source": "Open-Source",
+      "bitcoin_only": "Bitcoin uniquement",
+      "no_kyc": "Sans-KYC"
+    },
+    "cta": "Commencez à utiliser Bull wallet",
+    "features_title": "Fonctionnalités du portefeuille",
+    "features_subtitle": "Beaucoup disaient que c'était impossible, mais nous avons réalisé l'impossible : le portefeuille Bitcoin parfait, pour tous."
+  },
   "engineering_sovereignty": {
     "title": "Ingénierie de la Souveraineté",
     "description": "Nous construisons les outils et l'infrastructure que vous méritez pour <span class=\"bitcoin-action\">acheter</span>, <span class=\"bitcoin-action\">vendre</span>, <span class=\"bitcoin-action\">détenir</span> et <span class=\"bitcoin-action\">dépenser</span> du Bitcoin—sans compromis.",
     "legacy": "Reconquérez votre liberté avec BULL BITCOIN",
     "download_app": "TÉLÉCHARGER L'APP",
-    "create_account": "CRÉER UN COMPTE"
+    "create_account": "CRÉER UN COMPTE",
+    "actions": {
+      "buy": "acheter",
+      "sell": "vendre",
+      "hold": "détenir",
+      "spend": "dépenser"
+    }
+  },
+  "founder_quote": {
+    "title": "Adapté aux débutants et aux experts.",
+    "quote": "J'ai conçu ce portefeuille pour offrir toutes les fonctionnalités avancées que je souhaite, mais aussi pour que ma mère puisse l'utiliser sans être confuse.",
+    "author": "— Francis Pouliot, fondateur de Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Compatibilité multi-réseaux",
+    "description": "Transigez facilement sur le réseau <span class=\"bitcoin-action\">Bitcoin</span>, le réseau <span class=\"bitcoin-action\">Lightning</span> et le réseau <span class=\"bitcoin-action\">Liquid</span>. Grâce aux technologies d'échange atomique non-custodiales, vous pouvez déplacer des fonds entre les réseaux de manière anonyme et sécurisée."
+  },
+  "exchange": {
+    "title": "Intégration native avec l'échange Bull Bitcoin",
+    "description": "Connectez votre compte Bull Bitcoin pour acheter et vendre du bitcoin et effectuer des paiements fiat directement avec votre portefeuille auto-custodial. Ceci est <span class=\"bitcoin-action\">optionnel</span>, et vous n'avez pas besoin de lier un compte si vous ne le souhaitez pas. C'est si simple que l'on dirait une application custodiale !"
   },
   "products": {
     "title": "Nos Produits",
@@ -107,6 +139,77 @@
         "title": "Stratégies d'investissement automatisées",
         "description": "Nous permettons quatre stratégies d'investissement Bitcoin différentes : Dollar Cost Averaging (DCA), Value Averaging, Lump Sum et HODL. Configurez et oubliez - laissez nos algorithmes faire le travail pendant que vous vous concentrez sur ce qui compte le plus."
       }
+    }
+  },
+  "features_list": {
+    "instant_lightning": {
+      "title": "Paiements Lightning instantanés et peu coûteux",
+      "description": "Paiements Lightning sans gestion de liquidité ni de canaux. Envoyez et recevez en un clic."
+    },
+    "cross_network_swaps": {
+      "title": "Échanges automatiques inter-réseaux",
+      "description": "Recevez de petits paiements sur Liquid automatiquement échangés vers Bitcoin au-delà d'un seuil configurable."
+    },
+    "confidential_transactions": {
+      "title": "Transactions confidentielles",
+      "description": "Les transactions confidentielles de Liquid masquent le montant et le type d'actif."
+    },
+    "smart_fee": {
+      "title": "Gestion intelligente des frais",
+      "description": "Calculs de frais basés sur le mempool et RBF pour ne jamais surpayer."
+    },
+    "mobile_security": {
+      "title": "Sécurité sur mobile",
+      "description": "Stockage sécurisé des clés, bibliothèques cryptographiques open-source, blocage des captures d'écran et clavier sécurisé."
+    },
+    "privacy_first": {
+      "title": "Confidentialité avant tout",
+      "description": "Sans e-mail ni téléphone KYC, aucune collecte de données, pas de notifications push, pas de pistage IP."
+    },
+    "encrypted_backups": {
+      "title": "Sauvegardes chiffrées faciles et sécurisées",
+      "description": "Nous avons inventé recoverbull (coffre-fort chiffré) pour éviter perte ou vol des sauvegardes.",
+      "cta": "en savoir plus"
+    },
+    "own_node": {
+      "title": "Connectez votre propre nœud",
+      "description": "Préservez votre souveraineté en vous connectant à votre serveur Electrum."
+    },
+    "payjoin": {
+      "title": "Payjoin contre l'analyse de chaîne",
+      "description": "Créez des transactions collaboratives pour déjouer l'espionnage on-chain."
+    },
+    "watch_only": {
+      "title": "Portefeuilles matériels en lecture seule",
+      "description": "Recevez sur des portefeuilles hors-ligne et suivez soldes et historiques."
+    },
+    "coldcard_q": {
+      "title": "Intégration Coldcard Q hors-ligne",
+      "description": "Dépensez depuis le stockage à froid sans mettre les fonds en danger."
+    },
+    "coin_control": {
+      "title": "Contrôle des pièces et étiquetage",
+      "description": "Étiquetage intelligent et coin control pour protéger votre vie privée et gérer vos UTXOs."
+    },
+    "multi_currency": {
+      "title": "Multi-devises",
+      "description": "Support de plusieurs devises et affichage SATS/BTC."
+    },
+    "advanced_details": {
+      "title": "Détails avancés du portefeuille",
+      "description": "Consultez descripteurs, xpubs et chemins de dérivation."
+    },
+    "recover_backup": {
+      "title": "Restauration sécurisée depuis sauvegarde",
+      "description": "Importez des sauvegardes, découvrez des fonds et balayez-les vers un nouveau portefeuille."
+    },
+    "customer_support": {
+      "title": "Support client",
+      "description": "Posez vos questions sur notre canal Telegram actif et recevez l'aide de notre équipe."
+    },
+    "open_source": {
+      "title": "Entièrement libre et open-source",
+      "description": "Logiciels publics et reproductibles. Aucun backdoor, aucune fuite de données."
     }
   },
   "about": {

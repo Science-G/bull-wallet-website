@@ -3,7 +3,29 @@ import { useState, useEffect } from 'react'
 // Supported locales
 export const LOCALES = {
   en: 'English',
-  fr: 'Français'
+  fr: 'Français',
+  es: 'Español',
+  it: 'Italiano',
+  de: 'Deutsch',
+  pt: 'Português',
+  nl: 'Nederlands',
+  cs: 'Čeština',
+  zh: '中文',
+  hi: 'हिन्दी',
+  ar: 'العربية',
+  bn: 'বাংলা',
+  ru: 'Русский',
+  ja: '日本語',
+  ko: '한국어',
+  vi: 'Tiếng Việt',
+  id: 'Bahasa Indonesia',
+  tr: 'Türkçe',
+  ur: 'اردو',
+  fa: 'فارسی',
+  ta: 'தமிழ்',
+  te: 'తెలుగు',
+  pa: 'ਪੰਜਾਬੀ',
+  mr: 'मराठी'
 } as const
 
 export type Locale = keyof typeof LOCALES
@@ -21,17 +43,15 @@ let translations: Translations = {}
 // Load translation files
 export async function loadTranslations(locale: Locale): Promise<Translations> {
   try {
-    const response = await fetch(`/locales/${locale}.json`)
+    const cacheBust = typeof window !== 'undefined' ? `?v=${Date.now()}` : ''
+    const response = await fetch(`/locales/${locale}.json${cacheBust}`, { cache: 'no-store' })
     if (!response.ok) {
       throw new Error(`Failed to load translations for ${locale}`)
     }
     return await response.json()
   } catch (error) {
     console.error(`Error loading translations for ${locale}:`, error)
-    // Fallback to English if available
-    if (locale !== 'en') {
-      return loadTranslations('en')
-    }
+    // Do not fallback to English; surface missing keys instead
     return {}
   }
 }

@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "VLASTNĚ\nSVÉ\nPENÍZE"},
+  "wallet": {
+    "title": "Největší mobilní Bitcoin peněženka všech dob",
+    "subtitle": "Zaměřeno na soukromí, bezpečnost a použitelnost pro každodenní platby.",
+    "labels": {
+      "self_custodial": "Samo-správa",
+      "open_source": "Open-Source",
+      "bitcoin_only": "Pouze Bitcoin",
+      "no_kyc": "Bez-KYC"
+    },
+    "cta": "Začněte používat Bull wallet",
+    "features_title": "Funkce peněženky",
+    "features_subtitle": "Dokázali jsme nemožné: perfektní Bitcoin peněženku pro všechny."
+  },
+  "open_source": {
+    "title": "Zcela zdarma a open source pod MIT licencí",
+    "subtitle": "Příspěvky vývojářů vítány"
+  },
+  "features_list": {
+    "instant_lightning": {"title": "Okamžité a levné Lightning platby", "description": "Lightning platby bez správy likvidity a kanálů. Odesílejte a přijímejte jedním klikem."},
+    "cross_network_swaps": {"title": "Automatické mezisíťové swapy", "description": "Malé platby na Liquid se automaticky vymění do Bitcoin peněženky po dosažení prahu."},
+    "confidential_transactions": {"title": "Důvěrné transakce", "description": "Důvěrné transakce na Liquid skrývají částku i typ aktiva."},
+    "smart_fee": {"title": "Chytrá správa poplatků", "description": "Poplatky podle mempoolu a RBF zajistí, že nikdy nepřeplatíte."},
+    "mobile_security": {"title": "Zabezpečení na mobilu", "description": "Bezpečné uložení klíčů, open-source kryptografie, blokování snímků a bezpečná klávesnice."},
+    "privacy_first": {"title": "Soukromí na prvním místě", "description": "Bez KYC, žádný sběr dat, žádné push notifikace, žádné sledování IP."},
+    "encrypted_backups": {"title": "Šifrované zálohy", "description": "Recoverbull (šifrovaný trezor) chrání před ztrátou či krádeží záloh.", "cta": "více info"},
+    "own_node": {"title": "Připojte vlastní uzel", "description": "Svrchovanost díky připojení k vlastnímu Electrum serveru."},
+    "payjoin": {"title": "Payjoin proti analýze řetězce", "description": "Kolektivní transakce pro omezení špehování on-chain."},
+    "watch_only": {"title": "Watch-only hardware peněženky", "description": "Příjem na offline peněženky, sledování zůstatků a historie."},
+    "coldcard_q": {"title": "Coldcard Q airgapped integrace", "description": "Utrácejte z cold storage bez ohrožení prostředků."},
+    "coin_control": {"title": "Coin control a štítkování", "description": "Chytré štítkování a správa UTXO pro soukromí."},
+    "multi_currency": {"title": "Více měn", "description": "Podpora více měn a zobrazení SATS/BTC."},
+    "advanced_details": {"title": "Pokročilé detaily peněženky", "description": "Zobrazení deskriptorů, xpubů a derivačních cest."},
+    "recover_backup": {"title": "Bezpečná obnova", "description": "Import záloh, nalezení prostředků a přesun do nové peněženky."},
+    "customer_support": {"title": "Zákaznická podpora", "description": "Ptejte se na našem Telegramu a tým vám pomůže."},
+    "open_source": {"title": "Plně svobodné a open-source", "description": "Veřejný a reprodukovatelný software. Žádné zadní vrátka ani úniky dat."}
+  },
+  "engineering_sovereignty": {
+    "title": "Inženýrství suverenity",
+    "description": "Stavíme nástroje a infrastrukturu, kterou si zasloužíte pro {buy}, {sell}, {hold} a {spend} Bitcoin — bez kompromisů.",
+    "actions": {"buy": "nákup", "sell": "prodej", "hold": "držení", "spend": "utrácení"}
+  },
+  "founder_quote": {
+    "title": "Vhodné pro začátečníky i pokročilé.",
+    "quote": "Tuto peněženku jsem vytvořil tak, aby nabízela všechny pokročilé funkce, které chci, ale také aby ji moje máma mohla používat bez zmatku.",
+    "author": "— Francis Pouliot, zakladatel Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Kompatibilita více sítí",
+    "description": "Transakce bez problémů v síti <span class=\"bitcoin-action\">Bitcoin</span>, síti <span class=\"bitcoin-action\">Lightning</span> a síti <span class=\"bitcoin-action\">Liquid</span>. Díky technologiím non-custodial atomic-swap můžete přesouvat prostředky mezi sítěmi anonymně a bezpečně."
+  },
+  "exchange": {
+    "title": "Nativní integrace s burzou Bull Bitcoin",
+    "description": "Připojte svůj účet Bull Bitcoin a nakupujte a prodávejte bitcoin a provádějte fiat platby přímo pomocí své peněženky se samosprávou. Je to <span class=\"bitcoin-action\">volitelné</span> a účet nemusíte propojit, pokud nechcete. Je to tak snadné, že to působí jako custodial aplikace!"
+  }
+}
+
+

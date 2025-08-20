@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "POSSIEDI\nI TUOI\nSOLDI"},
+  "wallet": {
+    "title": "Il più grande wallet Bitcoin mobile di sempre",
+    "subtitle": "Incentrato su privacy, sicurezza e usabilità per pagamenti quotidiani.",
+    "labels": {
+      "self_custodial": "Auto-custodia",
+      "open_source": "Open-Source",
+      "bitcoin_only": "Solo Bitcoin",
+      "no_kyc": "No-KYC"
+    },
+    "cta": "Inizia a usare Bull wallet",
+    "features_title": "Funzionalità del wallet",
+    "features_subtitle": "Abbiamo realizzato il sogno impossibile: il wallet Bitcoin perfetto, per tutti."
+  },
+  "open_source": {
+    "title": "Completamente gratuito e open source sotto licenza MIT",
+    "subtitle": "Contributi degli sviluppatori benvenuti"
+  },
+  "features_list": {
+    "instant_lightning": {"title": "Pagamenti Lightning istantanei ed economici", "description": "Pagamenti Lightning senza gestione di liquidità o canali. Invia e ricevi con un clic."},
+    "cross_network_swaps": {"title": "Swap automatici tra reti", "description": "Piccoli pagamenti su Liquid scambiati automaticamente in Bitcoin al superare di una soglia."},
+    "confidential_transactions": {"title": "Transazioni confidenziali", "description": "Le transazioni confidenziali su Liquid nascondono importo e tipo di asset."},
+    "smart_fee": {"title": "Gestione intelligente delle fee", "description": "Calcoli basati su mempool e RBF per non pagare mai troppo."},
+    "mobile_security": {"title": "Sicurezza su mobile", "description": "Archivio sicuro delle chiavi, crittografia open-source, blocco screenshot e tastiera sicura."},
+    "privacy_first": {"title": "Privacy prima di tutto", "description": "Nessun KYC, nessuna raccolta dati, nessun push, nessun tracciamento IP."},
+    "encrypted_backups": {"title": "Backup cifrati semplici e sicuri", "description": "Abbiamo inventato recoverbull (vault cifrato) per evitare perdite o furti di backup.", "cta": "scopri di più"},
+    "own_node": {"title": "Connetti il tuo nodo", "description": "Sovranità totale collegandoti al tuo server Electrum."},
+    "payjoin": {"title": "Payjoin contro l'analisi chain", "description": "Transazioni collaborative per mitigare lo spionaggio on-chain."},
+    "watch_only": {"title": "Wallet hardware watch-only", "description": "Ricevi su wallet offline e monitora saldi e storici."},
+    "coldcard_q": {"title": "Integrazione Coldcard Q airgapped", "description": "Spendi dal cold storage senza rischi per i fondi."},
+    "coin_control": {"title": "Coin control ed etichettatura", "description": "Etichettatura intelligente e gestione UTXO per la privacy."},
+    "multi_currency": {"title": "Multi-valuta", "description": "Supporto di più valute e vista SATS/BTC."},
+    "advanced_details": {"title": "Dettagli avanzati del wallet", "description": "Visualizza descriptores, xpub e percorsi di derivazione."},
+    "recover_backup": {"title": "Ripristino sicuro", "description": "Importa backup, individua fondi e trasferiscili su un nuovo wallet."},
+    "customer_support": {"title": "Assistenza clienti", "description": "Fai domande sul nostro canale Telegram e ricevi aiuto dal team."},
+    "open_source": {"title": "Completamente libero e open-source", "description": "Software pubblico e riproducibile. Nessuna backdoor, nessuna fuga di dati."}
+  },
+  "engineering_sovereignty": {
+    "title": "Ingegneria della Sovranità",
+    "description": "Costruiamo gli strumenti e l'infrastruttura che meriti per {buy}, {sell}, {hold} e {spend} Bitcoin — senza compromessi.",
+    "actions": {"buy": "comprare", "sell": "vendere", "hold": "tenere", "spend": "spendere"}
+  },
+  "founder_quote": {
+    "title": "Adatto sia ai principianti che agli esperti.",
+    "quote": "Ho costruito questo wallet per offrire tutte le funzionalità avanzate che desidero, ma anche affinché mia madre potesse usarlo senza confondersi.",
+    "author": "— Francis Pouliot, fondatore di Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Compatibilità multi-rete",
+    "description": "Transazioni senza interruzioni sulla rete <span class=\"bitcoin-action\">Bitcoin</span>, sulla rete <span class=\"bitcoin-action\">Lightning</span> e sulla rete <span class=\"bitcoin-action\">Liquid</span>. Con tecnologie di atomic-swap non-custodial, puoi spostare fondi tra reti in modo anonimo e sicuro."
+  },
+  "exchange": {
+    "title": "Integrazione nativa con l'exchange Bull Bitcoin",
+    "description": "Collega il tuo account Bull Bitcoin per comprare e vendere bitcoin e effettuare pagamenti fiat direttamente con il tuo wallet auto-custodia. Questo è <span class=\"bitcoin-action\">opzionale</span>, e non è necessario collegare un account se non vuoi. È così semplice che sembra un'app custodial!"
+  }
+}
+
+

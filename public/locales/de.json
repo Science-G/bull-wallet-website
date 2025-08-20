@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "BESITZE\nDEIN\nGELD"},
+  "wallet": {
+    "title": "Die größte mobile Bitcoin-Wallet aller Zeiten",
+    "subtitle": "Fokus auf Datenschutz, Sicherheit und Benutzerfreundlichkeit für den Alltag.",
+    "labels": {
+      "self_custodial": "Selbstverwahrung",
+      "open_source": "Open-Source",
+      "bitcoin_only": "Nur Bitcoin",
+      "no_kyc": "Kein-KYC"
+    },
+    "cta": "Bull Wallet jetzt nutzen",
+    "features_title": "Wallet-Funktionen",
+    "features_subtitle": "Wir haben es geschafft: die perfekte Bitcoin-Wallet, für alle."
+  },
+  "open_source": {
+    "title": "Völlig kostenlos und Open Source unter MIT-Lizenz",
+    "subtitle": "Entwicklerbeiträge willkommen"
+  },
+  "founder_quote": {
+    "title": "Geeignet für Anfänger und Experten gleichermaßen.",
+    "quote": "Ich habe diese Wallet entwickelt, damit sie alle Funktionen bietet, die ich mir wünsche, aber auch so, dass meine Mutter sie ohne Verwirrung nutzen kann.",
+    "author": "— Francis Pouliot, Gründer von Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Mehrnetzwerk-Kompatibilität",
+    "description": "Transagieren Sie nahtlos im <span class=\"bitcoin-action\">Bitcoin</span>-Netzwerk, <span class=\"bitcoin-action\">Lightning</span>-Netzwerk und <span class=\"bitcoin-action\">Liquid</span>-Netzwerk. Mit nicht-kustodialen Atomic-Swap-Technologien können Sie Gelder anonym und sicher zwischen Netzwerken bewegen."
+  },
+  "exchange": {
+    "title": "Native Integration mit der Bull Bitcoin Börse",
+    "description": "Verbinden Sie Ihr Bull Bitcoin Konto, um Bitcoin zu kaufen, zu verkaufen und Fiat-Zahlungen direkt mit Ihrer Selbstverwahrungs-Wallet zu tätigen. Dies ist <span class=\"bitcoin-action\">optional</span>, und Sie müssen kein Konto verknüpfen, wenn Sie nicht möchten. Es ist so einfach, es fühlt sich wie eine Verwahrungs-App an!"
+  },
+  "features_list": {
+    "instant_lightning": {"title": "Sofortige und günstige Lightning-Zahlungen", "description": "Lightning-Zahlungen ohne Liquiditäts- und Kanalverwaltung. Senden und empfangen mit einem Klick."},
+    "cross_network_swaps": {"title": "Automatische Netzwerkübergreifende Swaps", "description": "Kleine Zahlungen auf Liquid werden automatisch in eine sichere Bitcoin-Wallet getauscht, sobald ein Schwellenwert erreicht ist."},
+    "confidential_transactions": {"title": "Vertrauliche Transaktionen", "description": "Vertrauliche Transaktionen auf Liquid verbergen Betrag und Asset-Typ."},
+    "smart_fee": {"title": "Intelligentes Gebührenmanagement", "description": "Mempool-basierte Gebühren und RBF sorgen dafür, dass Sie nie zu viel bezahlen."},
+    "mobile_security": {"title": "Sicherheit auf mobilen Geräten", "description": "Sicheres Schlüsselspeicher, geprüfte Open-Source-Krypto, Screenshot-Schutz und sichere Tastatur."},
+    "privacy_first": {"title": "Privacy-First-Ansatz", "description": "Kein KYC, keine Datenerhebung, keine Push-Benachrichtigungen, kein IP-Tracking."},
+    "encrypted_backups": {"title": "Einfache, sichere verschlüsselte Backups", "description": "Recoverbull (verschlüsselter Tresor) schützt Einsteiger vor Verlust oder Diebstahl.", "cta": "mehr erfahren"},
+    "own_node": {"title": "Mit eigenem Node verbinden", "description": "Souveränität bewahren durch Verbindung zu eigenem Electrum-Server."},
+    "payjoin": {"title": "Payjoin gegen Chain-Analyse", "description": "Kollaborative Transaktionen zum Schutz vor On-Chain-Spionage."},
+    "watch_only": {"title": "Watch-Only Hardware-Wallets", "description": "Empfangen auf Offline-Wallets, Salden und Historie überwachen."},
+    "coldcard_q": {"title": "Coldcard Q Airgapped-Integration", "description": "Aus dem Cold Storage ausgeben, ohne Risiken für die Mittel."},
+    "coin_control": {"title": "Coin-Control und Beschriftung", "description": "Intelligente Beschriftung und UTXO-Verwaltung für Privatsphäre."},
+    "multi_currency": {"title": "Mehrere Währungen", "description": "Unterstützung mehrerer Währungen sowie SATS/BTC-Anzeige."},
+    "advanced_details": {"title": "Erweiterte Wallet-Details", "description": "Ansicht von Deskriptoren, XPUBs und Ableitungspfaden."},
+    "recover_backup": {"title": "Sichere Wiederherstellung", "description": "Backups importieren, Gelder entdecken und in neue Wallet fegen."},
+    "customer_support": {"title": "Kundensupport", "description": "Fragen Sie im Telegram-Kanal, unser Team hilft Ihnen weiter."},
+    "open_source": {"title": "Vollständig frei und Open-Source", "description": "Öffentliche und reproduzierbare Software. Keine Hintertüren, keine Datenlecks."}
+  },
+  "engineering_sovereignty": {
+    "title": "Ingenieurwesen der Souveränität",
+    "description": "Wir bauen die Werkzeuge und die Infrastruktur, die Sie verdienen, um Bitcoin zu {buy}, {sell}, {hold} und {spend} — ohne Kompromisse.",
+    "actions": {"buy": "kaufen", "sell": "verkaufen", "hold": "halten", "spend": "ausgeben"}
+  }
+}
+
+

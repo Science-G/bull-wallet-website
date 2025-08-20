@@ -1,0 +1,59 @@
+{
+  "hero": {"title": "SỞ HỮU\nTIỀN CỦA BẠN"},
+  "wallet": {
+    "title": "Ví Bitcoin di động tốt nhất từ trước đến nay",
+    "subtitle": "Tập trung vào quyền riêng tư, bảo mật và dễ sử dụng cho thanh toán hằng ngày bằng Bitcoin.",
+    "labels": {
+      "self_custodial": "Tự lưu ký",
+      "open_source": "Mã nguồn mở",
+      "bitcoin_only": "Chỉ Bitcoin",
+      "no_kyc": "Không KYC"
+    },
+    "cta": "Bắt đầu dùng Bull Wallet",
+    "features_title": "Tính năng của ví",
+    "features_subtitle": "Nhiều người nói không thể, nhưng chúng tôi đã làm được: ví Bitcoin hoàn hảo cho tất cả mọi người."
+  },
+  "founder_quote": {
+    "title": "Phù hợp cho cả người mới và chuyên gia.",
+    "quote": "Tôi tạo ra ví này để có mọi tính năng nâng cao tôi muốn, đồng thời mẹ tôi cũng có thể dùng mà không bối rối.",
+    "author": "— Francis Pouliot, nhà sáng lập Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Tương thích đa mạng",
+    "description": "Giao dịch liền mạch trên mạng <span class=\"bitcoin-action\">Bitcoin</span>, <span class=\"bitcoin-action\">Lightning</span> và <span class=\"bitcoin-action\">Liquid</span>. Nhờ hoán đổi nguyên tử không lưu ký, bạn chuyển tiền giữa các mạng ẩn danh và an toàn."
+  },
+  "exchange": {
+    "title": "Tích hợp gốc với sàn Bull Bitcoin",
+    "description": "Kết nối tài khoản Bull Bitcoin để mua/bán Bitcoin và thanh toán fiat trực tiếp bằng ví tự lưu ký. Điều này là <span class=\"bitcoin-action\">tùy chọn</span>; bạn không cần liên kết tài khoản nếu không muốn. Dễ đến mức như dùng ứng dụng lưu ký!"
+  },
+  "open_source": {
+    "title": "Hoàn toàn miễn phí và mã nguồn mở theo giấy phép MIT",
+    "subtitle": "Hoan nghênh đóng góp từ cộng đồng lập trình"
+  },
+  "engineering_sovereignty": {
+    "title": "Kỹ nghệ hóa chủ quyền",
+    "description": "Chúng tôi xây dựng công cụ và hạ tầng để bạn {buy}, {sell}, {hold}, {spend} Bitcoin mà không thỏa hiệp.",
+    "actions": {"buy": "mua", "sell": "bán", "hold": "giữ", "spend": "chi tiêu"}
+  },
+  "features_list": {
+    "instant_lightning": {"title": "Thanh toán Lightning tức thì, chi phí thấp", "description": "Không cần quản lý kênh/nguồn lực. Gửi/nhận chỉ với một chạm."},
+    "cross_network_swaps": {"title": "Hoán đổi liên mạng tự động", "description": "Khoản nhỏ trên Liquid tự động đổi sang ví Bitcoin an toàn khi đạt ngưỡng."},
+    "confidential_transactions": {"title": "Giao dịch bí mật", "description": "Liquid che giấu số tiền và loại tài sản trong giao dịch."},
+    "smart_fee": {"title": "Quản lý phí thông minh", "description": "Tính phí theo mempool và RBF để không trả phí quá cao."},
+    "mobile_security": {"title": "Bảo mật trên di động", "description": "Lưu trữ khóa an toàn, thư viện mã hóa mở, chặn chụp màn và bàn phím an toàn."},
+    "privacy_first": {"title": "Ưu tiên quyền riêng tư", "description": "Không KYC, không thu thập dữ liệu, không push, không theo dõi IP."},
+    "encrypted_backups": {"title": "Sao lưu đám mây mã hóa an toàn", "description": "Recoverbull (kho mã hóa) bảo vệ người mới khỏi mất mát/đánh cắp.", "cta": "tìm hiểu thêm"},
+    "own_node": {"title": "Kết nối node của bạn", "description": "Giữ chủ quyền bằng cách kết nối máy chủ Electrum của riêng bạn."},
+    "payjoin": {"title": "Payjoin chống phân tích chuỗi", "description": "Tạo giao dịch cộng tác để giảm do thám on‑chain."},
+    "watch_only": {"title": "Ví phần cứng xem‑chỉ (lưu trữ lạnh)", "description": "Nhận vào ví ngoại tuyến, theo dõi số dư và lịch sử."},
+    "coldcard_q": {"title": "Tích hợp Coldcard Q cách ly", "description": "Chi tiêu từ kho lạnh lâu dài mà không rủi ro tài sản."},
+    "coin_control": {"title": "Coin control và gắn nhãn", "description": "Gắn nhãn thông minh và quản lý UTXO để bảo vệ riêng tư."},
+    "multi_currency": {"title": "Đa tiền tệ", "description": "Hỗ trợ nhiều tiền tệ; hiển thị SATS/BTC."},
+    "advanced_details": {"title": "Chi tiết nâng cao", "description": "Xem descriptors, xpub và đường dẫn dẫn xuất."},
+    "recover_backup": {"title": "Khôi phục an toàn", "description": "Nhập sao lưu, tìm quỹ và quét sang ví mới."},
+    "customer_support": {"title": "Hỗ trợ khách hàng", "description": "Hỏi trên kênh Telegram; đội ngũ sẽ hỗ trợ bạn."},
+    "open_source": {"title": "Hoàn toàn tự do và mở", "description": "Phần mềm công khai và tái tạo được. Không backdoor, không rò rỉ dữ liệu."}
+  }
+}
+
+

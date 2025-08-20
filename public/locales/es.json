@@ -1,0 +1,56 @@
+{
+  "hero": {"title": "POSEE\nTU\nDINERO"},
+  "wallet": {
+    "title": "La mejor billetera Bitcoin móvil de todos los tiempos",
+    "subtitle": "Enfocada en privacidad, seguridad y usabilidad para transacciones diarias.",
+    "labels": {
+      "self_custodial": "Auto-custodia",
+      "open_source": "Código Abierto",
+      "bitcoin_only": "Solo Bitcoin",
+      "no_kyc": "Sin-KYC"
+    },
+    "cta": "Empieza a usar Bull wallet",
+    "features_title": "Características de la billetera",
+    "features_subtitle": "Hemos logrado nuestro sueño imposible: la billetera Bitcoin perfecta, para todos."
+  },
+  "open_source": {
+    "title": "Completamente gratis y de código abierto bajo licencia MIT",
+    "subtitle": "Bienvenidas las contribuciones de desarrolladores"
+  }
+  ,
+  "features_list": {
+    "instant_lightning": {"title": "Pagos Lightning instantáneos y baratos", "description": "Pagos Lightning sin gestionar liquidez ni canales. Envía y recibe con un clic."},
+    "cross_network_swaps": {"title": "Intercambios automáticos entre redes", "description": "Recibe pagos pequeños en Liquid que se cambian automáticamente a Bitcoin al alcanzar un umbral."},
+    "confidential_transactions": {"title": "Transacciones confidenciales", "description": "Las transacciones confidenciales de Liquid ocultan el monto y el tipo de activo."},
+    "smart_fee": {"title": "Gestión inteligente de comisiones", "description": "Cálculos basados en mempool y RBF para no sobrepagar comisiones."},
+    "mobile_security": {"title": "Seguridad en dispositivos móviles", "description": "Almacenamiento seguro de claves, criptografía open-source, bloqueo de capturas y teclado seguro."},
+    "privacy_first": {"title": "Privacidad ante todo", "description": "Sin KYC, sin recolección de datos, sin notificaciones push, sin rastreo IP."},
+    "encrypted_backups": {"title": "Copias de seguridad cifradas", "description": "Inventamos recoverbull para evitar pérdidas o robos de copias de seguridad.", "cta": "más info"},
+    "own_node": {"title": "Conéctate a tu propio nodo", "description": "Soberanía total usando tu servidor Electrum propio."},
+    "payjoin": {"title": "Payjoin contra análisis de cadena", "description": "Crea transacciones colaborativas para evitar espionaje on-chain."},
+    "watch_only": {"title": "Carteras hardware watch-only", "description": "Recibe en carteras offline y supervisa saldos e historiales."},
+    "coldcard_q": {"title": "Integración Coldcard Q aireada", "description": "Gasta desde almacenamiento en frío sin poner fondos en riesgo."},
+    "coin_control": {"title": "Control de monedas y etiquetado", "description": "Etiquetado inteligente y coin control para privacidad y gestión de UTXOs."},
+    "multi_currency": {"title": "Multi-moneda", "description": "Soporte de varias monedas y vista SATS/BTC."},
+    "advanced_details": {"title": "Detalles avanzados", "description": "Ve descriptores, xpubs y rutas de derivación."},
+    "recover_backup": {"title": "Recuperación segura", "description": "Importa copias, descubre fondos y balayéalos a un nuevo monedero."},
+    "customer_support": {"title": "Atención al cliente", "description": "Pregunta en nuestro canal de Telegram y recibe ayuda del equipo."},
+    "open_source": {"title": "Completamente libre y open-source", "description": "Software público y reproducible. Sin puertas traseras ni filtración de datos."}
+  }
+  ,
+  "founder_quote": {
+    "title": "Adecuado para principiantes y expertos por igual.",
+    "quote": "Construí esta billetera para que ofreciera todas las funciones avanzadas que quiero, pero también para que mi madre pudiera usarla sin confundirse.",
+    "author": "— Francis Pouliot, fundador de Bull Bitcoin"
+  },
+  "networks": {
+    "title": "Compatibilidad multinetwork",
+    "description": "Transaccione sin problemas en la red <span class=\"bitcoin-action\">Bitcoin</span>, la red <span class=\"bitcoin-action\">Lightning</span> y la red <span class=\"bitcoin-action\">Liquid</span>. Con tecnologías de swaps atómicos no-custodiales, puede mover fondos entre redes de forma anónima y segura."
+  },
+  "exchange": {
+    "title": "Integración nativa con el exchange de Bull Bitcoin",
+    "description": "Conecte su cuenta de Bull Bitcoin para comprar y vender bitcoin y realizar pagos fiat directamente con su billetera auto-custodia. Esto es <span class=\"bitcoin-action\">opcional</span>, y no necesita vincular una cuenta si no quiere. ¡Es tan fácil que parece una app custodial!"
+  }
+}
+
+
