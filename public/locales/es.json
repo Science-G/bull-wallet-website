@@ -18,6 +18,12 @@
     "subtitle": "Bienvenidas las contribuciones de desarrolladores"
   }
   ,
+  "engineering_sovereignty": {
+    "title": "Ingeniería de la Soberanía",
+    "description": "Construimos las herramientas e infraestructura que mereces para {buy}, {sell}, {hold} y {spend} Bitcoin — sin compromisos.",
+    "actions": {"buy": "comprar", "sell": "vender", "hold": "mantener", "spend": "gastar"}
+  }
+  ,
   "features_list": {
     "instant_lightning": {"title": "Pagos Lightning instantáneos y baratos", "description": "Pagos Lightning sin gestionar liquidez ni canales. Envía y recibe con un clic."},
     "cross_network_swaps": {"title": "Intercambios automáticos entre redes", "description": "Recibe pagos pequeños en Liquid que se cambian automáticamente a Bitcoin al alcanzar un umbral."},
