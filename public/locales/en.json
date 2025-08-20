@@ -53,6 +53,10 @@
     "title": "Native integration with the Bull Bitcoin exchange",
     "description": "Connect your Bull Bitcoin account to buy bitcoin, sell bitcoin and make fiat payments directly with your self-custodial wallet. This is <span class=\"bitcoin-action\">optional</span>, and you don't have to link an account if you don't want to. It's so easy, it feels like using a custodial app!"
   },
+  "open_source": {
+    "title": "Fully free and open source under MIT license",
+    "subtitle": "Developer contributions welcome"
+  },
   "products": {
     "title": "Our Products",
     "subtitle": "We build Bitcoin products that prioritize security, privacy, and sovereignty. Our solutions are designed for Bitcoiners who refuse to compromise on their values.",
