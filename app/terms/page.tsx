@@ -4,7 +4,7 @@ import React from 'react';
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-black text-white">
-      <div className="container mx-auto px-4 py-16 max-w-4xl">
+      <div className="container mx-auto px-4 pt-32 pb-16 max-w-4xl">
         <h1 className="text-4xl md:text-5xl font-black mb-8 tracking-tight">
           Bull Bitcoin Mobile Wallet Terms and Conditions
         </h1>
