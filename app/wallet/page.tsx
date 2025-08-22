@@ -292,6 +292,11 @@ export default function WalletPage() {
 									/>
 								</a>
 							</div>
+							<div className="mt-4 text-center md:text-left">
+								<a href="/terms" className="text-xs text-gray-500 hover:text-gray-400 transition-colors">
+									Terms & Conditions
+								</a>
+							</div>
 
 						</div>
 					</div>
