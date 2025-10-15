@@ -18,19 +18,19 @@
     "title": "Le meilleur portefeuille Bitcoin mobile de tous les temps",
     "subtitle": "Axé sur la confidentialité, la sécurité et la facilité d'utilisation pour les transactions quotidiennes en Bitcoin.",
     "labels": {
-      "self_custodial": "Auto-custodie",
+      "self_custodial": "Self-custodial",
       "open_source": "Open-Source",
-      "bitcoin_only": "Bitcoin uniquement",
-      "no_kyc": "Sans-KYC"
+      "bitcoin_only": "Bitcoin Only",
+      "no_kyc": "Sans KYC"
     },
-    "cta": "Commencez à utiliser Bull wallet",
+    "cta": "Téléchargez Bull Wallet",
     "features_title": "Fonctionnalités du portefeuille",
-    "features_subtitle": "Beaucoup disaient que c'était impossible, mais nous avons réalisé l'impossible : le portefeuille Bitcoin parfait, pour tous."
+    "features_subtitle": "Beaucoup disaient que c'était impossible, mais nous l'avons fait : le portefeuille Bitcoin parfait, pour les experts comme pour les débutant."
   },
   "engineering_sovereignty": {
-    "title": "Ingénierie de la Souveraineté",
+    "title": "Forger sa Souveraineté",
     "description": "Nous construisons les outils et l'infrastructure que vous méritez pour <span class=\"bitcoin-action\">acheter</span>, <span class=\"bitcoin-action\">vendre</span>, <span class=\"bitcoin-action\">détenir</span> et <span class=\"bitcoin-action\">dépenser</span> du Bitcoin—sans compromis.",
-    "legacy": "Reconquérez votre liberté avec BULL BITCOIN",
+    "legacy": "Reprenez votre liberté avec BULL BITCOIN",
     "download_app": "TÉLÉCHARGER L'APP",
     "create_account": "CRÉER UN COMPTE",
     "actions": {
@@ -41,39 +41,39 @@
     }
   },
   "founder_quote": {
-    "title": "Adapté aux débutants et aux experts.",
-    "quote": "J'ai conçu ce portefeuille pour offrir toutes les fonctionnalités avancées que je souhaite, mais aussi pour que ma mère puisse l'utiliser sans être confuse.",
+    "title": "Adapté aux experts comme aux débutants.",
+    "quote": "J'ai conçu ce portefeuille pour offrir toutes les fonctionnalités avancées dont je rêvais, mais aussi pour que ma mère puisse l'utiliser sans confusion.",
     "author": "— Francis Pouliot, fondateur de Bull Bitcoin"
   },
   "networks": {
     "title": "Compatibilité multi-réseaux",
-    "description": "Transigez facilement sur le réseau <span class=\"bitcoin-action\">Bitcoin</span>, le réseau <span class=\"bitcoin-action\">Lightning</span> et le réseau <span class=\"bitcoin-action\">Liquid</span>. Grâce aux technologies d'échange atomique non-custodiales, vous pouvez déplacer des fonds entre les réseaux de manière anonyme et sécurisée."
+    "description": "Effectuez des transactions sans éfforts le réseau <span class=\"bitcoin-action\">Bitcoin</span>, le réseau <span class=\"bitcoin-action\">Lightning</span> et le réseau <span class=\"bitcoin-action\">Liquid</span>. Grâce aux SWAP Atomiques et non-custodiaux, vous pouvez déplacer des fonds entre ces différents réseaux de manière anonyme et sécurisée."
   },
   "exchange": {
-    "title": "Intégration native avec l'échange Bull Bitcoin",
-    "description": "Connectez votre compte Bull Bitcoin pour acheter et vendre du bitcoin et effectuer des paiements fiat directement avec votre portefeuille auto-custodial. Ceci est <span class=\"bitcoin-action\">optionnel</span>, et vous n'avez pas besoin de lier un compte si vous ne le souhaitez pas. C'est si simple que l'on dirait une application custodiale !"
+    "title": "Intégration native avec l'exchange Bull Bitcoin",
+    "description": "Connectez votre compte Bull Bitcoin pour acheter et vendre du bitcoin et effectuer envoyer des virements bancaires directement depuis votre portefeuille auto-custodial. Ceci est complètement <span class=\"bitcoin-action\">optionnel</span>, et vous n'avez pas besoin de lier un compte si vous ne le souhaitez pas. L'experience est magique: c'est si simple que l'on dirait une application custodiale !"
   },
   "products": {
     "title": "Nos Produits",
     "subtitle": "Nous construisons des produits Bitcoin qui privilégient la sécurité, la confidentialité et la souveraineté. Nos solutions sont conçues pour les Bitcoiners qui refusent de compromettre leurs valeurs.",
     "bull_exchange": {
       "title": "BULL EXCHANGE",
-      "summary": "Achetez, vendez et payez des factures avec Bitcoin instantanément",
-      "description": "Portail facile à utiliser pour acheter du Bitcoin, vendre du Bitcoin et envoyer des virements bancaires vers et depuis des portefeuilles Bitcoin, avec un service client intégré et des fonctionnalités puissantes.",
+      "summary": "Achetez, vendez et envoyez des transferts bancaires instantanés avec Bitcoin",
+      "description": "Un portail facile à utiliser pour acheter du Bitcoin, vendre du Bitcoin et envoyer des virements bancaires vers et depuis des portefeuilles Bitcoin, avec un service client intégré et des fonctionnalités puissantes.",
       "primary_action": "REJOINDRE",
       "secondary_action": "FONCTIONNALITÉS"
     },
     "prime_otc": {
       "title": "PRIME OTC",
-      "summary": "Transactions importantes ou corporatives",
-      "description": "Service VIP pour les grandes transactions et les clients corporatifs avec des gestionnaires de compte dédiés et des solutions personnalisées.",
+      "summary": "Transactions à volume important ou professionnelles",
+      "description": "Service VIP pour les transactions à volume important et aux clients professionnels avec des gestionnaires de compte dédiés et des solutions personnalisées.",
       "primary_action": "RÉSERVER UN APPEL",
       "secondary_action": "EN SAVOIR PLUS"
     },
     "bull_wallet": {
       "title": "BULL WALLET",
-      "summary": "Portefeuille Bitcoin auto-géré",
-      "description": "Portefeuille Bitcoin avancé avec des fonctionnalités de confidentialité de pointe et une intégration transparente avec les services Bull Bitcoin.",
+      "summary": "Portefeuille Bitcoin self-custodial",
+      "description": "Portefeuille Bitcoin avancé avec une confidentialité à la pointe et une intégration transparente avec les services Bull Bitcoin.",
       "highlight": "Disponible dans le monde entier. Aucun compte ou KYC requis.",
       "primary_action": "TÉLÉCHARGER",
       "secondary_action": "FONCTIONNALITÉS"
@@ -86,23 +86,23 @@
     "items": {
       "privacy": {
         "title": "Confidentialité et sécurité par défaut",
-        "description": "Aucun autre échange crypto n'a la technologie, les compétences, le code éthique et le courage. Notre modèle non-custodial et notre infrastructure logicielle sont conçus pour vous protéger à tout prix."
+        "description": "Aucun autre échange crypto n'a la technologie, les compétences, le code éthique et le courage de faire ce que nous faisons. Notre modèle non-custodial et notre infrastructure logicielle sont conçus pour vous protéger à tout prix."
       },
       "excellence": {
         "title": "Excellence opérationnelle",
-        "description": "Nous nous tenons au plus haut standard de professionnalisme, et vous devriez en faire autant. En tant que notre client, votre expérience est qu'avec Bull Bitcoin, tout fonctionne toujours parfaitement."
+        "description": "Nous nous tenons au plus haut standard de professionnalisme: en tant que client chez Bull Bitcoin, votre expérience est la suivante: tout fonctionne toujours parfaitement."
       },
       "integrity": {
         "title": "Intégrité et honnêteté", 
-        "description": "Nous sommes guidés par un code moral strict. Nous n'avons pas d'investisseurs qui nous pressent de couper les coins ronds et de compromettre nos valeurs. Nous ne trompons pas ou n'induisons pas en erreur nos clients. Contrairement aux autres échanges, nous n'avons pas de frais cachés ni de spreads cachés."
+        "description": "Nous sommes guidés par un code moral strict. Nous ne subissons pas de pressions d'investisseurs externes qui nous pousseraient à changer notre politique ou compromettre nos valeurs. Pas de pratiques trompeuses ni d'inductions en erreur. Contrairement aux autres échanges, nous n'avons pas de frais ni de spreads cachés."
       },
       "customer": {
         "title": "Obsession client",
-        "description": "Nous traitons nos clients comme nous traiterions les membres de notre propre famille. Pas de chatbot, pas de tickets de support : vous parlez toujours à un vrai humain. Nous allons au-delà parce que nous nous soucions vraiment de faire de votre expérience Bitcoin un succès, sécurisé et agréable."
+        "description": "Nous traitons nos clients comme nous traiterions les membres de notre propre famille. Pas de chatbot, pas de tickets de support : vous parlez toujours à un vrai humain, un vrai Bitcoiner. Nous nous soucions vraiment de faire de votre expérience Bitcoin un succès, sécurisé et agréable."
       },
       "technology": {
         "title": "Maîtrise technologique",
-        "description": "Bull Bitcoin se distingue en ayant la sophistication technique la plus élevée de tous les échanges crypto de la planète. Nous sommes la source que les autres suivent, toujours à la pointe."
+        "description": "Bull Bitcoin se distingue en ayant la sophistication technique la plus élevée de tous les échanges crypto. Nous sommes l'inspiration que les autres suivent, toujours plus à la pointe."
       },
       "flexibility": {
         "title": "Flexibilité et créativité",
